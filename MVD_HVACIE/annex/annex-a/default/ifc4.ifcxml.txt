@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<IfcProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.buildingsmart-tech.org/ifcXML/IFC4">
+  <GlobalId>2f98e9a8-d43d-42ba-90ac-a2e800a90eb9</GlobalId>
+  <Name>IFC4 Property Set Templates</Name>
+  <Declares>
+    <IfcRelDeclares>
+      <GlobalId>af347a92-0999-4dce-802c-759c65cef238</GlobalId>
+      <RelatedDefinitions />
+    </IfcRelDeclares>
+  </Declares>
+</IfcProject>

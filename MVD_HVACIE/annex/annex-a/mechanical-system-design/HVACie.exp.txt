@@ -1,0 +1,1010 @@
+(*
+Copyright by:
+buildingSMART Alliance, 2013
+
+Any technical documentation made available by buildingSMART Alliance
+is the copyrighted work of buildingSMART Alliance and is owned by the 
+buildingSMART Alliance. It may be photocopied, used in software development, 
+or translated into another computer language without prior written consent from 
+buildingSMART Alliance provided that full attribution is given. 
+Prior written consent is required if changes are made to the technical specification.
+
+This material is delivered to you as is and buildingSMART Alliance makes 
+no warranty of any kind with regard to it, including, but not limited to, the implied 
+warranties as to its accuracy or fitness for a particular purpose. Any use of the 
+technical documentation or the information contained therein is at the risk of the user. 
+Documentation may include technical or other inaccuracies or typographical errors. 
+buildingSMART Alliance shall not be liable for errors contained therein or 
+for incidental consequential damages in connection with the furnishing, performance or use 
+of the material. The information contained in this document is subject to change without notice.
+
+Issue date:
+Wednesday, October 30, 2013
+
+*)
+
+SCHEMA HVACie;
+
+TYPE IfcStrippedOptional = BOOLEAN;
+END_TYPE;
+
+TYPE IfcDimensionCount = INTEGER;
+END_TYPE;
+
+TYPE IfcGloballyUniqueId = STRING(22) FIXED;
+END_TYPE;
+
+TYPE IfcIdentifier = STRING(255);
+END_TYPE;
+
+TYPE IfcLabel = STRING(255);
+END_TYPE;
+
+TYPE IfcLengthMeasure = REAL;
+END_TYPE;
+
+TYPE IfcReal = REAL;
+END_TYPE;
+
+TYPE IfcText = STRING;
+END_TYPE;
+
+TYPE IfcTimeStamp = INTEGER;
+END_TYPE;
+
+TYPE IfcAirTerminalBoxTypeEnum = ENUMERATION OF
+	(CONSTANTFLOW
+	,VARIABLEFLOWPRESSUREDEPENDANT
+	,VARIABLEFLOWPRESSUREINDEPENDANT
+	,USERDEFINED
+	,NOTDEFINED);
+END_TYPE;
+
+TYPE IfcAirTerminalTypeEnum = ENUMERATION OF
+	(DIFFUSER
+	,GRILLE
+	,LOUVRE
+	,REGISTER
+	,USERDEFINED
+	,NOTDEFINED);
+END_TYPE;
+
+TYPE IfcAirToAirHeatRecoveryTypeEnum = ENUMERATION OF
+	(FIXEDPLATECOUNTERFLOWEXCHANGER
+	,FIXEDPLATECROSSFLOWEXCHANGER
+	,FIXEDPLATEPARALLELFLOWEXCHANGER
+	,ROTARYWHEEL
+	,RUNAROUNDCOILLOOP
+	,HEATPIPE
+	,TWINTOWERENTHALPYRECOVERYLOOPS
+	,THERMOSIPHONSEALEDTUBEHEATEXCHANGERS
+	,THERMOSIPHONCOILTYPEHEATEXCHANGERS
+	,USERDEFINED
+	,NOTDEFINED);
+END_TYPE;
+
+TYPE IfcChangeActionEnum = ENUMERATION OF
+	(NOCHANGE
+	,MODIFIED
+	,ADDED
+	,DELETED
+	,NOTDEFINED);
+END_TYPE;
+
+TYPE IfcChillerTypeEnum = ENUMERATION OF
+	(AIRCOOLED
+	,WATERCOOLED
+	,HEATRECOVERY
+	,USERDEFINED
+	,NOTDEFINED);
+END_TYPE;
+
+TYPE IfcCoilTypeEnum = ENUMERATION OF
+	(DXCOOLINGCOIL
+	,ELECTRICHEATINGCOIL
+	,GASHEATINGCOIL
+	,HYDRONICCOIL
+	,STEAMHEATINGCOIL
+	,WATERCOOLINGCOIL
+	,WATERHEATINGCOIL
+	,USERDEFINED
+	,NOTDEFINED);
+END_TYPE;
+
+TYPE IfcDamperTypeEnum = ENUMERATION OF
+	(BACKDRAFTDAMPER
+	,BALANCINGDAMPER
+	,BLASTDAMPER
+	,CONTROLDAMPER
+	,FIREDAMPER
+	,FIRESMOKEDAMPER
+	,FUMEHOODEXHAUST
+	,GRAVITYDAMPER
+	,GRAVITYRELIEFDAMPER
+	,RELIEFDAMPER
+	,SMOKEDAMPER
+	,USERDEFINED
+	,NOTDEFINED);
+END_TYPE;
+
+TYPE IfcDuctSilencerTypeEnum = ENUMERATION OF
+	(FLATOVAL
+	,RECTANGULAR
+	,ROUND
+	,USERDEFINED
+	,NOTDEFINED);
+END_TYPE;
+
+TYPE IfcEvaporativeCoolerTypeEnum = ENUMERATION OF
+	(DIRECTEVAPORATIVERANDOMMEDIAAIRCOOLER
+	,DIRECTEVAPORATIVERIGIDMEDIAAIRCOOLER
+	,DIRECTEVAPORATIVESLINGERSPACKAGEDAIRCOOLER
+	,DIRECTEVAPORATIVEPACKAGEDROTARYAIRCOOLER
+	,DIRECTEVAPORATIVEAIRWASHER
+	,INDIRECTEVAPORATIVEPACKAGEAIRCOOLER
+	,INDIRECTEVAPORATIVEWETCOIL
+	,INDIRECTEVAPORATIVECOOLINGTOWERORCOILCOOLER
+	,INDIRECTDIRECTCOMBINATION
+	,USERDEFINED
+	,NOTDEFINED);
+END_TYPE;
+
+TYPE IfcEvaporatorTypeEnum = ENUMERATION OF
+	(DIRECTEXPANSION
+	,DIRECTEXPANSIONSHELLANDTUBE
+	,DIRECTEXPANSIONTUBEINTUBE
+	,DIRECTEXPANSIONBRAZEDPLATE
+	,FLOODEDSHELLANDTUBE
+	,SHELLANDCOIL
+	,USERDEFINED
+	,NOTDEFINED);
+END_TYPE;
+
+TYPE IfcFanTypeEnum = ENUMERATION OF
+	(CENTRIFUGALFORWARDCURVED
+	,CENTRIFUGALRADIAL
+	,CENTRIFUGALBACKWARDINCLINEDCURVED
+	,CENTRIFUGALAIRFOIL
+	,TUBEAXIAL
+	,VANEAXIAL
+	,PROPELLORAXIAL
+	,USERDEFINED
+	,NOTDEFINED);
+END_TYPE;
+
+TYPE IfcHeatExchangerTypeEnum = ENUMERATION OF
+	(PLATE
+	,SHELLANDTUBE
+	,USERDEFINED
+	,NOTDEFINED);
+END_TYPE;
+
+TYPE IfcSIPrefix = ENUMERATION OF
+	(EXA
+	,PETA
+	,TERA
+	,GIGA
+	,MEGA
+	,KILO
+	,HECTO
+	,DECA
+	,DECI
+	,CENTI
+	,MILLI
+	,MICRO
+	,NANO
+	,PICO
+	,FEMTO
+	,ATTO);
+END_TYPE;
+
+TYPE IfcSIUnitName = ENUMERATION OF
+	(AMPERE
+	,BECQUEREL
+	,CANDELA
+	,COULOMB
+	,CUBIC_METRE
+	,DEGREE_CELSIUS
+	,FARAD
+	,GRAM
+	,GRAY
+	,HENRY
+	,HERTZ
+	,JOULE
+	,KELVIN
+	,LUMEN
+	,LUX
+	,METRE
+	,MOLE
+	,NEWTON
+	,OHM
+	,PASCAL
+	,RADIAN
+	,SECOND
+	,SIEMENS
+	,SIEVERT
+	,SQUARE_METRE
+	,STERADIAN
+	,TESLA
+	,VOLT
+	,WATT
+	,WEBER);
+END_TYPE;
+
+TYPE IfcStateEnum = ENUMERATION OF
+	(READWRITE
+	,READONLY
+	,LOCKED
+	,READWRITELOCKED
+	,READONLYLOCKED);
+END_TYPE;
+
+TYPE IfcUnitEnum = ENUMERATION OF
+	(ABSORBEDDOSEUNIT
+	,AMOUNTOFSUBSTANCEUNIT
+	,AREAUNIT
+	,DOSEEQUIVALENTUNIT
+	,ELECTRICCAPACITANCEUNIT
+	,ELECTRICCHARGEUNIT
+	,ELECTRICCONDUCTANCEUNIT
+	,ELECTRICCURRENTUNIT
+	,ELECTRICRESISTANCEUNIT
+	,ELECTRICVOLTAGEUNIT
+	,ENERGYUNIT
+	,FORCEUNIT
+	,FREQUENCYUNIT
+	,ILLUMINANCEUNIT
+	,INDUCTANCEUNIT
+	,LENGTHUNIT
+	,LUMINOUSFLUXUNIT
+	,LUMINOUSINTENSITYUNIT
+	,MAGNETICFLUXDENSITYUNIT
+	,MAGNETICFLUXUNIT
+	,MASSUNIT
+	,PLANEANGLEUNIT
+	,POWERUNIT
+	,PRESSUREUNIT
+	,RADIOACTIVITYUNIT
+	,SOLIDANGLEUNIT
+	,THERMODYNAMICTEMPERATUREUNIT
+	,TIMEUNIT
+	,VOLUMEUNIT
+	,USERDEFINED);
+END_TYPE;
+
+TYPE IfcUnitaryEquipmentTypeEnum = ENUMERATION OF
+	(AIRHANDLER
+	,AIRCONDITIONINGUNIT
+	,DEHUMIDIFIER
+	,SPLITSYSTEM
+	,ROOFTOPUNIT
+	,USERDEFINED
+	,NOTDEFINED);
+END_TYPE;
+
+TYPE IfcAxis2Placement = SELECT
+	(IfcAxis2Placement3D);
+END_TYPE;
+
+TYPE IfcClassificationReferenceSelect = SELECT
+	(IfcClassification
+	,IfcClassificationReference);
+END_TYPE;
+
+TYPE IfcClassificationSelect = SELECT
+	(IfcClassification
+	,IfcClassificationReference);
+END_TYPE;
+
+TYPE IfcDefinitionSelect = SELECT
+	(IfcObjectDefinition);
+END_TYPE;
+
+TYPE IfcUnit = SELECT
+	(IfcNamedUnit);
+END_TYPE;
+
+TYPE IfcValue = SELECT
+);
+END_TYPE;
+
+ENTITY IfcAirTerminal
+ SUBTYPE OF (IfcFlowTerminal);
+	PredefinedType : OPTIONAL IfcStrippedOptional;
+END_ENTITY;
+
+ENTITY IfcAirTerminalBox
+ SUBTYPE OF (IfcFlowController);
+	PredefinedType : OPTIONAL IfcStrippedOptional;
+END_ENTITY;
+
+ENTITY IfcAirTerminalBoxType
+ SUBTYPE OF (IfcFlowControllerType);
+	PredefinedType : IfcAirTerminalBoxTypeEnum;
+END_ENTITY;
+
+ENTITY IfcAirTerminalType
+ SUBTYPE OF (IfcFlowTerminalType);
+	PredefinedType : IfcAirTerminalTypeEnum;
+END_ENTITY;
+
+ENTITY IfcAirToAirHeatRecovery
+ SUBTYPE OF (IfcEnergyConversionDevice);
+	PredefinedType : OPTIONAL IfcStrippedOptional;
+END_ENTITY;
+
+ENTITY IfcAirToAirHeatRecoveryType
+ SUBTYPE OF (IfcEnergyConversionDeviceType);
+	PredefinedType : IfcAirToAirHeatRecoveryTypeEnum;
+END_ENTITY;
+
+ENTITY IfcApplication;
+	ApplicationDeveloper : IfcOrganization;
+	Version : IfcLabel;
+	ApplicationFullName : IfcLabel;
+	ApplicationIdentifier : IfcIdentifier;
+END_ENTITY;
+
+ENTITY IfcAxis2Placement3D
+ SUBTYPE OF (IfcPlacement);
+	Axis : OPTIONAL IfcStrippedOptional;
+	RefDirection : OPTIONAL IfcStrippedOptional;
+ DERIVE
+	P : LIST [3:3] OF IfcDirection := IfcBuildAxes(Axis, RefDirection);
+END_ENTITY;
+
+ENTITY IfcCartesianPoint
+ SUBTYPE OF (IfcPoint);
+	Coordinates : LIST [1:3] OF IfcLengthMeasure;
+ DERIVE
+	Dim : IfcDimensionCount := HIINDEX(Coordinates);
+END_ENTITY;
+
+ENTITY IfcChiller
+ SUBTYPE OF (IfcEnergyConversionDevice);
+	PredefinedType : OPTIONAL IfcStrippedOptional;
+END_ENTITY;
+
+ENTITY IfcChillerType
+ SUBTYPE OF (IfcEnergyConversionDeviceType);
+	PredefinedType : IfcChillerTypeEnum;
+END_ENTITY;
+
+ENTITY IfcClassification
+ SUBTYPE OF (IfcExternalInformation);
+	Source : OPTIONAL IfcLabel;
+	Edition : OPTIONAL IfcStrippedOptional;
+	EditionDate : OPTIONAL IfcStrippedOptional;
+	Name : IfcLabel;
+	Description : OPTIONAL IfcStrippedOptional;
+	Location : OPTIONAL IfcStrippedOptional;
+	ReferenceTokens : OPTIONAL LIST [1:?] OF IfcIdentifier;
+ INVERSE
+	ClassificationForObjects : SET [0:?] OF IfcRelAssociatesClassification FOR RelatingClassification;
+	HasReferences : SET [0:?] OF IfcClassificationReference FOR ReferencedSource;
+END_ENTITY;
+
+ENTITY IfcClassificationReference
+ SUBTYPE OF (IfcExternalReference);
+	ReferencedSource : OPTIONAL IfcClassificationReferenceSelect;
+	Description : OPTIONAL IfcStrippedOptional;
+	Sort : OPTIONAL IfcStrippedOptional;
+ INVERSE
+	ClassificationRefForObjects : SET [0:?] OF IfcRelAssociatesClassification FOR RelatingClassification;
+	HasReferences : SET [0:?] OF IfcClassificationReference FOR ReferencedSource;
+END_ENTITY;
+
+ENTITY IfcCoil
+ SUBTYPE OF (IfcEnergyConversionDevice);
+	PredefinedType : OPTIONAL IfcStrippedOptional;
+END_ENTITY;
+
+ENTITY IfcCoilType
+ SUBTYPE OF (IfcEnergyConversionDeviceType);
+	PredefinedType : IfcCoilTypeEnum;
+END_ENTITY;
+
+ENTITY IfcContext
+ ABSTRACT SUPERTYPE OF (IfcProject)
+ SUBTYPE OF (IfcObjectDefinition);
+	ObjectType : OPTIONAL IfcStrippedOptional;
+	LongName : OPTIONAL IfcStrippedOptional;
+	Phase : OPTIONAL IfcStrippedOptional;
+	RepresentationContexts : OPTIONAL SET [1:?] OF IfcRepresentationContext;
+	UnitsInContext : OPTIONAL IfcUnitAssignment;
+ INVERSE
+	Declares : SET [0:?] OF IfcRelDeclares FOR RelatingContext;
+END_ENTITY;
+
+ENTITY IfcConversionBasedUnit
+ SUPERTYPE OF (IfcConversionBasedUnitWithOffset)
+ SUBTYPE OF (IfcNamedUnit);
+	Name : IfcLabel;
+	ConversionFactor : IfcMeasureWithUnit;
+END_ENTITY;
+
+ENTITY IfcConversionBasedUnitWithOffset
+ SUBTYPE OF (IfcConversionBasedUnit);
+	ConversionOffset : IfcReal;
+END_ENTITY;
+
+ENTITY IfcDamper
+ SUBTYPE OF (IfcFlowController);
+	PredefinedType : OPTIONAL IfcStrippedOptional;
+END_ENTITY;
+
+ENTITY IfcDamperType
+ SUBTYPE OF (IfcFlowControllerType);
+	PredefinedType : IfcDamperTypeEnum;
+END_ENTITY;
+
+ENTITY IfcDimensionalExponents;
+	LengthExponent : IfcStrippedOptional;
+	MassExponent : IfcStrippedOptional;
+	TimeExponent : IfcStrippedOptional;
+	ElectricCurrentExponent : IfcStrippedOptional;
+	ThermodynamicTemperatureExponent : IfcStrippedOptional;
+	AmountOfSubstanceExponent : IfcStrippedOptional;
+	LuminousIntensityExponent : IfcStrippedOptional;
+END_ENTITY;
+
+ENTITY IfcDirection
+ SUBTYPE OF (IfcGeometricRepresentationItem);
+	DirectionRatios : LIST [2:3] OF IfcStrippedOptional;
+ DERIVE
+	Dim : IfcDimensionCount := HIINDEX(DirectionRatios);
+END_ENTITY;
+
+ENTITY IfcDistributionElement
+ SUPERTYPE OF (IfcDistributionFlowElement)
+ SUBTYPE OF (IfcElement);
+ INVERSE
+	HasPorts : SET [0:?] OF IfcRelConnectsPortToElement FOR RelatedElement;
+END_ENTITY;
+
+ENTITY IfcDistributionElementType
+ SUPERTYPE OF (IfcDistributionFlowElementType)
+ SUBTYPE OF (IfcElementType);
+END_ENTITY;
+
+ENTITY IfcDistributionFlowElement
+ SUPERTYPE OF (ONEOF
+    (IfcEnergyConversionDevice
+    ,IfcFlowController
+    ,IfcFlowFitting
+    ,IfcFlowMovingDevice
+    ,IfcFlowSegment
+    ,IfcFlowTerminal
+    ,IfcFlowTreatmentDevice))
+ SUBTYPE OF (IfcDistributionElement);
+END_ENTITY;
+
+ENTITY IfcDistributionFlowElementType
+ ABSTRACT SUPERTYPE OF (ONEOF
+    (IfcEnergyConversionDeviceType
+    ,IfcFlowControllerType
+    ,IfcFlowMovingDeviceType
+    ,IfcFlowTerminalType
+    ,IfcFlowTreatmentDeviceType))
+ SUBTYPE OF (IfcDistributionElementType);
+END_ENTITY;
+
+ENTITY IfcDistributionPort
+ SUBTYPE OF (IfcPort);
+	FlowDirection : OPTIONAL IfcStrippedOptional;
+	PredefinedType : OPTIONAL IfcStrippedOptional;
+	SystemType : OPTIONAL IfcStrippedOptional;
+END_ENTITY;
+
+ENTITY IfcDistributionSystem
+ SUBTYPE OF (IfcSystem);
+	LongName : OPTIONAL IfcStrippedOptional;
+	PredefinedType : OPTIONAL IfcStrippedOptional;
+END_ENTITY;
+
+ENTITY IfcDuctFitting
+ SUBTYPE OF (IfcFlowFitting);
+	PredefinedType : OPTIONAL IfcStrippedOptional;
+END_ENTITY;
+
+ENTITY IfcDuctSegment
+ SUBTYPE OF (IfcFlowSegment);
+	PredefinedType : OPTIONAL IfcStrippedOptional;
+END_ENTITY;
+
+ENTITY IfcDuctSilencer
+ SUBTYPE OF (IfcFlowTreatmentDevice);
+	PredefinedType : OPTIONAL IfcStrippedOptional;
+END_ENTITY;
+
+ENTITY IfcDuctSilencerType
+ SUBTYPE OF (IfcFlowTreatmentDeviceType);
+	PredefinedType : IfcDuctSilencerTypeEnum;
+END_ENTITY;
+
+ENTITY IfcElement
+ ABSTRACT SUPERTYPE OF (IfcDistributionElement)
+ SUBTYPE OF (IfcProduct);
+	Tag : OPTIONAL IfcStrippedOptional;
+END_ENTITY;
+
+ENTITY IfcElementType
+ ABSTRACT SUPERTYPE OF (IfcDistributionElementType)
+ SUBTYPE OF (IfcTypeProduct);
+	ElementType : OPTIONAL IfcStrippedOptional;
+END_ENTITY;
+
+ENTITY IfcEnergyConversionDevice
+ SUPERTYPE OF (ONEOF
+    (IfcAirToAirHeatRecovery
+    ,IfcChiller
+    ,IfcCoil
+    ,IfcEvaporativeCooler
+    ,IfcEvaporator
+    ,IfcHeatExchanger
+    ,IfcHumidifier
+    ,IfcUnitaryEquipment))
+ SUBTYPE OF (IfcDistributionFlowElement);
+END_ENTITY;
+
+ENTITY IfcEnergyConversionDeviceType
+ ABSTRACT SUPERTYPE OF (ONEOF
+    (IfcAirToAirHeatRecoveryType
+    ,IfcChillerType
+    ,IfcCoilType
+    ,IfcEvaporativeCoolerType
+    ,IfcEvaporatorType
+    ,IfcHeatExchangerType
+    ,IfcUnitaryEquipmentType))
+ SUBTYPE OF (IfcDistributionFlowElementType);
+END_ENTITY;
+
+ENTITY IfcEvaporativeCooler
+ SUBTYPE OF (IfcEnergyConversionDevice);
+	PredefinedType : OPTIONAL IfcStrippedOptional;
+END_ENTITY;
+
+ENTITY IfcEvaporativeCoolerType
+ SUBTYPE OF (IfcEnergyConversionDeviceType);
+	PredefinedType : IfcEvaporativeCoolerTypeEnum;
+END_ENTITY;
+
+ENTITY IfcEvaporator
+ SUBTYPE OF (IfcEnergyConversionDevice);
+	PredefinedType : OPTIONAL IfcStrippedOptional;
+END_ENTITY;
+
+ENTITY IfcEvaporatorType
+ SUBTYPE OF (IfcEnergyConversionDeviceType);
+	PredefinedType : IfcEvaporatorTypeEnum;
+END_ENTITY;
+
+ENTITY IfcExternalInformation
+ ABSTRACT SUPERTYPE OF (IfcClassification);
+END_ENTITY;
+
+ENTITY IfcExternalReference
+ ABSTRACT SUPERTYPE OF (IfcClassificationReference);
+	Location : OPTIONAL IfcStrippedOptional;
+	Identification : OPTIONAL IfcIdentifier;
+	Name : OPTIONAL IfcStrippedOptional;
+END_ENTITY;
+
+ENTITY IfcFan
+ SUBTYPE OF (IfcFlowMovingDevice);
+	PredefinedType : OPTIONAL IfcStrippedOptional;
+END_ENTITY;
+
+ENTITY IfcFanType
+ SUBTYPE OF (IfcFlowMovingDeviceType);
+	PredefinedType : IfcFanTypeEnum;
+END_ENTITY;
+
+ENTITY IfcFlowController
+ SUPERTYPE OF (ONEOF
+    (IfcAirTerminalBox
+    ,IfcDamper))
+ SUBTYPE OF (IfcDistributionFlowElement);
+END_ENTITY;
+
+ENTITY IfcFlowControllerType
+ ABSTRACT SUPERTYPE OF (ONEOF
+    (IfcAirTerminalBoxType
+    ,IfcDamperType))
+ SUBTYPE OF (IfcDistributionFlowElementType);
+END_ENTITY;
+
+ENTITY IfcFlowFitting
+ SUPERTYPE OF (IfcDuctFitting)
+ SUBTYPE OF (IfcDistributionFlowElement);
+END_ENTITY;
+
+ENTITY IfcFlowMovingDevice
+ SUPERTYPE OF (IfcFan)
+ SUBTYPE OF (IfcDistributionFlowElement);
+END_ENTITY;
+
+ENTITY IfcFlowMovingDeviceType
+ ABSTRACT SUPERTYPE OF (IfcFanType)
+ SUBTYPE OF (IfcDistributionFlowElementType);
+END_ENTITY;
+
+ENTITY IfcFlowSegment
+ SUPERTYPE OF (IfcDuctSegment)
+ SUBTYPE OF (IfcDistributionFlowElement);
+END_ENTITY;
+
+ENTITY IfcFlowTerminal
+ SUPERTYPE OF (IfcAirTerminal)
+ SUBTYPE OF (IfcDistributionFlowElement);
+END_ENTITY;
+
+ENTITY IfcFlowTerminalType
+ ABSTRACT SUPERTYPE OF (IfcAirTerminalType)
+ SUBTYPE OF (IfcDistributionFlowElementType);
+END_ENTITY;
+
+ENTITY IfcFlowTreatmentDevice
+ SUPERTYPE OF (IfcDuctSilencer)
+ SUBTYPE OF (IfcDistributionFlowElement);
+END_ENTITY;
+
+ENTITY IfcFlowTreatmentDeviceType
+ ABSTRACT SUPERTYPE OF (IfcDuctSilencerType)
+ SUBTYPE OF (IfcDistributionFlowElementType);
+END_ENTITY;
+
+ENTITY IfcGeometricRepresentationContext
+ SUBTYPE OF (IfcRepresentationContext);
+	CoordinateSpaceDimension : IfcDimensionCount;
+	Precision : OPTIONAL IfcStrippedOptional;
+	WorldCoordinateSystem : IfcAxis2Placement;
+	TrueNorth : OPTIONAL IfcDirection;
+END_ENTITY;
+
+ENTITY IfcGeometricRepresentationItem
+ ABSTRACT SUPERTYPE OF (ONEOF
+    (IfcDirection
+    ,IfcPlacement
+    ,IfcPoint))
+ SUBTYPE OF (IfcRepresentationItem);
+END_ENTITY;
+
+ENTITY IfcGroup
+ SUPERTYPE OF (IfcSystem)
+ SUBTYPE OF (IfcObject);
+ INVERSE
+	IsGroupedBy : SET [0:?] OF IfcRelAssignsToGroup FOR RelatingGroup;
+END_ENTITY;
+
+ENTITY IfcHeatExchanger
+ SUBTYPE OF (IfcEnergyConversionDevice);
+	PredefinedType : OPTIONAL IfcStrippedOptional;
+END_ENTITY;
+
+ENTITY IfcHeatExchangerType
+ SUBTYPE OF (IfcEnergyConversionDeviceType);
+	PredefinedType : IfcHeatExchangerTypeEnum;
+END_ENTITY;
+
+ENTITY IfcHumidifier
+ SUBTYPE OF (IfcEnergyConversionDevice);
+	PredefinedType : OPTIONAL IfcStrippedOptional;
+END_ENTITY;
+
+ENTITY IfcMeasureWithUnit;
+	ValueComponent : IfcValue;
+	UnitComponent : IfcUnit;
+END_ENTITY;
+
+ENTITY IfcNamedUnit
+ ABSTRACT SUPERTYPE OF (ONEOF
+    (IfcConversionBasedUnit
+    ,IfcSIUnit));
+	Dimensions : IfcDimensionalExponents;
+	UnitType : IfcUnitEnum;
+END_ENTITY;
+
+ENTITY IfcObject
+ ABSTRACT SUPERTYPE OF (ONEOF
+    (IfcGroup
+    ,IfcProduct))
+ SUBTYPE OF (IfcObjectDefinition);
+	ObjectType : OPTIONAL IfcStrippedOptional;
+ INVERSE
+	IsTypedBy : SET [0:1] OF IfcRelDefinesByType FOR RelatedObjects;
+END_ENTITY;
+
+ENTITY IfcObjectDefinition
+ ABSTRACT SUPERTYPE OF (ONEOF
+    (IfcContext
+    ,IfcObject
+    ,IfcTypeObject))
+ SUBTYPE OF (IfcRoot);
+ INVERSE
+	HasAssignments : SET [0:?] OF IfcRelAssigns FOR RelatedObjects;
+	HasContext : SET [0:1] OF IfcRelDeclares FOR RelatedDefinitions;
+	IsDecomposedBy : SET [0:?] OF IfcRelAggregates FOR RelatingObject;
+	Decomposes : SET [0:1] OF IfcRelAggregates FOR RelatedObjects;
+	HasAssociations : SET [0:?] OF IfcRelAssociates FOR RelatedObjects;
+END_ENTITY;
+
+ENTITY IfcOrganization;
+	Identification : OPTIONAL IfcStrippedOptional;
+	Name : IfcLabel;
+	Description : OPTIONAL IfcStrippedOptional;
+	Roles : OPTIONAL LIST [1:?] OF IfcStrippedOptional;
+	Addresses : OPTIONAL LIST [1:?] OF IfcStrippedOptional;
+ INVERSE
+	Engages : SET [0:?] OF IfcPersonAndOrganization FOR TheOrganization;
+END_ENTITY;
+
+ENTITY IfcOwnerHistory;
+	OwningUser : IfcPersonAndOrganization;
+	OwningApplication : IfcApplication;
+	State : OPTIONAL IfcStateEnum;
+	ChangeAction : OPTIONAL IfcChangeActionEnum;
+	LastModifiedDate : OPTIONAL IfcStrippedOptional;
+	LastModifyingUser : OPTIONAL IfcStrippedOptional;
+	LastModifyingApplication : OPTIONAL IfcStrippedOptional;
+	CreationDate : IfcTimeStamp;
+END_ENTITY;
+
+ENTITY IfcPerson;
+	Identification : OPTIONAL IfcStrippedOptional;
+	FamilyName : OPTIONAL IfcStrippedOptional;
+	GivenName : OPTIONAL IfcStrippedOptional;
+	MiddleNames : OPTIONAL LIST [1:?] OF IfcStrippedOptional;
+	PrefixTitles : OPTIONAL LIST [1:?] OF IfcStrippedOptional;
+	SuffixTitles : OPTIONAL LIST [1:?] OF IfcStrippedOptional;
+	Roles : OPTIONAL LIST [1:?] OF IfcStrippedOptional;
+	Addresses : OPTIONAL LIST [1:?] OF IfcStrippedOptional;
+ INVERSE
+	EngagedIn : SET [0:?] OF IfcPersonAndOrganization FOR ThePerson;
+END_ENTITY;
+
+ENTITY IfcPersonAndOrganization;
+	ThePerson : IfcPerson;
+	TheOrganization : IfcOrganization;
+	Roles : OPTIONAL LIST [1:?] OF IfcStrippedOptional;
+END_ENTITY;
+
+ENTITY IfcPlacement
+ ABSTRACT SUPERTYPE OF (IfcAxis2Placement3D)
+ SUBTYPE OF (IfcGeometricRepresentationItem);
+	Location : IfcCartesianPoint;
+ DERIVE
+	Dim : IfcDimensionCount := Location.Dim;
+END_ENTITY;
+
+ENTITY IfcPoint
+ ABSTRACT SUPERTYPE OF (IfcCartesianPoint)
+ SUBTYPE OF (IfcGeometricRepresentationItem);
+END_ENTITY;
+
+ENTITY IfcPort
+ ABSTRACT SUPERTYPE OF (IfcDistributionPort)
+ SUBTYPE OF (IfcProduct);
+ INVERSE
+	ContainedIn : SET [0:1] OF IfcRelConnectsPortToElement FOR RelatingPort;
+	ConnectedFrom : SET [0:1] OF IfcRelConnectsPorts FOR RelatedPort;
+	ConnectedTo : SET [0:1] OF IfcRelConnectsPorts FOR RelatingPort;
+END_ENTITY;
+
+ENTITY IfcProduct
+ ABSTRACT SUPERTYPE OF (ONEOF
+    (IfcElement
+    ,IfcPort
+    ,IfcSpatialElement))
+ SUBTYPE OF (IfcObject);
+	ObjectPlacement : OPTIONAL IfcStrippedOptional;
+	Representation : OPTIONAL IfcStrippedOptional;
+END_ENTITY;
+
+ENTITY IfcProject
+ SUBTYPE OF (IfcContext);
+END_ENTITY;
+
+ENTITY IfcRelAggregates
+ SUBTYPE OF (IfcRelDecomposes);
+	RelatingObject : IfcObjectDefinition;
+	RelatedObjects : SET [1:?] OF IfcObjectDefinition;
+END_ENTITY;
+
+ENTITY IfcRelAssigns
+ ABSTRACT SUPERTYPE OF (IfcRelAssignsToGroup)
+ SUBTYPE OF (IfcRelationship);
+	RelatedObjects : SET [1:?] OF IfcObjectDefinition;
+	RelatedObjectsType : OPTIONAL IfcStrippedOptional;
+END_ENTITY;
+
+ENTITY IfcRelAssignsToGroup
+ SUBTYPE OF (IfcRelAssigns);
+	RelatingGroup : IfcGroup;
+END_ENTITY;
+
+ENTITY IfcRelAssociates
+ ABSTRACT SUPERTYPE OF (IfcRelAssociatesClassification)
+ SUBTYPE OF (IfcRelationship);
+	RelatedObjects : SET [1:?] OF IfcDefinitionSelect;
+END_ENTITY;
+
+ENTITY IfcRelAssociatesClassification
+ SUBTYPE OF (IfcRelAssociates);
+	RelatingClassification : IfcClassificationSelect;
+END_ENTITY;
+
+ENTITY IfcRelConnects
+ ABSTRACT SUPERTYPE OF (ONEOF
+    (IfcRelConnectsPortToElement
+    ,IfcRelConnectsPorts))
+ SUBTYPE OF (IfcRelationship);
+END_ENTITY;
+
+ENTITY IfcRelConnectsPortToElement
+ SUBTYPE OF (IfcRelConnects);
+	RelatingPort : IfcPort;
+	RelatedElement : IfcDistributionElement;
+END_ENTITY;
+
+ENTITY IfcRelConnectsPorts
+ SUBTYPE OF (IfcRelConnects);
+	RelatingPort : IfcPort;
+	RelatedPort : IfcPort;
+	RealizingElement : OPTIONAL IfcStrippedOptional;
+END_ENTITY;
+
+ENTITY IfcRelDeclares
+ SUBTYPE OF (IfcRelationship);
+	RelatingContext : IfcContext;
+	RelatedDefinitions : SET [1:?] OF IfcDefinitionSelect;
+END_ENTITY;
+
+ENTITY IfcRelDecomposes
+ ABSTRACT SUPERTYPE OF (IfcRelAggregates)
+ SUBTYPE OF (IfcRelationship);
+END_ENTITY;
+
+ENTITY IfcRelDefines
+ ABSTRACT SUPERTYPE OF (IfcRelDefinesByType)
+ SUBTYPE OF (IfcRelationship);
+END_ENTITY;
+
+ENTITY IfcRelDefinesByType
+ SUBTYPE OF (IfcRelDefines);
+	RelatedObjects : SET [1:?] OF IfcObject;
+	RelatingType : IfcTypeObject;
+END_ENTITY;
+
+ENTITY IfcRelationship
+ ABSTRACT SUPERTYPE OF (ONEOF
+    (IfcRelAssigns
+    ,IfcRelAssociates
+    ,IfcRelConnects
+    ,IfcRelDeclares
+    ,IfcRelDecomposes
+    ,IfcRelDefines))
+ SUBTYPE OF (IfcRoot);
+END_ENTITY;
+
+ENTITY IfcRepresentationContext
+ ABSTRACT SUPERTYPE OF (IfcGeometricRepresentationContext);
+	ContextIdentifier : OPTIONAL IfcLabel;
+	ContextType : OPTIONAL IfcLabel;
+END_ENTITY;
+
+ENTITY IfcRepresentationItem
+ ABSTRACT SUPERTYPE OF (IfcGeometricRepresentationItem);
+END_ENTITY;
+
+ENTITY IfcRoot
+ ABSTRACT SUPERTYPE OF (ONEOF
+    (IfcObjectDefinition
+    ,IfcRelationship));
+	GlobalId : IfcGloballyUniqueId;
+	OwnerHistory : OPTIONAL IfcOwnerHistory;
+	Name : OPTIONAL IfcLabel;
+	Description : OPTIONAL IfcText;
+END_ENTITY;
+
+ENTITY IfcSIUnit
+ SUBTYPE OF (IfcNamedUnit);
+	Prefix : OPTIONAL IfcSIPrefix;
+	Name : IfcSIUnitName;
+ DERIVE
+	SELF\IfcNamedUnit.Dimensions : IfcDimensionalExponents := IfcDimensionsForSiUnit (SELF.Name);
+END_ENTITY;
+
+ENTITY IfcSpace
+ SUBTYPE OF (IfcSpatialStructureElement);
+	PredefinedType : OPTIONAL IfcStrippedOptional;
+	ElevationWithFlooring : OPTIONAL IfcStrippedOptional;
+END_ENTITY;
+
+ENTITY IfcSpatialElement
+ ABSTRACT SUPERTYPE OF (IfcSpatialStructureElement)
+ SUBTYPE OF (IfcProduct);
+	LongName : OPTIONAL IfcStrippedOptional;
+END_ENTITY;
+
+ENTITY IfcSpatialStructureElement
+ ABSTRACT SUPERTYPE OF (IfcSpace)
+ SUBTYPE OF (IfcSpatialElement);
+	CompositionType : OPTIONAL IfcStrippedOptional;
+END_ENTITY;
+
+ENTITY IfcSystem
+ SUPERTYPE OF (ONEOF
+    (IfcDistributionSystem
+    ,IfcZone))
+ SUBTYPE OF (IfcGroup);
+END_ENTITY;
+
+ENTITY IfcTypeObject
+ SUPERTYPE OF (IfcTypeProduct)
+ SUBTYPE OF (IfcObjectDefinition);
+	ApplicableOccurrence : OPTIONAL IfcStrippedOptional;
+	HasPropertySets : OPTIONAL SET [1:?] OF IfcStrippedOptional;
+ INVERSE
+	Types : SET [0:1] OF IfcRelDefinesByType FOR RelatingType;
+END_ENTITY;
+
+ENTITY IfcTypeProduct
+ SUPERTYPE OF (IfcElementType)
+ SUBTYPE OF (IfcTypeObject);
+	RepresentationMaps : OPTIONAL LIST [1:?] OF UNIQUE IfcStrippedOptional;
+	Tag : OPTIONAL IfcStrippedOptional;
+END_ENTITY;
+
+ENTITY IfcUnitAssignment;
+	Units : SET [1:?] OF IfcUnit;
+END_ENTITY;
+
+ENTITY IfcUnitaryEquipment
+ SUBTYPE OF (IfcEnergyConversionDevice);
+	PredefinedType : OPTIONAL IfcStrippedOptional;
+END_ENTITY;
+
+ENTITY IfcUnitaryEquipmentType
+ SUBTYPE OF (IfcEnergyConversionDeviceType);
+	PredefinedType : IfcUnitaryEquipmentTypeEnum;
+END_ENTITY;
+
+ENTITY IfcZone
+ SUBTYPE OF (IfcSystem);
+	LongName : OPTIONAL IfcStrippedOptional;
+END_ENTITY;
+
+RULE IfcRepresentationContextSameWCS FOR
+	(IfcGeometricRepresentationContext);
+LOCAL
+  IsDifferent  : LOGICAL := FALSE;
+END_LOCAL;
+  IF (SIZEOF(IfcGeometricRepresentationContext) > 1)
+  THEN
+    REPEAT i := 2 TO HIINDEX(IfcGeometricRepresentationContext);
+      IF (IfcGeometricRepresentationContext[1].WorldCoordinateSystem :<>: IfcGeometricRepresentationContext[i].WorldCoordinateSystem)
+      THEN
+        IsDifferent := (NOT(IfcSameValidPrecision(IfcGeometricRepresentationContext[1].Precision,
+                                                  IfcGeometricRepresentationContext[i].Precision)))
+                    OR (NOT(IfcSameAxis2Placement(IfcGeometricRepresentationContext[1].WorldCoordinateSystem,
+                                                  IfcGeometricRepresentationContext[i].WorldCoordinateSystem,
+                                                  IfcGeometricRepresentationContext[1].Precision)));
+        IF (IsDifferent = TRUE) THEN
+          ESCAPE;
+        END_IF;
+      END_IF;
+    END_REPEAT;
+  END_IF;
+    WHERE
+      WR1 : IsDifferent = FALSE;
+END_RULE;
+
+RULE IfcSingleProjectInstance FOR
+	(IfcProject);
+
+    WHERE
+      WR1 : SIZEOF(IfcProject) <= 1;
+END_RULE;
+
+END_SCHEMA;

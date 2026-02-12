@@ -1,0 +1,50 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="../../../ifc-styles.css">
+
+    <title>Space Program</title>
+
+  </head>
+
+  <body>
+
+
+<script language="JavaScript1.1" type="text/javascript">
+<!--
+    parent.index.location.replace("../../toc-1.htm#1.1.1.0");
+//-->
+</script>
+
+<h4><a id="space program" name="space program">1.1.1 Space Program</a></h4>
+<p class="std">
+<p>HVAC Zones group spaces with similar heating and venticaltion or air-conditioning requirements.</p>
+
+<p>Managable HVAC assets must be assigned to (at least) one space which is assigned to (at least) one Zone.</p>
+
+<p></p>
+<table class="exchange">
+<tr><th colspan="5"><img src="../../../img/mvd-space-program.png" />&nbsp; Space Program</th></tr>
+<tr><th>Entity/Concept</th><th>Attributes</th><th>Constraints</th><th>I</th><th>E</th></tr>
+<tr><td colspan="5"><b><a href="../../ifckernel/lexical/ifcproject.htm">IfcProject</a></b></td></tr>
+<tr><td>&nbsp;&nbsp;<a href="../../ifckernel/lexical/ifcproject.htm#identity">Identity</a></td><td>GlobalId<br/>Name<br/>Description</td><td></td><td>R</td><td>R</td></tr>
+<tr><td>&nbsp;&nbsp;<a href="../../ifckernel/lexical/ifcproject.htm#revision-control">Revision Control</a></td><td>OwnerHistory</td><td></td><td>O</td><td>O</td></tr>
+<tr><td>&nbsp;&nbsp;<a href="../../ifckernel/lexical/ifcproject.htm#descriptions">Descriptions</a></td><td>Description</td><td></td><td>O</td><td>O</td></tr>
+<tr><td>&nbsp;&nbsp;<a href="../../ifckernel/lexical/ifcproject.htm#spatial-decomposition">Spatial Decomposition</a></td><td>IsDecomposedBy</td><td></td><td>R</td><td>R</td></tr>
+<tr><td>&nbsp;&nbsp;<a href="../../ifckernel/lexical/ifcproject.htm#conversion-units">Conversion Units</a></td><td>UnitsInContext</td><td>NamedUnitType=LENGTHUNIT;</td><td>O</td><td>O</td></tr>
+<tr><td>&nbsp;&nbsp;<a href="../../ifckernel/lexical/ifcproject.htm#project-context">Project Context</a></td><td>RepresentationContexts</td><td>ContextIdentifier=Plan;ContextType=2D;<br/>ContextIdentifier=Model;ContextType=3D;</td><td>-</td><td>-</td></tr>
+<tr><td>&nbsp;&nbsp;<a href="../../ifckernel/lexical/ifcproject.htm#project-declaration">Project Declaration</a></td><td>Declares</td><td>Type=IfcElementType;</td><td>-</td><td>-</td></tr>
+<tr><td>&nbsp;&nbsp;<a href="../../ifckernel/lexical/ifcproject.htm#project-units">Project Units</a></td><td>UnitsInContext</td><td></td><td>O</td><td>O</td></tr>
+<tr><td>&nbsp;&nbsp;<a href="../../ifckernel/lexical/ifcproject.htm#si-units">SI Units</a></td><td>UnitsInContext</td><td></td><td>O</td><td>O</td></tr>
+<tr><td>&nbsp;&nbsp;<a href="../../ifckernel/lexical/ifcproject.htm#aggregation">Aggregation</a></td><td>PredefinedType<br/>IsDecomposedBy</td><td></td><td>-</td><td>-</td></tr>
+<tr><td colspan="5"><b><a href="../../ifcproductextension/lexical/ifcspace.htm">IfcSpace</a></b></td></tr>
+<tr><td>&nbsp;&nbsp;<a href="../../ifcproductextension/lexical/ifcspace.htm#classification">Classification</a></td><td>HasAssociations</td><td></td><td>R</td><td>R</td></tr>
+<tr><td>&nbsp;&nbsp;<a href="../../ifcproductextension/lexical/ifcspace.htm#identity">Identity</a></td><td>GlobalId<br/>Name<br/>Description</td><td></td><td>R</td><td>R</td></tr>
+<tr><td colspan="5"><b><a href="../../ifcproductextension/lexical/ifczone.htm">IfcZone</a></b></td></tr>
+<tr><td>&nbsp;&nbsp;<a href="../../ifcproductextension/lexical/ifczone.htm#classification">Classification</a></td><td>HasAssociations</td><td></td><td>R</td><td>R</td></tr>
+<tr><td>&nbsp;&nbsp;<a href="../../ifcproductextension/lexical/ifczone.htm#identity">Identity</a></td><td>GlobalId<br/>Name<br/>Description</td><td></td><td>R</td><td>R</td></tr>
+</table>
+</p>

@@ -1,0 +1,1344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ifc="http://www.buildingsmart-tech.org/ifcXML/IFC4/final" targetNamespace="http://www.buildingsmart-tech.org/ifcXML/IFC4/final" elementFormDefault="qualified" attributeFormDefault="unqualified" >
+<!-- created with IFCDOC 5.6 at buildingsmart-tech.org -->
+	<!-- root element declaration (for SCHEMA definitions) -->
+	<xs:element name="uos" type="ifc:uos" abstract="true"/>
+    <xs:simpleType name="Seq-anyURI">
+        <xs:list itemType="xs:anyURI"/>
+    </xs:simpleType>
+	<xs:complexType name="uos" abstract="true">
+		<xs:sequence>
+			<xs:element name="header" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="name" type="xs:string" minOccurs="0"/>
+						<xs:element name="time_stamp" type="xs:dateTime" minOccurs="0"/>
+						<xs:element name="author" type="xs:string" minOccurs="0"/>
+						<xs:element name="organization" type="xs:string" minOccurs="0"/>
+						<xs:element name="preprocessor_version" type="xs:string" minOccurs="0"/>
+						<xs:element name="originating_system" type="xs:string" minOccurs="0"/>
+						<xs:element name="authorization" type="xs:string" minOccurs="0"/>
+						<xs:element name="documentation" type="xs:string" minOccurs="0"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:ID" use="optional"/>
+		<xs:attribute name="express" type="ifc:Seq-anyURI" use="optional"/>
+		<xs:attribute name="configuration" type="ifc:Seq-anyURI" use="optional"/>
+	</xs:complexType>
+	<xs:element name="ifcXML" type="ifc:ifcXML" substitutionGroup="ifc:uos"/>
+	<xs:complexType name="ifcXML">
+		<xs:complexContent>
+			<xs:extension base="ifc:uos">
+				<xs:choice minOccurs="0" maxOccurs="unbounded">
+					<xs:element ref="ifc:Entity"/>
+				</xs:choice>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<!-- element and complex type declarations (for ENTITY definitions) -->
+	<xs:element name="IfcAirTerminal" type="ifc:IfcAirTerminal" substitutionGroup="ifc:IfcFlowTerminal" nillable="true"/>
+	<xs:complexType name="IfcAirTerminal">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcFlowTerminal"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcAirTerminalBox" type="ifc:IfcAirTerminalBox" substitutionGroup="ifc:IfcFlowController" nillable="true"/>
+	<xs:complexType name="IfcAirTerminalBox">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcFlowController"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcAirTerminalBoxType" type="ifc:IfcAirTerminalBoxType" substitutionGroup="ifc:IfcFlowControllerType" nillable="true"/>
+	<xs:complexType name="IfcAirTerminalBoxType">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcFlowControllerType">
+				<xs:attribute name="PredefinedType" type="ifc:IfcAirTerminalBoxTypeEnum" use="optional"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcAirTerminalType" type="ifc:IfcAirTerminalType" substitutionGroup="ifc:IfcFlowTerminalType" nillable="true"/>
+	<xs:complexType name="IfcAirTerminalType">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcFlowTerminalType">
+				<xs:attribute name="PredefinedType" type="ifc:IfcAirTerminalTypeEnum" use="optional"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcAirToAirHeatRecovery" type="ifc:IfcAirToAirHeatRecovery" substitutionGroup="ifc:IfcEnergyConversionDevice" nillable="true"/>
+	<xs:complexType name="IfcAirToAirHeatRecovery">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcEnergyConversionDevice"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcAirToAirHeatRecoveryType" type="ifc:IfcAirToAirHeatRecoveryType" substitutionGroup="ifc:IfcEnergyConversionDeviceType" nillable="true"/>
+	<xs:complexType name="IfcAirToAirHeatRecoveryType">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcEnergyConversionDeviceType">
+				<xs:attribute name="PredefinedType" type="ifc:IfcAirToAirHeatRecoveryTypeEnum" use="optional"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcApplication" type="ifc:IfcApplication" substitutionGroup="ifc:Entity" nillable="true"/>
+	<xs:complexType name="IfcApplication">
+		<xs:complexContent>
+			<xs:extension base="ifc:Entity">
+				<xs:sequence>
+					<xs:element name="ApplicationDeveloper" type="ifc:IfcOrganization" nillable="true"/>
+				</xs:sequence>
+				<xs:attribute name="Version" type="ifc:IfcLabel" use="optional"/>
+				<xs:attribute name="ApplicationFullName" type="ifc:IfcLabel" use="optional"/>
+				<xs:attribute name="ApplicationIdentifier" type="ifc:IfcIdentifier" use="optional"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcAxis2Placement3D" type="ifc:IfcAxis2Placement3D" substitutionGroup="ifc:IfcPlacement" nillable="true"/>
+	<xs:complexType name="IfcAxis2Placement3D">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcPlacement"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcCartesianPoint" type="ifc:IfcCartesianPoint" substitutionGroup="ifc:IfcPoint" nillable="true"/>
+	<xs:complexType name="IfcCartesianPoint">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcPoint">
+				<xs:attribute name="Coordinates" use="optional">
+					<xs:simpleType>
+						<xs:restriction>
+							<xs:simpleType>
+								<xs:list itemType="ifc:IfcLengthMeasure"/>
+							</xs:simpleType>
+							<xs:maxLength value="3"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcChiller" type="ifc:IfcChiller" substitutionGroup="ifc:IfcEnergyConversionDevice" nillable="true"/>
+	<xs:complexType name="IfcChiller">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcEnergyConversionDevice"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcChillerType" type="ifc:IfcChillerType" substitutionGroup="ifc:IfcEnergyConversionDeviceType" nillable="true"/>
+	<xs:complexType name="IfcChillerType">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcEnergyConversionDeviceType">
+				<xs:attribute name="PredefinedType" type="ifc:IfcChillerTypeEnum" use="optional"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcClassification" type="ifc:IfcClassification" substitutionGroup="ifc:IfcExternalInformation" nillable="true"/>
+	<xs:complexType name="IfcClassification">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcExternalInformation">
+				<xs:sequence>
+					<xs:element name="ReferenceTokens" nillable="true" minOccurs="0">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element ref="ifc:IfcIdentifier-wrapper" maxOccurs="unbounded"/>
+							</xs:sequence>
+							<xs:attribute ref="ifc:itemType" fixed="ifc:IfcIdentifier-wrapper"/>
+							<xs:attribute ref="ifc:cType" fixed="list"/>
+							<xs:attribute ref="ifc:arraySize" use="optional"/>
+						</xs:complexType>
+					</xs:element>
+				</xs:sequence>
+				<xs:attribute name="Source" type="ifc:IfcLabel" use="optional"/>
+				<xs:attribute name="Name" type="ifc:IfcLabel" use="optional"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcClassificationReference" type="ifc:IfcClassificationReference" substitutionGroup="ifc:IfcExternalReference" nillable="true"/>
+	<xs:complexType name="IfcClassificationReference">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcExternalReference">
+				<xs:sequence>
+					<xs:element name="ReferencedSource" nillable="true" minOccurs="0">
+						<xs:complexType>
+							<xs:group ref="ifc:IfcClassificationReferenceSelect"/>
+						</xs:complexType>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcCoil" type="ifc:IfcCoil" substitutionGroup="ifc:IfcEnergyConversionDevice" nillable="true"/>
+	<xs:complexType name="IfcCoil">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcEnergyConversionDevice"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcCoilType" type="ifc:IfcCoilType" substitutionGroup="ifc:IfcEnergyConversionDeviceType" nillable="true"/>
+	<xs:complexType name="IfcCoilType">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcEnergyConversionDeviceType">
+				<xs:attribute name="PredefinedType" type="ifc:IfcCoilTypeEnum" use="optional"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcContext" type="ifc:IfcContext" abstract="true" substitutionGroup="ifc:IfcObjectDefinition" nillable="true"/>
+	<xs:complexType name="IfcContext" abstract="true">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcObjectDefinition">
+				<xs:sequence>
+					<xs:element name="RepresentationContexts" nillable="true" minOccurs="0">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element ref="ifc:IfcRepresentationContext" maxOccurs="unbounded"/>
+							</xs:sequence>
+							<xs:attribute ref="ifc:itemType" fixed="ifc:IfcRepresentationContext"/>
+							<xs:attribute ref="ifc:cType" fixed="set"/>
+							<xs:attribute ref="ifc:arraySize" use="optional"/>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="UnitsInContext" type="ifc:IfcUnitAssignment" nillable="true" minOccurs="0"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcConversionBasedUnit" type="ifc:IfcConversionBasedUnit" substitutionGroup="ifc:IfcNamedUnit" nillable="true"/>
+	<xs:complexType name="IfcConversionBasedUnit">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcNamedUnit">
+				<xs:sequence>
+					<xs:element name="ConversionFactor" type="ifc:IfcMeasureWithUnit" nillable="true"/>
+				</xs:sequence>
+				<xs:attribute name="Name" type="ifc:IfcLabel" use="optional"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcConversionBasedUnitWithOffset" type="ifc:IfcConversionBasedUnitWithOffset" substitutionGroup="ifc:IfcConversionBasedUnit" nillable="true"/>
+	<xs:complexType name="IfcConversionBasedUnitWithOffset">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcConversionBasedUnit">
+				<xs:attribute name="ConversionOffset" type="ifc:IfcReal" use="optional"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcDamper" type="ifc:IfcDamper" substitutionGroup="ifc:IfcFlowController" nillable="true"/>
+	<xs:complexType name="IfcDamper">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcFlowController"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcDamperType" type="ifc:IfcDamperType" substitutionGroup="ifc:IfcFlowControllerType" nillable="true"/>
+	<xs:complexType name="IfcDamperType">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcFlowControllerType">
+				<xs:attribute name="PredefinedType" type="ifc:IfcDamperTypeEnum" use="optional"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcDimensionalExponents" type="ifc:IfcDimensionalExponents" substitutionGroup="ifc:Entity" nillable="true"/>
+	<xs:complexType name="IfcDimensionalExponents">
+		<xs:complexContent>
+			<xs:extension base="ifc:Entity"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcDirection" type="ifc:IfcDirection" substitutionGroup="ifc:IfcGeometricRepresentationItem" nillable="true"/>
+	<xs:complexType name="IfcDirection">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcGeometricRepresentationItem"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcDistributionElement" type="ifc:IfcDistributionElement" substitutionGroup="ifc:IfcElement" nillable="true"/>
+	<xs:complexType name="IfcDistributionElement">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcElement"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcDistributionElementType" type="ifc:IfcDistributionElementType" substitutionGroup="ifc:IfcElementType" nillable="true"/>
+	<xs:complexType name="IfcDistributionElementType">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcElementType"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcDistributionFlowElement" type="ifc:IfcDistributionFlowElement" substitutionGroup="ifc:IfcDistributionElement" nillable="true"/>
+	<xs:complexType name="IfcDistributionFlowElement">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcDistributionElement"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcDistributionFlowElementType" type="ifc:IfcDistributionFlowElementType" abstract="true" substitutionGroup="ifc:IfcDistributionElementType" nillable="true"/>
+	<xs:complexType name="IfcDistributionFlowElementType" abstract="true">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcDistributionElementType"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcDistributionPort" type="ifc:IfcDistributionPort" substitutionGroup="ifc:IfcPort" nillable="true"/>
+	<xs:complexType name="IfcDistributionPort">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcPort"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcDistributionSystem" type="ifc:IfcDistributionSystem" substitutionGroup="ifc:IfcSystem" nillable="true"/>
+	<xs:complexType name="IfcDistributionSystem">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcSystem"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcDuctFitting" type="ifc:IfcDuctFitting" substitutionGroup="ifc:IfcFlowFitting" nillable="true"/>
+	<xs:complexType name="IfcDuctFitting">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcFlowFitting"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcDuctSegment" type="ifc:IfcDuctSegment" substitutionGroup="ifc:IfcFlowSegment" nillable="true"/>
+	<xs:complexType name="IfcDuctSegment">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcFlowSegment"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcDuctSilencer" type="ifc:IfcDuctSilencer" substitutionGroup="ifc:IfcFlowTreatmentDevice" nillable="true"/>
+	<xs:complexType name="IfcDuctSilencer">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcFlowTreatmentDevice"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcDuctSilencerType" type="ifc:IfcDuctSilencerType" substitutionGroup="ifc:IfcFlowTreatmentDeviceType" nillable="true"/>
+	<xs:complexType name="IfcDuctSilencerType">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcFlowTreatmentDeviceType">
+				<xs:attribute name="PredefinedType" type="ifc:IfcDuctSilencerTypeEnum" use="optional"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcElement" type="ifc:IfcElement" abstract="true" substitutionGroup="ifc:IfcProduct" nillable="true"/>
+	<xs:complexType name="IfcElement" abstract="true">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcProduct"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcElementType" type="ifc:IfcElementType" abstract="true" substitutionGroup="ifc:IfcTypeProduct" nillable="true"/>
+	<xs:complexType name="IfcElementType" abstract="true">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcTypeProduct"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcEnergyConversionDevice" type="ifc:IfcEnergyConversionDevice" substitutionGroup="ifc:IfcDistributionFlowElement" nillable="true"/>
+	<xs:complexType name="IfcEnergyConversionDevice">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcDistributionFlowElement"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcEnergyConversionDeviceType" type="ifc:IfcEnergyConversionDeviceType" abstract="true" substitutionGroup="ifc:IfcDistributionFlowElementType" nillable="true"/>
+	<xs:complexType name="IfcEnergyConversionDeviceType" abstract="true">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcDistributionFlowElementType"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcEvaporativeCooler" type="ifc:IfcEvaporativeCooler" substitutionGroup="ifc:IfcEnergyConversionDevice" nillable="true"/>
+	<xs:complexType name="IfcEvaporativeCooler">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcEnergyConversionDevice"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcEvaporativeCoolerType" type="ifc:IfcEvaporativeCoolerType" substitutionGroup="ifc:IfcEnergyConversionDeviceType" nillable="true"/>
+	<xs:complexType name="IfcEvaporativeCoolerType">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcEnergyConversionDeviceType">
+				<xs:attribute name="PredefinedType" type="ifc:IfcEvaporativeCoolerTypeEnum" use="optional"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcEvaporator" type="ifc:IfcEvaporator" substitutionGroup="ifc:IfcEnergyConversionDevice" nillable="true"/>
+	<xs:complexType name="IfcEvaporator">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcEnergyConversionDevice"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcEvaporatorType" type="ifc:IfcEvaporatorType" substitutionGroup="ifc:IfcEnergyConversionDeviceType" nillable="true"/>
+	<xs:complexType name="IfcEvaporatorType">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcEnergyConversionDeviceType">
+				<xs:attribute name="PredefinedType" type="ifc:IfcEvaporatorTypeEnum" use="optional"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcExternalInformation" type="ifc:IfcExternalInformation" abstract="true" substitutionGroup="ifc:Entity" nillable="true"/>
+	<xs:complexType name="IfcExternalInformation" abstract="true">
+		<xs:complexContent>
+			<xs:extension base="ifc:Entity"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcExternalReference" type="ifc:IfcExternalReference" abstract="true" substitutionGroup="ifc:Entity" nillable="true"/>
+	<xs:complexType name="IfcExternalReference" abstract="true">
+		<xs:complexContent>
+			<xs:extension base="ifc:Entity">
+				<xs:attribute name="Identification" type="ifc:IfcIdentifier" use="optional"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcFan" type="ifc:IfcFan" substitutionGroup="ifc:IfcFlowMovingDevice" nillable="true"/>
+	<xs:complexType name="IfcFan">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcFlowMovingDevice"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcFanType" type="ifc:IfcFanType" substitutionGroup="ifc:IfcFlowMovingDeviceType" nillable="true"/>
+	<xs:complexType name="IfcFanType">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcFlowMovingDeviceType">
+				<xs:attribute name="PredefinedType" type="ifc:IfcFanTypeEnum" use="optional"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcFlowController" type="ifc:IfcFlowController" substitutionGroup="ifc:IfcDistributionFlowElement" nillable="true"/>
+	<xs:complexType name="IfcFlowController">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcDistributionFlowElement"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcFlowControllerType" type="ifc:IfcFlowControllerType" abstract="true" substitutionGroup="ifc:IfcDistributionFlowElementType" nillable="true"/>
+	<xs:complexType name="IfcFlowControllerType" abstract="true">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcDistributionFlowElementType"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcFlowFitting" type="ifc:IfcFlowFitting" substitutionGroup="ifc:IfcDistributionFlowElement" nillable="true"/>
+	<xs:complexType name="IfcFlowFitting">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcDistributionFlowElement"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcFlowMovingDevice" type="ifc:IfcFlowMovingDevice" substitutionGroup="ifc:IfcDistributionFlowElement" nillable="true"/>
+	<xs:complexType name="IfcFlowMovingDevice">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcDistributionFlowElement"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcFlowMovingDeviceType" type="ifc:IfcFlowMovingDeviceType" abstract="true" substitutionGroup="ifc:IfcDistributionFlowElementType" nillable="true"/>
+	<xs:complexType name="IfcFlowMovingDeviceType" abstract="true">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcDistributionFlowElementType"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcFlowSegment" type="ifc:IfcFlowSegment" substitutionGroup="ifc:IfcDistributionFlowElement" nillable="true"/>
+	<xs:complexType name="IfcFlowSegment">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcDistributionFlowElement"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcFlowTerminal" type="ifc:IfcFlowTerminal" substitutionGroup="ifc:IfcDistributionFlowElement" nillable="true"/>
+	<xs:complexType name="IfcFlowTerminal">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcDistributionFlowElement"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcFlowTerminalType" type="ifc:IfcFlowTerminalType" abstract="true" substitutionGroup="ifc:IfcDistributionFlowElementType" nillable="true"/>
+	<xs:complexType name="IfcFlowTerminalType" abstract="true">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcDistributionFlowElementType"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcFlowTreatmentDevice" type="ifc:IfcFlowTreatmentDevice" substitutionGroup="ifc:IfcDistributionFlowElement" nillable="true"/>
+	<xs:complexType name="IfcFlowTreatmentDevice">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcDistributionFlowElement"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcFlowTreatmentDeviceType" type="ifc:IfcFlowTreatmentDeviceType" abstract="true" substitutionGroup="ifc:IfcDistributionFlowElementType" nillable="true"/>
+	<xs:complexType name="IfcFlowTreatmentDeviceType" abstract="true">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcDistributionFlowElementType"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcGeometricRepresentationContext" type="ifc:IfcGeometricRepresentationContext" substitutionGroup="ifc:IfcRepresentationContext" nillable="true"/>
+	<xs:complexType name="IfcGeometricRepresentationContext">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcRepresentationContext">
+				<xs:sequence>
+					<xs:element name="WorldCoordinateSystem" minOccurs="0">
+						<xs:complexType>
+							<xs:group ref="ifc:IfcAxis2Placement"/>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="TrueNorth" type="ifc:IfcDirection" nillable="true" minOccurs="0"/>
+				</xs:sequence>
+				<xs:attribute name="CoordinateSpaceDimension" type="ifc:IfcDimensionCount" use="optional"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcGeometricRepresentationItem" type="ifc:IfcGeometricRepresentationItem" abstract="true" substitutionGroup="ifc:IfcRepresentationItem" nillable="true"/>
+	<xs:complexType name="IfcGeometricRepresentationItem" abstract="true">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcRepresentationItem"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcGroup" type="ifc:IfcGroup" substitutionGroup="ifc:IfcObject" nillable="true"/>
+	<xs:complexType name="IfcGroup">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcObject"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcHeatExchanger" type="ifc:IfcHeatExchanger" substitutionGroup="ifc:IfcEnergyConversionDevice" nillable="true"/>
+	<xs:complexType name="IfcHeatExchanger">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcEnergyConversionDevice"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcHeatExchangerType" type="ifc:IfcHeatExchangerType" substitutionGroup="ifc:IfcEnergyConversionDeviceType" nillable="true"/>
+	<xs:complexType name="IfcHeatExchangerType">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcEnergyConversionDeviceType">
+				<xs:attribute name="PredefinedType" type="ifc:IfcHeatExchangerTypeEnum" use="optional"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcHumidifier" type="ifc:IfcHumidifier" substitutionGroup="ifc:IfcEnergyConversionDevice" nillable="true"/>
+	<xs:complexType name="IfcHumidifier">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcEnergyConversionDevice"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcMeasureWithUnit" type="ifc:IfcMeasureWithUnit" substitutionGroup="ifc:Entity" nillable="true"/>
+	<xs:complexType name="IfcMeasureWithUnit">
+		<xs:complexContent>
+			<xs:extension base="ifc:Entity">
+				<xs:sequence>
+					<xs:element name="ValueComponent">
+						<xs:complexType>
+							<xs:group ref="ifc:IfcValue"/>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="UnitComponent">
+						<xs:complexType>
+							<xs:group ref="ifc:IfcUnit"/>
+						</xs:complexType>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcNamedUnit" type="ifc:IfcNamedUnit" abstract="true" substitutionGroup="ifc:Entity" nillable="true"/>
+	<xs:complexType name="IfcNamedUnit" abstract="true">
+		<xs:complexContent>
+			<xs:extension base="ifc:Entity">
+				<xs:sequence>
+					<xs:element name="Dimensions" type="ifc:IfcDimensionalExponents" nillable="true" minOccurs="0"/>
+				</xs:sequence>
+				<xs:attribute name="UnitType" type="ifc:IfcUnitEnum" use="optional"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcObject" type="ifc:IfcObject" abstract="true" substitutionGroup="ifc:IfcObjectDefinition" nillable="true"/>
+	<xs:complexType name="IfcObject" abstract="true">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcObjectDefinition"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcObjectDefinition" type="ifc:IfcObjectDefinition" abstract="true" substitutionGroup="ifc:IfcRoot" nillable="true"/>
+	<xs:complexType name="IfcObjectDefinition" abstract="true">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcRoot"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcOrganization" type="ifc:IfcOrganization" substitutionGroup="ifc:Entity" nillable="true"/>
+	<xs:complexType name="IfcOrganization">
+		<xs:complexContent>
+			<xs:extension base="ifc:Entity">
+				<xs:attribute name="Name" type="ifc:IfcLabel" use="optional"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcOwnerHistory" type="ifc:IfcOwnerHistory" substitutionGroup="ifc:Entity" nillable="true"/>
+	<xs:complexType name="IfcOwnerHistory">
+		<xs:complexContent>
+			<xs:extension base="ifc:Entity">
+				<xs:sequence>
+					<xs:element name="OwningUser" type="ifc:IfcPersonAndOrganization" nillable="true"/>
+					<xs:element name="OwningApplication" type="ifc:IfcApplication" nillable="true"/>
+				</xs:sequence>
+				<xs:attribute name="State" type="ifc:IfcStateEnum" use="optional"/>
+				<xs:attribute name="ChangeAction" type="ifc:IfcChangeActionEnum" use="optional"/>
+				<xs:attribute name="CreationDate" type="ifc:IfcTimeStamp" use="optional"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcPerson" type="ifc:IfcPerson" substitutionGroup="ifc:Entity" nillable="true"/>
+	<xs:complexType name="IfcPerson">
+		<xs:complexContent>
+			<xs:extension base="ifc:Entity"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcPersonAndOrganization" type="ifc:IfcPersonAndOrganization" substitutionGroup="ifc:Entity" nillable="true"/>
+	<xs:complexType name="IfcPersonAndOrganization">
+		<xs:complexContent>
+			<xs:extension base="ifc:Entity">
+				<xs:sequence>
+					<xs:element name="ThePerson" type="ifc:IfcPerson" nillable="true"/>
+					<xs:element name="TheOrganization" type="ifc:IfcOrganization" nillable="true"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcPlacement" type="ifc:IfcPlacement" abstract="true" substitutionGroup="ifc:IfcGeometricRepresentationItem" nillable="true"/>
+	<xs:complexType name="IfcPlacement" abstract="true">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcGeometricRepresentationItem">
+				<xs:sequence>
+					<xs:element name="Location" type="ifc:IfcCartesianPoint" nillable="true"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcPoint" type="ifc:IfcPoint" abstract="true" substitutionGroup="ifc:IfcGeometricRepresentationItem" nillable="true"/>
+	<xs:complexType name="IfcPoint" abstract="true">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcGeometricRepresentationItem"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcPort" type="ifc:IfcPort" abstract="true" substitutionGroup="ifc:IfcProduct" nillable="true"/>
+	<xs:complexType name="IfcPort" abstract="true">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcProduct"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcProduct" type="ifc:IfcProduct" abstract="true" substitutionGroup="ifc:IfcObject" nillable="true"/>
+	<xs:complexType name="IfcProduct" abstract="true">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcObject"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcProject" type="ifc:IfcProject" substitutionGroup="ifc:IfcContext" nillable="true"/>
+	<xs:complexType name="IfcProject">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcContext"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcRelAggregates" type="ifc:IfcRelAggregates" substitutionGroup="ifc:IfcRelDecomposes" nillable="true"/>
+	<xs:complexType name="IfcRelAggregates">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcRelDecomposes">
+				<xs:sequence>
+					<xs:element name="RelatingObject" type="ifc:IfcObjectDefinition" nillable="true"/>
+					<xs:element name="RelatedObjects">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element ref="ifc:IfcObjectDefinition" maxOccurs="unbounded"/>
+							</xs:sequence>
+							<xs:attribute ref="ifc:itemType" fixed="ifc:IfcObjectDefinition"/>
+							<xs:attribute ref="ifc:cType" fixed="set"/>
+							<xs:attribute ref="ifc:arraySize" use="optional"/>
+						</xs:complexType>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcRelAssigns" type="ifc:IfcRelAssigns" abstract="true" substitutionGroup="ifc:IfcRelationship" nillable="true"/>
+	<xs:complexType name="IfcRelAssigns" abstract="true">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcRelationship">
+				<xs:sequence>
+					<xs:element name="RelatedObjects">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element ref="ifc:IfcObjectDefinition" maxOccurs="unbounded"/>
+							</xs:sequence>
+							<xs:attribute ref="ifc:itemType" fixed="ifc:IfcObjectDefinition"/>
+							<xs:attribute ref="ifc:cType" fixed="set"/>
+							<xs:attribute ref="ifc:arraySize" use="optional"/>
+						</xs:complexType>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcRelAssignsToGroup" type="ifc:IfcRelAssignsToGroup" substitutionGroup="ifc:IfcRelAssigns" nillable="true"/>
+	<xs:complexType name="IfcRelAssignsToGroup">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcRelAssigns">
+				<xs:sequence>
+					<xs:element name="RelatingGroup" type="ifc:IfcGroup" nillable="true"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcRelAssociates" type="ifc:IfcRelAssociates" abstract="true" substitutionGroup="ifc:IfcRelationship" nillable="true"/>
+	<xs:complexType name="IfcRelAssociates" abstract="true">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcRelationship">
+				<xs:sequence>
+					<xs:element name="RelatedObjects">
+						<xs:complexType>
+							<xs:group ref="ifc:IfcDefinitionSelect" maxOccurs="unbounded"/>
+							<xs:attribute ref="ifc:itemType" fixed="ifc:IfcDefinitionSelect"/>
+							<xs:attribute ref="ifc:cType" fixed="set"/>
+							<xs:attribute ref="ifc:arraySize" use="optional"/>
+						</xs:complexType>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcRelAssociatesClassification" type="ifc:IfcRelAssociatesClassification" substitutionGroup="ifc:IfcRelAssociates" nillable="true"/>
+	<xs:complexType name="IfcRelAssociatesClassification">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcRelAssociates">
+				<xs:sequence>
+					<xs:element name="RelatingClassification">
+						<xs:complexType>
+							<xs:group ref="ifc:IfcClassificationSelect"/>
+						</xs:complexType>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcRelConnects" type="ifc:IfcRelConnects" abstract="true" substitutionGroup="ifc:IfcRelationship" nillable="true"/>
+	<xs:complexType name="IfcRelConnects" abstract="true">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcRelationship"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcRelConnectsPortToElement" type="ifc:IfcRelConnectsPortToElement" substitutionGroup="ifc:IfcRelConnects" nillable="true"/>
+	<xs:complexType name="IfcRelConnectsPortToElement">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcRelConnects">
+				<xs:sequence>
+					<xs:element name="RelatingPort" type="ifc:IfcPort" nillable="true"/>
+					<xs:element name="RelatedElement" type="ifc:IfcDistributionElement" nillable="true"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcRelConnectsPorts" type="ifc:IfcRelConnectsPorts" substitutionGroup="ifc:IfcRelConnects" nillable="true"/>
+	<xs:complexType name="IfcRelConnectsPorts">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcRelConnects">
+				<xs:sequence>
+					<xs:element name="RelatingPort" type="ifc:IfcPort" nillable="true"/>
+					<xs:element name="RelatedPort" type="ifc:IfcPort" nillable="true"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcRelDeclares" type="ifc:IfcRelDeclares" substitutionGroup="ifc:IfcRelationship" nillable="true"/>
+	<xs:complexType name="IfcRelDeclares">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcRelationship">
+				<xs:sequence>
+					<xs:element name="RelatingContext" type="ifc:IfcContext" nillable="true"/>
+					<xs:element name="RelatedDefinitions">
+						<xs:complexType>
+							<xs:group ref="ifc:IfcDefinitionSelect" maxOccurs="unbounded"/>
+							<xs:attribute ref="ifc:itemType" fixed="ifc:IfcDefinitionSelect"/>
+							<xs:attribute ref="ifc:cType" fixed="set"/>
+							<xs:attribute ref="ifc:arraySize" use="optional"/>
+						</xs:complexType>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcRelDecomposes" type="ifc:IfcRelDecomposes" abstract="true" substitutionGroup="ifc:IfcRelationship" nillable="true"/>
+	<xs:complexType name="IfcRelDecomposes" abstract="true">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcRelationship"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcRelDefines" type="ifc:IfcRelDefines" abstract="true" substitutionGroup="ifc:IfcRelationship" nillable="true"/>
+	<xs:complexType name="IfcRelDefines" abstract="true">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcRelationship"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcRelDefinesByType" type="ifc:IfcRelDefinesByType" substitutionGroup="ifc:IfcRelDefines" nillable="true"/>
+	<xs:complexType name="IfcRelDefinesByType">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcRelDefines">
+				<xs:sequence>
+					<xs:element name="RelatedObjects">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element ref="ifc:IfcObject" maxOccurs="unbounded"/>
+							</xs:sequence>
+							<xs:attribute ref="ifc:itemType" fixed="ifc:IfcObject"/>
+							<xs:attribute ref="ifc:cType" fixed="set"/>
+							<xs:attribute ref="ifc:arraySize" use="optional"/>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="RelatingType" type="ifc:IfcTypeObject" nillable="true"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcRelationship" type="ifc:IfcRelationship" abstract="true" substitutionGroup="ifc:IfcRoot" nillable="true"/>
+	<xs:complexType name="IfcRelationship" abstract="true">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcRoot"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcRepresentationContext" type="ifc:IfcRepresentationContext" abstract="true" substitutionGroup="ifc:Entity" nillable="true"/>
+	<xs:complexType name="IfcRepresentationContext" abstract="true">
+		<xs:complexContent>
+			<xs:extension base="ifc:Entity">
+				<xs:attribute name="ContextIdentifier" type="ifc:IfcLabel" use="optional"/>
+				<xs:attribute name="ContextType" type="ifc:IfcLabel" use="optional"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcRepresentationItem" type="ifc:IfcRepresentationItem" abstract="true" substitutionGroup="ifc:Entity" nillable="true"/>
+	<xs:complexType name="IfcRepresentationItem" abstract="true">
+		<xs:complexContent>
+			<xs:extension base="ifc:Entity"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcRoot" type="ifc:IfcRoot" abstract="true" substitutionGroup="ifc:Entity" nillable="true"/>
+	<xs:complexType name="IfcRoot" abstract="true">
+		<xs:complexContent>
+			<xs:extension base="ifc:Entity">
+				<xs:sequence>
+					<xs:element name="OwnerHistory" type="ifc:IfcOwnerHistory" nillable="true" minOccurs="0"/>
+				</xs:sequence>
+				<xs:attribute name="GlobalId" type="ifc:IfcGloballyUniqueId" use="optional"/>
+				<xs:attribute name="Name" type="ifc:IfcLabel" use="optional"/>
+				<xs:attribute name="Description" type="ifc:IfcText" use="optional"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="IfcSIUnit-temp" abstract="true">
+		<xs:complexContent>
+			<xs:restriction base="ifc:IfcNamedUnit">
+				<xs:sequence/>
+			</xs:restriction>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcSIUnit" type="ifc:IfcSIUnit" substitutionGroup="ifc:IfcNamedUnit" nillable="true"/>
+	<xs:complexType name="IfcSIUnit">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcSIUnit-temp">
+				<xs:attribute name="Prefix" type="ifc:IfcSIPrefix" use="optional"/>
+				<xs:attribute name="Name" type="ifc:IfcSIUnitName" use="optional"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcSpace" type="ifc:IfcSpace" substitutionGroup="ifc:IfcSpatialStructureElement" nillable="true"/>
+	<xs:complexType name="IfcSpace">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcSpatialStructureElement"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcSpatialElement" type="ifc:IfcSpatialElement" abstract="true" substitutionGroup="ifc:IfcProduct" nillable="true"/>
+	<xs:complexType name="IfcSpatialElement" abstract="true">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcProduct"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcSpatialStructureElement" type="ifc:IfcSpatialStructureElement" abstract="true" substitutionGroup="ifc:IfcSpatialElement" nillable="true"/>
+	<xs:complexType name="IfcSpatialStructureElement" abstract="true">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcSpatialElement"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcSystem" type="ifc:IfcSystem" substitutionGroup="ifc:IfcGroup" nillable="true"/>
+	<xs:complexType name="IfcSystem">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcGroup"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcTypeObject" type="ifc:IfcTypeObject" substitutionGroup="ifc:IfcObjectDefinition" nillable="true"/>
+	<xs:complexType name="IfcTypeObject">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcObjectDefinition"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcTypeProduct" type="ifc:IfcTypeProduct" substitutionGroup="ifc:IfcTypeObject" nillable="true"/>
+	<xs:complexType name="IfcTypeProduct">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcTypeObject"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcUnitAssignment" type="ifc:IfcUnitAssignment" substitutionGroup="ifc:Entity" nillable="true"/>
+	<xs:complexType name="IfcUnitAssignment">
+		<xs:complexContent>
+			<xs:extension base="ifc:Entity">
+				<xs:sequence>
+					<xs:element name="Units">
+						<xs:complexType>
+							<xs:group ref="ifc:IfcUnit" maxOccurs="unbounded"/>
+							<xs:attribute ref="ifc:itemType" fixed="ifc:IfcUnit"/>
+							<xs:attribute ref="ifc:cType" fixed="set"/>
+							<xs:attribute ref="ifc:arraySize" use="optional"/>
+						</xs:complexType>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcUnitaryEquipment" type="ifc:IfcUnitaryEquipment" substitutionGroup="ifc:IfcEnergyConversionDevice" nillable="true"/>
+	<xs:complexType name="IfcUnitaryEquipment">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcEnergyConversionDevice"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcUnitaryEquipmentType" type="ifc:IfcUnitaryEquipmentType" substitutionGroup="ifc:IfcEnergyConversionDeviceType" nillable="true"/>
+	<xs:complexType name="IfcUnitaryEquipmentType">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcEnergyConversionDeviceType">
+				<xs:attribute name="PredefinedType" type="ifc:IfcUnitaryEquipmentTypeEnum" use="optional"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="IfcZone" type="ifc:IfcZone" substitutionGroup="ifc:IfcSystem" nillable="true"/>
+	<xs:complexType name="IfcZone">
+		<xs:complexContent>
+			<xs:extension base="ifc:IfcSystem"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<!-- group declarations (for SELECT data type definitions) -->
+	<xs:group name="IfcAxis2Placement">
+		<xs:choice>
+			<xs:element ref="ifc:IfcAxis2Placement3D"/>
+		</xs:choice>
+	</xs:group>
+	<xs:group name="IfcClassificationReferenceSelect">
+		<xs:choice>
+			<xs:element ref="ifc:IfcClassification"/>
+			<xs:element ref="ifc:IfcClassificationReference"/>
+		</xs:choice>
+	</xs:group>
+	<xs:group name="IfcClassificationSelect">
+		<xs:choice>
+			<xs:element ref="ifc:IfcClassification"/>
+			<xs:element ref="ifc:IfcClassificationReference"/>
+		</xs:choice>
+	</xs:group>
+	<xs:group name="IfcDefinitionSelect">
+		<xs:choice>
+			<xs:element ref="ifc:IfcObjectDefinition"/>
+		</xs:choice>
+	</xs:group>
+	<xs:group name="IfcUnit">
+		<xs:choice>
+			<xs:element ref="ifc:IfcNamedUnit"/>
+		</xs:choice>
+	</xs:group>
+	<xs:group name="IfcValue">
+		<xs:choice>
+			<xs:element ref="ifc:IfcIdentifier-wrapper"/>
+			<xs:element ref="ifc:IfcLabel-wrapper"/>
+			<xs:element ref="ifc:IfcLengthMeasure-wrapper"/>
+			<xs:element ref="ifc:IfcReal-wrapper"/>
+			<xs:element ref="ifc:IfcText-wrapper"/>
+			<xs:element ref="ifc:IfcTimeStamp-wrapper"/>
+		</xs:choice>
+	</xs:group>
+	<!-- enumeration type declarations (for ENUMERATION data type definitions) -->
+	<xs:simpleType name="IfcAirTerminalBoxTypeEnum">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="constantflow"/>
+			<xs:enumeration value="variableflowpressuredependant"/>
+			<xs:enumeration value="variableflowpressureindependant"/>
+			<xs:enumeration value="userdefined"/>
+			<xs:enumeration value="notdefined"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="IfcAirTerminalTypeEnum">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="diffuser"/>
+			<xs:enumeration value="grille"/>
+			<xs:enumeration value="louvre"/>
+			<xs:enumeration value="register"/>
+			<xs:enumeration value="userdefined"/>
+			<xs:enumeration value="notdefined"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="IfcAirToAirHeatRecoveryTypeEnum">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="fixedplatecounterflowexchanger"/>
+			<xs:enumeration value="fixedplatecrossflowexchanger"/>
+			<xs:enumeration value="fixedplateparallelflowexchanger"/>
+			<xs:enumeration value="rotarywheel"/>
+			<xs:enumeration value="runaroundcoilloop"/>
+			<xs:enumeration value="heatpipe"/>
+			<xs:enumeration value="twintowerenthalpyrecoveryloops"/>
+			<xs:enumeration value="thermosiphonsealedtubeheatexchangers"/>
+			<xs:enumeration value="thermosiphoncoiltypeheatexchangers"/>
+			<xs:enumeration value="userdefined"/>
+			<xs:enumeration value="notdefined"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="IfcChangeActionEnum">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="nochange"/>
+			<xs:enumeration value="modified"/>
+			<xs:enumeration value="added"/>
+			<xs:enumeration value="deleted"/>
+			<xs:enumeration value="notdefined"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="IfcChillerTypeEnum">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="aircooled"/>
+			<xs:enumeration value="watercooled"/>
+			<xs:enumeration value="heatrecovery"/>
+			<xs:enumeration value="userdefined"/>
+			<xs:enumeration value="notdefined"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="IfcCoilTypeEnum">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="dxcoolingcoil"/>
+			<xs:enumeration value="electricheatingcoil"/>
+			<xs:enumeration value="gasheatingcoil"/>
+			<xs:enumeration value="hydroniccoil"/>
+			<xs:enumeration value="steamheatingcoil"/>
+			<xs:enumeration value="watercoolingcoil"/>
+			<xs:enumeration value="waterheatingcoil"/>
+			<xs:enumeration value="userdefined"/>
+			<xs:enumeration value="notdefined"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="IfcDamperTypeEnum">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="backdraftdamper"/>
+			<xs:enumeration value="balancingdamper"/>
+			<xs:enumeration value="blastdamper"/>
+			<xs:enumeration value="controldamper"/>
+			<xs:enumeration value="firedamper"/>
+			<xs:enumeration value="firesmokedamper"/>
+			<xs:enumeration value="fumehoodexhaust"/>
+			<xs:enumeration value="gravitydamper"/>
+			<xs:enumeration value="gravityreliefdamper"/>
+			<xs:enumeration value="reliefdamper"/>
+			<xs:enumeration value="smokedamper"/>
+			<xs:enumeration value="userdefined"/>
+			<xs:enumeration value="notdefined"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="IfcDuctSilencerTypeEnum">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="flatoval"/>
+			<xs:enumeration value="rectangular"/>
+			<xs:enumeration value="round"/>
+			<xs:enumeration value="userdefined"/>
+			<xs:enumeration value="notdefined"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="IfcEvaporativeCoolerTypeEnum">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="directevaporativerandommediaaircooler"/>
+			<xs:enumeration value="directevaporativerigidmediaaircooler"/>
+			<xs:enumeration value="directevaporativeslingerspackagedaircooler"/>
+			<xs:enumeration value="directevaporativepackagedrotaryaircooler"/>
+			<xs:enumeration value="directevaporativeairwasher"/>
+			<xs:enumeration value="indirectevaporativepackageaircooler"/>
+			<xs:enumeration value="indirectevaporativewetcoil"/>
+			<xs:enumeration value="indirectevaporativecoolingtowerorcoilcooler"/>
+			<xs:enumeration value="indirectdirectcombination"/>
+			<xs:enumeration value="userdefined"/>
+			<xs:enumeration value="notdefined"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="IfcEvaporatorTypeEnum">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="directexpansion"/>
+			<xs:enumeration value="directexpansionshellandtube"/>
+			<xs:enumeration value="directexpansiontubeintube"/>
+			<xs:enumeration value="directexpansionbrazedplate"/>
+			<xs:enumeration value="floodedshellandtube"/>
+			<xs:enumeration value="shellandcoil"/>
+			<xs:enumeration value="userdefined"/>
+			<xs:enumeration value="notdefined"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="IfcFanTypeEnum">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="centrifugalforwardcurved"/>
+			<xs:enumeration value="centrifugalradial"/>
+			<xs:enumeration value="centrifugalbackwardinclinedcurved"/>
+			<xs:enumeration value="centrifugalairfoil"/>
+			<xs:enumeration value="tubeaxial"/>
+			<xs:enumeration value="vaneaxial"/>
+			<xs:enumeration value="propelloraxial"/>
+			<xs:enumeration value="userdefined"/>
+			<xs:enumeration value="notdefined"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="IfcHeatExchangerTypeEnum">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="plate"/>
+			<xs:enumeration value="shellandtube"/>
+			<xs:enumeration value="userdefined"/>
+			<xs:enumeration value="notdefined"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="IfcSIPrefix">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="exa"/>
+			<xs:enumeration value="peta"/>
+			<xs:enumeration value="tera"/>
+			<xs:enumeration value="giga"/>
+			<xs:enumeration value="mega"/>
+			<xs:enumeration value="kilo"/>
+			<xs:enumeration value="hecto"/>
+			<xs:enumeration value="deca"/>
+			<xs:enumeration value="deci"/>
+			<xs:enumeration value="centi"/>
+			<xs:enumeration value="milli"/>
+			<xs:enumeration value="micro"/>
+			<xs:enumeration value="nano"/>
+			<xs:enumeration value="pico"/>
+			<xs:enumeration value="femto"/>
+			<xs:enumeration value="atto"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="IfcSIUnitName">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="ampere"/>
+			<xs:enumeration value="becquerel"/>
+			<xs:enumeration value="candela"/>
+			<xs:enumeration value="coulomb"/>
+			<xs:enumeration value="cubic_metre"/>
+			<xs:enumeration value="degree_celsius"/>
+			<xs:enumeration value="farad"/>
+			<xs:enumeration value="gram"/>
+			<xs:enumeration value="gray"/>
+			<xs:enumeration value="henry"/>
+			<xs:enumeration value="hertz"/>
+			<xs:enumeration value="joule"/>
+			<xs:enumeration value="kelvin"/>
+			<xs:enumeration value="lumen"/>
+			<xs:enumeration value="lux"/>
+			<xs:enumeration value="metre"/>
+			<xs:enumeration value="mole"/>
+			<xs:enumeration value="newton"/>
+			<xs:enumeration value="ohm"/>
+			<xs:enumeration value="pascal"/>
+			<xs:enumeration value="radian"/>
+			<xs:enumeration value="second"/>
+			<xs:enumeration value="siemens"/>
+			<xs:enumeration value="sievert"/>
+			<xs:enumeration value="square_metre"/>
+			<xs:enumeration value="steradian"/>
+			<xs:enumeration value="tesla"/>
+			<xs:enumeration value="volt"/>
+			<xs:enumeration value="watt"/>
+			<xs:enumeration value="weber"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="IfcStateEnum">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="readwrite"/>
+			<xs:enumeration value="readonly"/>
+			<xs:enumeration value="locked"/>
+			<xs:enumeration value="readwritelocked"/>
+			<xs:enumeration value="readonlylocked"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="IfcUnitEnum">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="absorbeddoseunit"/>
+			<xs:enumeration value="amountofsubstanceunit"/>
+			<xs:enumeration value="areaunit"/>
+			<xs:enumeration value="doseequivalentunit"/>
+			<xs:enumeration value="electriccapacitanceunit"/>
+			<xs:enumeration value="electricchargeunit"/>
+			<xs:enumeration value="electricconductanceunit"/>
+			<xs:enumeration value="electriccurrentunit"/>
+			<xs:enumeration value="electricresistanceunit"/>
+			<xs:enumeration value="electricvoltageunit"/>
+			<xs:enumeration value="energyunit"/>
+			<xs:enumeration value="forceunit"/>
+			<xs:enumeration value="frequencyunit"/>
+			<xs:enumeration value="illuminanceunit"/>
+			<xs:enumeration value="inductanceunit"/>
+			<xs:enumeration value="lengthunit"/>
+			<xs:enumeration value="luminousfluxunit"/>
+			<xs:enumeration value="luminousintensityunit"/>
+			<xs:enumeration value="magneticfluxdensityunit"/>
+			<xs:enumeration value="magneticfluxunit"/>
+			<xs:enumeration value="massunit"/>
+			<xs:enumeration value="planeangleunit"/>
+			<xs:enumeration value="powerunit"/>
+			<xs:enumeration value="pressureunit"/>
+			<xs:enumeration value="radioactivityunit"/>
+			<xs:enumeration value="solidangleunit"/>
+			<xs:enumeration value="thermodynamictemperatureunit"/>
+			<xs:enumeration value="timeunit"/>
+			<xs:enumeration value="volumeunit"/>
+			<xs:enumeration value="userdefined"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="IfcUnitaryEquipmentTypeEnum">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="airhandler"/>
+			<xs:enumeration value="airconditioningunit"/>
+			<xs:enumeration value="dehumidifier"/>
+			<xs:enumeration value="splitsystem"/>
+			<xs:enumeration value="rooftopunit"/>
+			<xs:enumeration value="userdefined"/>
+			<xs:enumeration value="notdefined"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- simple type declarations (for TYPE defined data type definitions) -->
+	<xs:simpleType name="IfcDimensionCount">
+		<xs:restriction base="xs:long"/>
+	</xs:simpleType>
+	<xs:simpleType name="IfcGloballyUniqueId">
+		<xs:restriction base="xs:normalizedString">
+			<xs:minLength value="22"/>
+			<xs:maxLength value="22"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="IfcIdentifier">
+		<xs:restriction base="xs:normalizedString">
+			<xs:maxLength value="255"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="IfcLabel">
+		<xs:restriction base="xs:normalizedString">
+			<xs:maxLength value="255"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="IfcLengthMeasure">
+		<xs:restriction base="xs:double"/>
+	</xs:simpleType>
+	<xs:simpleType name="IfcReal">
+		<xs:restriction base="xs:double"/>
+	</xs:simpleType>
+	<xs:simpleType name="IfcText">
+		<xs:restriction base="xs:normalizedString"/>
+	</xs:simpleType>
+	<xs:simpleType name="IfcTimeStamp">
+		<xs:restriction base="xs:long"/>
+	</xs:simpleType>
+	<!-- base entity and entity attribute declaration (for embeded base schema definitions) -->
+	<xs:element name="Entity" type="ifc:Entity" abstract="true" nillable="true"/>
+	<xs:complexType name="Entity" abstract="true">
+		<xs:attribute name="href" type="xs:anyURI" use="optional"/>
+		<xs:attribute name="ref" type="xs:IDREF" use="optional"/>
+		<xs:attributeGroup ref="ifc:instanceAttributes"/>
+	</xs:complexType>
+	<!-- base global attribute declaration (for embeded base schema definitions) -->
+	<xs:attributeGroup name="instanceAttributes">
+		<xs:attribute name="id" type="xs:ID" use="optional"/>
+		<xs:attribute name="path" type="xs:NMTOKENS" use="optional"/>
+		<xs:attribute name="pos" use="optional">
+			<xs:simpleType>
+				<xs:restriction>
+					<xs:simpleType>
+						<xs:list itemType="xs:integer"/>
+					</xs:simpleType>
+					<xs:minLength value="1"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:attributeGroup>
+	<xs:attribute name="arraySize">
+		<xs:simpleType>
+			<xs:restriction>
+				<xs:simpleType>
+					<xs:list itemType="xs:integer"/>
+				</xs:simpleType>
+				<xs:minLength value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:attribute>
+	<xs:attribute name="itemType">
+		<xs:simpleType>
+			<xs:list itemType="xs:QName"/>
+		</xs:simpleType>
+	</xs:attribute>
+	<xs:attribute name="cType">
+		<xs:simpleType>
+			<xs:list itemType="ifc:aggregateType"/>
+		</xs:simpleType>
+	</xs:attribute>
+	<xs:simpleType name="aggregateType">
+		<xs:restriction base="xs:normalizedString">
+			<xs:enumeration value="array"/>
+			<xs:enumeration value="list"/>
+			<xs:enumeration value="set"/>
+			<xs:enumeration value="bag"/>
+			<xs:enumeration value="array-unique"/>
+			<xs:enumeration value="array-optional"/>
+			<xs:enumeration value="array-optional-unique"/>
+			<xs:enumeration value="list-unique"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- base global simple type declaration (for embeded base schema definitions) -->
+	<xs:complexType name="hexBinary">
+		<xs:simpleContent>
+			<xs:extension base="xs:hexBinary">
+				<xs:attribute name="extraBits" type="xs:integer" use="optional"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:simpleType name="logical">
+		<xs:restriction base="xs:normalizedString">
+			<xs:enumeration value="false"/>
+			<xs:enumeration value="true"/>
+			<xs:enumeration value="unknown"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- base global wrapper declaration for atomic simple types (for embeded base schema definitions) -->
+	<xs:element name="IfcIdentifier-wrapper" nillable="true">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="ifc:IfcIdentifier">
+					<xs:attributeGroup ref="ifc:instanceAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="IfcLabel-wrapper" nillable="true">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="ifc:IfcLabel">
+					<xs:attributeGroup ref="ifc:instanceAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="IfcLengthMeasure-wrapper" nillable="true">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="ifc:IfcLengthMeasure">
+					<xs:attributeGroup ref="ifc:instanceAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="IfcReal-wrapper" nillable="true">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="ifc:IfcReal">
+					<xs:attributeGroup ref="ifc:instanceAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="IfcText-wrapper" nillable="true">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="ifc:IfcText">
+					<xs:attributeGroup ref="ifc:instanceAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="IfcTimeStamp-wrapper" nillable="true">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="ifc:IfcTimeStamp">
+					<xs:attributeGroup ref="ifc:instanceAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="double-wrapper" nillable="true">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:double">
+					<xs:attributeGroup ref="ifc:instanceAttributes"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,318 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="../../../ifc-styles.css">
+
+    <title>IfcFlowFitting</title>
+
+  </head>
+
+  <body>
+
+
+<script language="JavaScript1.1" type="text/javascript">
+<!--
+    parent.index.location.replace("../../toc-6.htm#6.1.3.9");
+//-->
+</script>
+
+<h4 class="std">6.1.3.9 IfcFlowFitting</h4>
+<table>
+<tr><td><image src="../../../img/locale-fr.png"></image></td><td><b>Raccord d'installation fluides</b></td></tr>
+<tr><td><image src="../../../img/locale-de.png"></image></td><td><b>Verbinder / Formstück (allgemein)</b></td></tr>
+</table>
+
+
+<p>The distribution flow element <span class="self-ref">IfcFlowFitting</span> defines the occurrence of a junction or transition in a flow distribution system, such as an elbow or tee. Its type is defined by <i>IfcFlowFittingType</i> or its subtypes.</p>
+
+<blockquote class="history">
+HISTORY&nbsp; New entity in IFC2.0.
+</blockquote>
+
+<blockquote class="change-ifc2x4">
+IFC4 CHANGE&nbsp; This entity has been deprecated for instantiation and will become ABSTRACT in a future release; new subtypes should now be used instead.<br>   
+</blockquote>
+
+
+<hr>
+<p class="spec-head">XSD Specification:</p><span class="xsd">&nbsp;&lt;xs:element name=&quot;IfcFlowFitting&quot; type=&quot;ifc:<a href="ifcflowfitting.htm">IfcFlowFitting</a>&quot; substitutionGroup=&quot;ifc:<a href="ifcdistributionflowelement.htm">IfcDistributionFlowElement</a>&quot; nillable=&quot;true&quot;/&gt;<br>
+&nbsp;&lt;xs:complexType name=&quot;IfcFlowFitting&quot;&gt;<br>
+&nbsp;&nbsp;&lt;xs:complexContent&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;xs:extension base=&quot;ifc:<a href="ifcdistributionflowelement.htm">IfcDistributionFlowElement</a>&quot;/&gt;<br>
+&nbsp;&nbsp;&lt;/xs:complexContent&gt;<br>
+&nbsp;&lt;/xs:complexType&gt;<br>
+</span><p class="spec-head">EXPRESS Specification:</p>
+<span class="express">
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td>
+<span class="keyword">ENTITY</span> IfcFlowFitting
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="1%">
+  </td><td>
+<span class="keyword">SUPERTYPE OF</span>(<a href="../../ifchvacdomain/lexical/ifcductfitting.htm">IfcDuctFitting</a>)
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="1%">
+  </td><td>
+<span class="keyword">SUBTYPE OF</span> (<a href="ifcdistributionflowelement.htm">IfcDistributionFlowElement</a>)<b>;</b>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td>
+<span class="keyword">END_ENTITY;</span>
+  </td>
+ </tr>
+</table>
+</span>
+
+<p class="spec-head">Inheritance Graph:</p>
+<span class="express">
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td>
+<span class="keyword">ENTITY</span> IfcFlowFitting
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="1%">
+  </td><td>
+<span class="keyword">ENTITY</span> <a href="../../ifckernel/lexical/ifcroot.htm">IfcRoot</a>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="2%">
+  </td><td>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+<tr valign="top"><td width="20%">GlobalId</td><td width="1%"> : </td><td><a href="../../ifcutilityresource/lexical/ifcgloballyuniqueid.htm">IfcGloballyUniqueId</a>;</td></tr>
+<tr valign="top"><td width="20%">OwnerHistory</td><td width="1%"> : </td><td><span class="keyword">OPTIONAL</span> <a href="../../ifcutilityresource/lexical/ifcownerhistory.htm">IfcOwnerHistory</a>;</td></tr>
+<tr valign="top"><td width="20%">Name</td><td width="1%"> : </td><td><span class="keyword">OPTIONAL</span> <a href="../../ifcmeasureresource/lexical/ifclabel.htm">IfcLabel</a>;</td></tr>
+<tr valign="top"><td width="20%">Description</td><td width="1%"> : </td><td><span class="keyword">OPTIONAL</span> <a href="../../ifcmeasureresource/lexical/ifctext.htm">IfcText</a>;</td></tr>
+</table>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="1%">
+  </td><td>
+<span class="keyword">ENTITY</span> <a href="../../ifckernel/lexical/ifcobjectdefinition.htm">IfcObjectDefinition</a>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="1%">
+  </td><td>
+<span class="keyword">INVERSE</span>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="2%">
+  </td><td>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+<tr valign="top"><td width="20%">HasAssignments</td><td width="1%"> : </td><td><span class="keyword">SET</span> <span class="keyword">OF</span> <a href="../../ifckernel/lexical/ifcrelassigns.htm">IfcRelAssigns</a> <span class="keyword">FOR</span> RelatedObjects;</td></tr>
+<tr valign="top"><td width="20%">HasContext</td><td width="1%"> : </td><td><span class="keyword">SET</span> [0:1] OF <a href="../../ifckernel/lexical/ifcreldeclares.htm">IfcRelDeclares</a> <span class="keyword">FOR</span> RelatedDefinitions;</td></tr>
+<tr valign="top"><td width="20%">IsDecomposedBy</td><td width="1%"> : </td><td><span class="keyword">SET</span> <span class="keyword">OF</span> <a href="../../ifckernel/lexical/ifcrelaggregates.htm">IfcRelAggregates</a> <span class="keyword">FOR</span> RelatingObject;</td></tr>
+<tr valign="top"><td width="20%">Decomposes</td><td width="1%"> : </td><td><span class="keyword">SET</span> [0:1] OF <a href="../../ifckernel/lexical/ifcrelaggregates.htm">IfcRelAggregates</a> <span class="keyword">FOR</span> RelatedObjects;</td></tr>
+<tr valign="top"><td width="20%">HasAssociations</td><td width="1%"> : </td><td><span class="keyword">SET</span> <span class="keyword">OF</span> <a href="../../ifckernel/lexical/ifcrelassociates.htm">IfcRelAssociates</a> <span class="keyword">FOR</span> RelatedObjects;</td></tr>
+</table>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="1%">
+  </td><td>
+<span class="keyword">ENTITY</span> <a href="../../ifckernel/lexical/ifcobject.htm">IfcObject</a>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="2%">
+  </td><td>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+<tr valign="top"><td width="20%">ObjectType</td><td width="1%"> : </td><td><span class="keyword">OPTIONAL</span> <span class="self-ref">IfcStrippedOptional</span>;</td></tr>
+</table>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="1%">
+  </td><td>
+<span class="keyword">INVERSE</span>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="2%">
+  </td><td>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+<tr valign="top"><td width="20%">IsTypedBy</td><td width="1%"> : </td><td><span class="keyword">SET</span> [0:1] OF <a href="../../ifckernel/lexical/ifcreldefinesbytype.htm">IfcRelDefinesByType</a> <span class="keyword">FOR</span> RelatedObjects;</td></tr>
+</table>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="1%">
+  </td><td>
+<span class="keyword">ENTITY</span> <a href="../../ifckernel/lexical/ifcproduct.htm">IfcProduct</a>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="2%">
+  </td><td>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+<tr valign="top"><td width="20%">ObjectPlacement</td><td width="1%"> : </td><td><span class="keyword">OPTIONAL</span> <span class="self-ref">IfcStrippedOptional</span>;</td></tr>
+<tr valign="top"><td width="20%">Representation</td><td width="1%"> : </td><td><span class="keyword">OPTIONAL</span> <span class="self-ref">IfcStrippedOptional</span>;</td></tr>
+</table>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="1%">
+  </td><td>
+<span class="keyword">INVERSE</span>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="2%">
+  </td><td>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+</table>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="1%">
+  </td><td>
+<span class="keyword">ENTITY</span> <a href="../../ifcproductextension/lexical/ifcelement.htm">IfcElement</a>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="2%">
+  </td><td>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+<tr valign="top"><td width="20%">Tag</td><td width="1%"> : </td><td><span class="keyword">OPTIONAL</span> <span class="self-ref">IfcStrippedOptional</span>;</td></tr>
+</table>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="1%">
+  </td><td>
+<span class="keyword">INVERSE</span>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="2%">
+  </td><td>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+</table>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="1%">
+  </td><td>
+<span class="keyword">ENTITY</span> <a href="../../ifcproductextension/lexical/ifcdistributionelement.htm">IfcDistributionElement</a>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="1%">
+  </td><td>
+<span class="keyword">INVERSE</span>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="2%">
+  </td><td>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+<tr valign="top"><td width="20%">HasPorts</td><td width="1%"> : </td><td><span class="keyword">SET</span> <span class="keyword">OF</span> <a href="../../ifcproductextension/lexical/ifcrelconnectsporttoelement.htm">IfcRelConnectsPortToElement</a> <span class="keyword">FOR</span> RelatedElement;</td></tr>
+</table>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="1%">
+  </td><td>
+<span class="keyword">ENTITY</span> <a href="ifcdistributionflowelement.htm">IfcDistributionFlowElement</a>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="1%">
+  </td><td>
+<span class="keyword">INVERSE</span>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="2%">
+  </td><td>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+</table>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="1%">
+  </td><td>
+<span class="keyword">ENTITY</span> <a href="ifcflowfitting.htm">IfcFlowFitting</a>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td>
+<span class="keyword">END_ENTITY;</span>
+  </td>
+ </tr>
+</table>
+</span>
+<p><a href="../../../link/ifcflowfitting.htm" target="_top"><img src="../../../img/permlink.png" style="border: 0px" title="Link to this page" alt="Link to this page">&nbsp; Link to this page</a></p>
+<p></p>
+  </body>
+</html>

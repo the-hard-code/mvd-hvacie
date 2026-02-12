@@ -1,0 +1,353 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="../../../ifc-styles.css">
+
+    <title>IFC2X3</title>
+
+  </head>
+
+  <body>
+
+
+<script language="JavaScript1.1" type="text/javascript">
+<!--
+    parent.index.location.replace("../../toc-f.htm");
+//-->
+</script>
+
+<h4 class="std">F.1.1 Entities</h4>
+<table class="gridtable">
+<tr><th>Item</th><th>SPF</th><th>XML</th><th>Change</th><th>Description</th></tr>
+<tr><td colspan="5"><b>CORE DATA SCHEMAS</b></td>
+<tr><td>&nbsp;&nbsp;<b>IFCKERNEL</b></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifckernel/lexical/ifcdefinitionselect.htm">IfcDefinitionSelect</a></td><td></td><td></td><td>ADDED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifckernel/lexical/ifccontext.htm">IfcContext</a></td><td></td><td></td><td>ADDED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifckernel/lexical/ifcgroup.htm">IfcGroup</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OwnerHistory</td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>OPTIONAL</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifckernel/lexical/ifcproject.htm">IfcProject</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OwnerHistory</td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>OPTIONAL</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RepresentationContexts</td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>OPTIONAL</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UnitsInContext</td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>OPTIONAL</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifckernel/lexical/ifcrelaggregates.htm">IfcRelAggregates</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OwnerHistory</td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>OPTIONAL</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifckernel/lexical/ifcrelassignstogroup.htm">IfcRelAssignsToGroup</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OwnerHistory</td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>OPTIONAL</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifckernel/lexical/ifcrelassociates.htm">IfcRelAssociates</a></td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>ABSTRACT</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifckernel/lexical/ifcrelassociatesclassification.htm">IfcRelAssociatesClassification</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OwnerHistory</td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>OPTIONAL</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RelatedObjects</td><td>X</td><td>X</td><td>MODIFIED</td><td>Type changed from <i>IfcRoot</i> to <i>IfcDefinitionSelect</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RelatingClassification</td><td>X</td><td>X</td><td>MODIFIED</td><td>Type changed from <i>IfcClassificationNotationSelect</i> to <i>IfcClassificationSelect</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifckernel/lexical/ifcreldeclares.htm">IfcRelDeclares</a></td><td></td><td></td><td>ADDED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifckernel/lexical/ifcreldefinesbytype.htm">IfcRelDefinesByType</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OwnerHistory</td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>OPTIONAL</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifckernel/lexical/ifctypeobject.htm">IfcTypeObject</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OwnerHistory</td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>OPTIONAL</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ApplicableOccurrence</td><td></td><td></td><td>MODIFIED</td><td>Type changed from <i>IfcLabel</i> to <i>IfcIdentifier</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifckernel/lexical/ifctypeproduct.htm">IfcTypeProduct</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OwnerHistory</td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>OPTIONAL</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ApplicableOccurrence</td><td></td><td></td><td>MODIFIED</td><td>Type changed from <i>IfcLabel</i> to <i>IfcIdentifier</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcRelOverridesProperties</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;<b>IFCCONTROLEXTENSION</b></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcTimeSeriesSchedule</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;<b>IFCPROCESSEXTENSION</b></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcRelAssignsTasks</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcScheduleTimeControl</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;<b>IFCPRODUCTEXTENSION</b></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifcproductextension/lexical/ifcdistributionelement.htm">IfcDistributionElement</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OwnerHistory</td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>OPTIONAL</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifcproductextension/lexical/ifcdistributionelementtype.htm">IfcDistributionElementType</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OwnerHistory</td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>OPTIONAL</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ApplicableOccurrence</td><td></td><td></td><td>MODIFIED</td><td>Type changed from <i>IfcLabel</i> to <i>IfcIdentifier</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifcproductextension/lexical/ifcrelconnectsports.htm">IfcRelConnectsPorts</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OwnerHistory</td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>OPTIONAL</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifcproductextension/lexical/ifcrelconnectsporttoelement.htm">IfcRelConnectsPortToElement</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OwnerHistory</td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>OPTIONAL</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RelatedElement</td><td></td><td></td><td>MODIFIED</td><td>Type changed from <i>IfcElement</i> to <i>IfcDistributionElement</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifcproductextension/lexical/ifcspace.htm">IfcSpace</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OwnerHistory</td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>OPTIONAL</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CompositionType</td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>OPTIONAL</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PredefinedType</td><td></td><td></td><td>MODIFIED</td><td>Name changed from <i>InteriorOrExteriorSpace</i> to <i>PredefinedType</i>. <br/>Type changed from <i>IfcInternalOrExternalEnum</i> to <i>IfcSpaceTypeEnum</i>. <br/>Instantiation changed to <i>OPTIONAL</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifcproductextension/lexical/ifcspatialelement.htm">IfcSpatialElement</a></td><td></td><td></td><td>ADDED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifcproductextension/lexical/ifcsystem.htm">IfcSystem</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OwnerHistory</td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>OPTIONAL</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifcproductextension/lexical/ifczone.htm">IfcZone</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OwnerHistory</td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>OPTIONAL</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LongName</td><td></td><td></td><td>ADDED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcElectricalElement</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcEquipmentElement</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td colspan="5"><b>SHARED ELEMENT DATA SCHEMAS</b></td>
+<tr><td>&nbsp;&nbsp;<b>IFCSHAREDBLDGELEMENTS</b></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;<b>IFCSHAREDBLDGSERVICEELEMENTS</b></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifcsharedbldgserviceelements/lexical/ifcdistributionflowelement.htm">IfcDistributionFlowElement</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OwnerHistory</td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>OPTIONAL</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifcsharedbldgserviceelements/lexical/ifcdistributionport.htm">IfcDistributionPort</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OwnerHistory</td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>OPTIONAL</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PredefinedType</td><td></td><td></td><td>ADDED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SystemType</td><td></td><td></td><td>ADDED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifcsharedbldgserviceelements/lexical/ifcdistributionsystem.htm">IfcDistributionSystem</a></td><td></td><td></td><td>ADDED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifcsharedbldgserviceelements/lexical/ifcenergyconversiondevice.htm">IfcEnergyConversionDevice</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OwnerHistory</td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>OPTIONAL</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifcsharedbldgserviceelements/lexical/ifcflowcontroller.htm">IfcFlowController</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OwnerHistory</td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>OPTIONAL</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifcsharedbldgserviceelements/lexical/ifcflowfitting.htm">IfcFlowFitting</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OwnerHistory</td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>OPTIONAL</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifcsharedbldgserviceelements/lexical/ifcflowmovingdevice.htm">IfcFlowMovingDevice</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OwnerHistory</td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>OPTIONAL</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifcsharedbldgserviceelements/lexical/ifcflowsegment.htm">IfcFlowSegment</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OwnerHistory</td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>OPTIONAL</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifcsharedbldgserviceelements/lexical/ifcflowterminal.htm">IfcFlowTerminal</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OwnerHistory</td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>OPTIONAL</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifcsharedbldgserviceelements/lexical/ifcflowtreatmentdevice.htm">IfcFlowTreatmentDevice</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OwnerHistory</td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>OPTIONAL</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcElectricalBaseProperties</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcEnergyProperties</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcFluidFlowProperties</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcSoundProperties</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcSoundValue</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcSpaceThermalLoadProperties</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;<b>IFCSHAREDCOMPONENTELEMENTS</b></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcChamferEdgeFeature</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcEdgeFeature</td><td></td><td></td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcRoundedEdgeFeature</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;<b>IFCSHAREDFACILITIESELEMENTS</b></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcRelOccupiesSpaces</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcServiceLife</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcServiceLifeFactor</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;<b>IFCSHAREDMGMTELEMENTS</b></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcProjectOrderRecord</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcRelAssignsToProjectOrder</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcRelAssociatesAppliedValue</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcRelSchedulesCostItems</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td colspan="5"><b>DOMAIN SPECIFIC DATA SCHEMAS</b></td>
+<tr><td>&nbsp;&nbsp;<b>IFCARCHITECTUREDOMAIN</b></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcRelInteractionRequirements</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcSpaceProgram</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;<b>IFCBUILDINGCONTROLSDOMAIN</b></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;<b>IFCCONSTRUCTIONMGMTDOMAIN</b></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;<b>IFCELECTRICALDOMAIN</b></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcElectricalCircuit</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcElectricDistributionPoint</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcElectricHeaterType</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;<b>IFCHVACDOMAIN</b></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifchvacdomain/lexical/ifcairterminaltypeenum.htm">IfcAirTerminalTypeEnum</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LOUVRE</td><td></td><td></td><td>ADDED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EYEBALL</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IRIS</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LINEARGRILLE</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LINEARDIFFUSER</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifchvacdomain/lexical/ifccoiltypeenum.htm">IfcCoilTypeEnum</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HYDRONICCOIL</td><td></td><td></td><td>ADDED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifchvacdomain/lexical/ifcevaporatortypeenum.htm">IfcEvaporatorTypeEnum</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DIRECTEXPANSION</td><td></td><td></td><td>ADDED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifchvacdomain/lexical/ifcunitaryequipmenttypeenum.htm">IfcUnitaryEquipmentTypeEnum</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DEHUMIDIFIER</td><td></td><td></td><td>ADDED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifchvacdomain/lexical/ifcairterminal.htm">IfcAirTerminal</a></td><td></td><td></td><td>ADDED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifchvacdomain/lexical/ifcairterminalbox.htm">IfcAirTerminalBox</a></td><td></td><td></td><td>ADDED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifchvacdomain/lexical/ifcairterminalboxtype.htm">IfcAirTerminalBoxType</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OwnerHistory</td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>OPTIONAL</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ApplicableOccurrence</td><td></td><td></td><td>MODIFIED</td><td>Type changed from <i>IfcLabel</i> to <i>IfcIdentifier</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifchvacdomain/lexical/ifcairterminaltype.htm">IfcAirTerminalType</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OwnerHistory</td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>OPTIONAL</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ApplicableOccurrence</td><td></td><td></td><td>MODIFIED</td><td>Type changed from <i>IfcLabel</i> to <i>IfcIdentifier</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifchvacdomain/lexical/ifcairtoairheatrecovery.htm">IfcAirToAirHeatRecovery</a></td><td></td><td></td><td>ADDED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifchvacdomain/lexical/ifcairtoairheatrecoverytype.htm">IfcAirToAirHeatRecoveryType</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OwnerHistory</td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>OPTIONAL</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ApplicableOccurrence</td><td></td><td></td><td>MODIFIED</td><td>Type changed from <i>IfcLabel</i> to <i>IfcIdentifier</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifchvacdomain/lexical/ifcchiller.htm">IfcChiller</a></td><td></td><td></td><td>ADDED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifchvacdomain/lexical/ifcchillertype.htm">IfcChillerType</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OwnerHistory</td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>OPTIONAL</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ApplicableOccurrence</td><td></td><td></td><td>MODIFIED</td><td>Type changed from <i>IfcLabel</i> to <i>IfcIdentifier</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifchvacdomain/lexical/ifccoil.htm">IfcCoil</a></td><td></td><td></td><td>ADDED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifchvacdomain/lexical/ifccoiltype.htm">IfcCoilType</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OwnerHistory</td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>OPTIONAL</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ApplicableOccurrence</td><td></td><td></td><td>MODIFIED</td><td>Type changed from <i>IfcLabel</i> to <i>IfcIdentifier</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifchvacdomain/lexical/ifcdamper.htm">IfcDamper</a></td><td></td><td></td><td>ADDED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifchvacdomain/lexical/ifcdampertype.htm">IfcDamperType</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OwnerHistory</td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>OPTIONAL</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ApplicableOccurrence</td><td></td><td></td><td>MODIFIED</td><td>Type changed from <i>IfcLabel</i> to <i>IfcIdentifier</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifchvacdomain/lexical/ifcductfitting.htm">IfcDuctFitting</a></td><td></td><td></td><td>ADDED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifchvacdomain/lexical/ifcductsegment.htm">IfcDuctSegment</a></td><td></td><td></td><td>ADDED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifchvacdomain/lexical/ifcductsilencer.htm">IfcDuctSilencer</a></td><td></td><td></td><td>ADDED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifchvacdomain/lexical/ifcductsilencertype.htm">IfcDuctSilencerType</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OwnerHistory</td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>OPTIONAL</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ApplicableOccurrence</td><td></td><td></td><td>MODIFIED</td><td>Type changed from <i>IfcLabel</i> to <i>IfcIdentifier</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifchvacdomain/lexical/ifcevaporativecooler.htm">IfcEvaporativeCooler</a></td><td></td><td></td><td>ADDED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifchvacdomain/lexical/ifcevaporativecoolertype.htm">IfcEvaporativeCoolerType</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OwnerHistory</td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>OPTIONAL</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ApplicableOccurrence</td><td></td><td></td><td>MODIFIED</td><td>Type changed from <i>IfcLabel</i> to <i>IfcIdentifier</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifchvacdomain/lexical/ifcevaporator.htm">IfcEvaporator</a></td><td></td><td></td><td>ADDED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifchvacdomain/lexical/ifcevaporatortype.htm">IfcEvaporatorType</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OwnerHistory</td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>OPTIONAL</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ApplicableOccurrence</td><td></td><td></td><td>MODIFIED</td><td>Type changed from <i>IfcLabel</i> to <i>IfcIdentifier</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifchvacdomain/lexical/ifcfan.htm">IfcFan</a></td><td></td><td></td><td>ADDED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifchvacdomain/lexical/ifcfantype.htm">IfcFanType</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OwnerHistory</td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>OPTIONAL</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ApplicableOccurrence</td><td></td><td></td><td>MODIFIED</td><td>Type changed from <i>IfcLabel</i> to <i>IfcIdentifier</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifchvacdomain/lexical/ifcheatexchanger.htm">IfcHeatExchanger</a></td><td></td><td></td><td>ADDED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifchvacdomain/lexical/ifcheatexchangertype.htm">IfcHeatExchangerType</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OwnerHistory</td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>OPTIONAL</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ApplicableOccurrence</td><td></td><td></td><td>MODIFIED</td><td>Type changed from <i>IfcLabel</i> to <i>IfcIdentifier</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifchvacdomain/lexical/ifchumidifier.htm">IfcHumidifier</a></td><td></td><td></td><td>ADDED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifchvacdomain/lexical/ifcunitaryequipment.htm">IfcUnitaryEquipment</a></td><td></td><td></td><td>ADDED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifchvacdomain/lexical/ifcunitaryequipmenttype.htm">IfcUnitaryEquipmentType</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OwnerHistory</td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>OPTIONAL</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ApplicableOccurrence</td><td></td><td></td><td>MODIFIED</td><td>Type changed from <i>IfcLabel</i> to <i>IfcIdentifier</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcGasTerminalType</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;<b>IFCPLUMBINGFIREPROTECTIONDOMAIN</b></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;<b>IFCSTRUCTURALANALYSISDOMAIN</b></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcRelAssociatesProfileProperties</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcRelConnectsStructuralElement</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcStructuralLinearActionVarying</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcStructuralPlanarActionVarying</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;<b>IFCSTRUCTURALELEMENTSDOMAIN</b></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcBuildingElementComponent</td><td></td><td></td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;<b>IFCFACILITIESMGMTDOMAIN</b></td><td></td><td></td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcConditionCriterionSelect</td><td></td><td></td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcCondition</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcConditionCriterion</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcEquipmentStandard</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcFurnitureStandard</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcMove</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcOrderAction</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td colspan="5"><b>RESOURCE DEFINITION DATA SCHEMAS</b></td>
+<tr><td>&nbsp;&nbsp;<b>IFCACTORRESOURCE</b></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifcactorresource/lexical/ifcorganization.htm">IfcOrganization</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Identification</td><td></td><td>X</td><td>MODIFIED</td><td>Name changed from <i>Id</i> to <i>Identification</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifcactorresource/lexical/ifcperson.htm">IfcPerson</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Identification</td><td></td><td>X</td><td>MODIFIED</td><td>Name changed from <i>Id</i> to <i>Identification</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;<b>IFCAPPROVALRESOURCE</b></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcApprovalActorRelationship</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcApprovalPropertyRelationship</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;<b>IFCCONSTRAINTRESOURCE</b></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcConstraintAggregationRelationship</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcConstraintClassificationRelationship</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcConstraintRelationship</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcPropertyConstraintRelationship</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;<b>IFCCOSTRESOURCE</b></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcAppliedValueRelationship</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcEnvironmentalImpactValue</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcReferencesValueDocument</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;<b>IFCDATETIMERESOURCE</b></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifcdatetimeresource/lexical/ifctimestamp.htm">IfcTimeStamp</a></td><td></td><td></td><td>MOVED</td><td>Schema changed from <i>IFCMEASURERESOURCE</i> to <i>IFCDATETIMERESOURCE</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcCalendarDate</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcCoordinatedUniversalTimeOffset</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcDateAndTime</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcLocalTime</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;<b>IFCEXTERNALREFERENCERESOURCE</b></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifcexternalreferenceresource/lexical/ifcclassificationreferenceselect.htm">IfcClassificationReferenceSelect</a></td><td></td><td></td><td>ADDED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifcexternalreferenceresource/lexical/ifcclassificationselect.htm">IfcClassificationSelect</a></td><td></td><td></td><td>ADDED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifcexternalreferenceresource/lexical/ifcclassification.htm">IfcClassification</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Source</td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>OPTIONAL</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Edition</td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>OPTIONAL</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EditionDate</td><td>X</td><td>X</td><td>MODIFIED</td><td>Type changed from <i>IfcCalendarDate</i> to <i>IfcDate</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Description</td><td></td><td></td><td>ADDED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Location</td><td></td><td></td><td>ADDED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ReferenceTokens</td><td></td><td></td><td>ADDED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifcexternalreferenceresource/lexical/ifcclassificationreference.htm">IfcClassificationReference</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Location</td><td></td><td></td><td>MODIFIED</td><td>Type changed from <i>IfcLabel</i> to <i>IfcURIReference</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Identification</td><td></td><td>X</td><td>MODIFIED</td><td>Name changed from <i>ItemReference</i> to <i>Identification</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ReferencedSource</td><td></td><td></td><td>MODIFIED</td><td>Type changed from <i>IfcClassification</i> to <i>IfcClassificationReferenceSelect</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Description</td><td></td><td></td><td>ADDED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sort</td><td></td><td></td><td>ADDED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifcexternalreferenceresource/lexical/ifcexternalinformation.htm">IfcExternalInformation</a></td><td></td><td></td><td>ADDED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcClassificationItem</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcClassificationItemRelationship</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcClassificationNotation</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcClassificationNotationFacet</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcDocumentElectronicFormat</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;<b>IFCGEOMETRICCONSTRAINTRESOURCE</b></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcConnectionPortGeometry</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;<b>IFCGEOMETRICMODELRESOURCE</b></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;<b>IFCGEOMETRYRESOURCE</b></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Ifc2DCompositeCurve</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcBezierCurve</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcRationalBezierCurve</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;<b>IFCMATERIALRESOURCE</b></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;<b>IFCMEASURERESOURCE</b></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifcmeasureresource/lexical/ifcconversionbasedunitwithoffset.htm">IfcConversionBasedUnitWithOffset</a></td><td></td><td></td><td>ADDED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;<b>IFCPRESENTATIONAPPEARANCERESOURCE</b></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcFillAreaStyleTileSymbolWithStyle</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcOneDirectionRepeatFactor</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcSymbolStyle</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcTextStyleWithBoxCharacteristics</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcTwoDirectionRepeatFactor</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;<b>IFCPRESENTATIONDEFINITIONRESOURCE</b></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcAnnotationCurveOccurrence</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcAnnotationFillAreaOccurrence</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcAnnotationOccurrence</td><td></td><td></td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcAnnotationSurface</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcAnnotationSurfaceOccurrence</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcAnnotationSymbolOccurrence</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcAnnotationTextOccurrence</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcDefinedSymbol</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcExternallyDefinedSymbol</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcPreDefinedSymbol</td><td></td><td></td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcVertexBasedTextureMap</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;<b>IFCPRESENTATIONORGANIZATIONRESOURCE</b></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;<b>IFCPROFILERESOURCE</b></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcCraneRailAShapeProfileDef</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcCraneRailFShapeProfileDef</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;<b>IFCPROPERTYRESOURCE</b></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;<b>IFCQUANTITYRESOURCE</b></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;<b>IFCREPRESENTATIONRESOURCE</b></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifcrepresentationresource/lexical/ifcrepresentationcontext.htm">IfcRepresentationContext</a></td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>ABSTRACT</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;<b>IFCSTRUCTURALLOADRESOURCE</b></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;<b>IFCTOPOLOGYRESOURCE</b></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;<b>IFCUTILITYRESOURCE</b></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifcutilityresource/lexical/ifcchangeactionenum.htm">IfcChangeActionEnum</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NOTDEFINED</td><td></td><td></td><td>ADDED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MODIFIEDADDED</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MODIFIEDDELETED</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../../schema/ifcutilityresource/lexical/ifcownerhistory.htm">IfcOwnerHistory</a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ChangeAction</td><td></td><td></td><td>MODIFIED</td><td>Instantiation changed to <i>OPTIONAL</i>. <br/></td></tr>
+<tr><td>&nbsp;&nbsp;<b>IFCMATERIALPROPERTYRESOURCE</b></td><td></td><td></td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcExtendedMaterialProperties</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcFuelProperties</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcGeneralMaterialProperties</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcHygroscopicMaterialProperties</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcMechanicalConcreteMaterialProperties</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcMechanicalMaterialProperties</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcMechanicalSteelMaterialProperties</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcOpticalMaterialProperties</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcProductsOfCombustionProperties</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcRelaxation</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcThermalMaterialProperties</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcWaterProperties</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;<b>IFCPRESENTATIONDIMENSIONINGRESOURCE</b></td><td></td><td></td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcDimensionExtentUsage</td><td></td><td></td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcDraughtingCalloutElement</td><td></td><td></td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcAngularDimension</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcDiameterDimension</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcDimensionCalloutRelationship</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcDimensionCurve</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcDimensionCurveDirectedCallout</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcDimensionCurveTerminator</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcDimensionPair</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcDraughtingCallout</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcDraughtingCalloutRelationship</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcLinearDimension</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcPreDefinedDimensionSymbol</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcPreDefinedPointMarkerSymbol</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcPreDefinedTerminatorSymbol</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcProjectionCurve</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcRadiusDimension</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcStructuredDimensionCallout</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcTerminatorSymbol</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;<b>IFCPRESENTATIONRESOURCE</b></td><td></td><td></td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcDraughtingPreDefinedTextFont</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;<b>IFCPROFILEPROPERTYRESOURCE</b></td><td></td><td></td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcRibPlateDirectionEnum</td><td></td><td></td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcGeneralProfileProperties</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcRibPlateProfileProperties</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcStructuralProfileProperties</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcStructuralSteelProfileProperties</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;<b>IFCTIMESERIESRESOURCE</b></td><td></td><td></td><td>DELETED</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;IfcTimeSeriesReferenceRelationship</td><td>X</td><td>X</td><td>DELETED</td><td></td></tr>
+</table>
+<p></p>
+  </body>
+</html>

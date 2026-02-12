@@ -1,0 +1,13 @@
+ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION((),'2;1');
+FILE_NAME('E:\\dev\\NIBS\\NBIMS3\\HTML-R3\\HVACie\\annex\\annex-a\\mechanical-system-design\\HVACie.ifc.txt','2013-10-30T14:57:33',('Sony DUO 11'),('VAIO'),'buildingSMART IFCDOC 5.6','buildingSMART IFC Documentation Generator',$);
+FILE_SCHEMA(('IFC4'));
+ENDSEC;
+
+DATA;
+#1= IFCPROJECT('2hSV0vjLnDEfQtpZbh0HeR',$,'IFC4 Property Set Templates',$,$,$,$,$,$);
+#2= IFCRELDECLARES('24veyXWJf1ChEw$x5gbhg4',$,$,$,#1,());
+ENDSEC;
+
+END-ISO-10303-21;

@@ -1,0 +1,126 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="../../../ifc-styles.css">
+
+    <title>IfcPersonAndOrganization</title>
+
+  </head>
+
+  <body>
+
+
+<script language="JavaScript1.1" type="text/javascript">
+<!--
+    parent.index.location.replace("../../toc-8.htm#8.1.3.3");
+//-->
+</script>
+
+<h4 class="std">8.1.3.3 IfcPersonAndOrganization</h4>
+<table>
+<tr><td><image src="../../../img/locale-fr.png"></image></td><td><b>Personne agissant au nom d'une organisation</b></td></tr>
+<tr><td><image src="../../../img/locale-de.png"></image></td><td><b>Person und Organisation</b></td></tr>
+</table>
+
+
+<p>This entity represents a person acting on behalf of an organization.</p>
+
+<blockquote class="note">
+NOTE&nbsp; Entity adapted from <strong>person_and_organization</strong> defined in ISO&nbsp;10303-41.
+</blockquote>
+
+<blockquote class="history">
+HISTORY&nbsp; New entity in IFC1.5.1.
+</blockquote>
+
+<hr>
+<p class="spec-head">XSD Specification:</p><span class="xsd">&nbsp;&lt;xs:element name=&quot;IfcPersonAndOrganization&quot; type=&quot;ifc:<a href="ifcpersonandorganization.htm">IfcPersonAndOrganization</a>&quot; substitutionGroup=&quot;ifc:Entity&quot; nillable=&quot;true&quot;/&gt;<br>
+&nbsp;&lt;xs:complexType name=&quot;IfcPersonAndOrganization&quot;&gt;<br>
+&nbsp;&nbsp;&lt;xs:complexContent&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;xs:extension base=&quot;ifc:Entity&quot;&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;xs:sequence&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;xs:element name=&quot;ThePerson&quot; type=&quot;ifc:<a href="ifcperson.htm">IfcPerson</a>&quot; nillable=&quot;true&quot;/&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;xs:element name=&quot;TheOrganization&quot; type=&quot;ifc:<a href="ifcorganization.htm">IfcOrganization</a>&quot; nillable=&quot;true&quot;/&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/xs:sequence&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;/xs:extension&gt;<br>
+&nbsp;&nbsp;&lt;/xs:complexContent&gt;<br>
+&nbsp;&lt;/xs:complexType&gt;<br>
+</span><p class="spec-head">EXPRESS Specification:</p>
+<span class="express">
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td>
+<span class="keyword">ENTITY</span> IfcPersonAndOrganization<b>;</b>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="2%">
+  </td><td>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+<tr valign="top"><td width="20%">ThePerson</td><td width="1%"> : </td><td><a href="ifcperson.htm">IfcPerson</a>;</td></tr>
+<tr valign="top"><td width="20%">TheOrganization</td><td width="1%"> : </td><td><a href="ifcorganization.htm">IfcOrganization</a>;</td></tr>
+<tr valign="top"><td width="20%">Roles</td><td width="1%"> : </td><td><span class="keyword">OPTIONAL</span> <span class="keyword">LIST</span> [1:?] <span class="keyword">OF</span> <span class="self-ref">IfcStrippedOptional</span>;</td></tr>
+</table>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td>
+<span class="keyword">END_ENTITY;</span>
+  </td>
+ </tr>
+</table>
+</span>
+<p class="spec-head">Attribute Definitions:</p>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+<tr valign="top"><td width="21%"><span class="attr-name">ThePerson</span></td><td width="1%"> : </td><td>The person who is related to the organization.</td></tr>
+<tr valign="top"><td width="21%"><span class="attr-name">TheOrganization</span></td><td width="1%"> : </td><td>The organization to which the person is related.</td></tr>
+</table>
+
+<p class="spec-head">Inheritance Graph:</p>
+<span class="express">
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td>
+<span class="keyword">ENTITY</span> IfcPersonAndOrganization
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="1%">
+  </td><td>
+<span class="keyword">ENTITY</span> <a href="ifcpersonandorganization.htm">IfcPersonAndOrganization</a>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="2%">
+  </td><td>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+<tr valign="top"><td width="20%">ThePerson</td><td width="1%"> : </td><td><a href="ifcperson.htm">IfcPerson</a>;</td></tr>
+<tr valign="top"><td width="20%">TheOrganization</td><td width="1%"> : </td><td><a href="ifcorganization.htm">IfcOrganization</a>;</td></tr>
+<tr valign="top"><td width="20%">Roles</td><td width="1%"> : </td><td><span class="keyword">OPTIONAL</span> <span class="keyword">LIST</span> [1:?] <span class="keyword">OF</span> <span class="self-ref">IfcStrippedOptional</span>;</td></tr>
+</table>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td>
+<span class="keyword">END_ENTITY;</span>
+  </td>
+ </tr>
+</table>
+</span>
+<p><a href="../../../link/ifcpersonandorganization.htm" target="_top"><img src="../../../img/permlink.png" style="border: 0px" title="Link to this page" alt="Link to this page">&nbsp; Link to this page</a></p>
+<p></p>
+  </body>
+</html>

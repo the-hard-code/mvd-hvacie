@@ -1,0 +1,616 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="../../../ifc-styles.css">
+
+    <title>IfcProject</title>
+
+  </head>
+
+  <body>
+
+
+<script language="JavaScript1.1" type="text/javascript">
+<!--
+    parent.index.location.replace("../../toc-5.htm#5.1.3.6");
+//-->
+</script>
+
+<h4 class="std">5.1.3.6 IfcProject</h4>
+<table>
+<tr><td><image src="../../../img/locale-fr.png"></image></td><td><b>Projet</b></td></tr>
+<tr><td><image src="../../../img/locale-de.png"></image></td><td><b>Projekt</b></td></tr>
+</table>
+ 
+
+<p><span class="self-ref">IfcProject</span> indicates the undertaking of some design, engineering, construction, or
+maintenance activities leading towards a product. The project establishes the context for information to be exchanged or shared, and it may represent a construction project but does not have to.  The <span class="self-ref">IfcProject</span>'s main purpose in an exchange structure is to provide the root instance and the context for all other information items included.</p>
+<p>The context provided by the <span class="self-ref">IfcProject</span> includes:</p>
+<ul>
+<li>the default units</li>
+<li>the geometric representation context for exchange structures including shape representations
+<ul>
+<li>the world coordinate system</li>
+<li>the coordinate space dimension</li>
+<li>the precision used within the geometric representations, and</li>
+<li>optionally the indication of the true north relative to the world coordinate system</li>
+</ul>
+</li>
+</ul>
+
+<blockquote class="history">HISTORY&nbsp; New entity in IFC1.0</blockquote>
+
+<blockquote class="change-ifc2x4">
+IFC4 CHANGE&nbsp; The attributes <i>RepresentationContexts</i> and <i>UnitsInContext</i> are made optional and are promoted to supertype <a href="ifccontext.htm">IfcContext</a>.
+</blockquote>
+
+
+<p class="spec-head">Informal Propositions:</p>
+<ol>
+<li>There shall only be one project within the exchange context. This is enforced by the global rule <a href="ifcsingleprojectinstance.htm">IfcSingleProjectInstance</a>.</li>
+</ol>
+
+<hr>
+<h2>Mechanical System Design</h2><p><a href="../../../annex/annex-d/mechanical-system-design/ifcproject.htm"><img style="border: 0px" src="../../../img/diagram.png">&nbsp;Instance diagram</a></p><a name="identity"></a>
+<p class="use-head">Identity</p>
+<p>The <a href="../../templates/identity.htm">Identity</a> concept applies to this entity.</p><table class="exchange">
+<tr>
+<th>Exchange</th>
+<th><a href="../../views/mechanical-system-design/space-program.htm"><image width="16" src="../../../img/mvd-space-program.png" title="Space Program"></image></a></th>
+<th><a href="../../views/mechanical-system-design/product-program.htm"><image width="16" src="../../../img/mvd-product-program.png" title="Product Program"></image></a></th>
+<th><a href="../../views/mechanical-system-design/system-layout.htm"><image width="16" src="../../../img/mvd-system-layout.png" title="System Layout"></image></a></th>
+<th><a href="../../views/mechanical-system-design/product-type-template.htm"><image width="16" src="../../../img/mvd-product-type-template.png" title="Product Type Template"></image></a></th>
+<th><a href="../../views/mechanical-system-design/product-template.htm"><image width="16" src="../../../img/mvd-product-template.png" title="Product Template"></image></a></th>
+<th><a href="../../views/mechanical-system-design/system-operation.htm"><image width="16" src="../../../img/mvd-system-operation.png" title="System Operation"></image></a></th>
+</tr>
+<tr>
+<td>Import</td>
+<td>R</td>
+<td>R</td>
+<td>R</td>
+<td>R</td>
+<td>R</td>
+<td>R</td>
+</tr>
+<tr>
+<td>Export</td>
+<td>R</td>
+<td>R</td>
+<td>R</td>
+<td>R</td>
+<td>R</td>
+<td>R</td>
+</tr>
+</table>
+
+<br><br>
+
+<a name="revision-control"></a>
+<p class="use-head">Revision Control</p>
+<p>The <a href="../../templates/revision-control.htm">Revision Control</a> concept applies to this entity.</p><table class="exchange">
+<tr>
+<th>Exchange</th>
+<th><a href="../../views/mechanical-system-design/space-program.htm"><image width="16" src="../../../img/mvd-space-program.png" title="Space Program"></image></a></th>
+<th><a href="../../views/mechanical-system-design/product-program.htm"><image width="16" src="../../../img/mvd-product-program.png" title="Product Program"></image></a></th>
+<th><a href="../../views/mechanical-system-design/system-layout.htm"><image width="16" src="../../../img/mvd-system-layout.png" title="System Layout"></image></a></th>
+<th><a href="../../views/mechanical-system-design/product-type-template.htm"><image width="16" src="../../../img/mvd-product-type-template.png" title="Product Type Template"></image></a></th>
+<th><a href="../../views/mechanical-system-design/product-template.htm"><image width="16" src="../../../img/mvd-product-template.png" title="Product Template"></image></a></th>
+<th><a href="../../views/mechanical-system-design/system-operation.htm"><image width="16" src="../../../img/mvd-system-operation.png" title="System Operation"></image></a></th>
+</tr>
+<tr>
+<td>Import</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+</tr>
+<tr>
+<td>Export</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+</tr>
+</table>
+
+<br><br>
+
+<a name="descriptions"></a>
+<p class="use-head">Descriptions</p>
+<p>The <a href="../../templates/descriptions.htm">Descriptions</a> concept applies to this entity.</p><table class="exchange">
+<tr>
+<th>Exchange</th>
+<th><a href="../../views/mechanical-system-design/space-program.htm"><image width="16" src="../../../img/mvd-space-program.png" title="Space Program"></image></a></th>
+<th><a href="../../views/mechanical-system-design/product-program.htm"><image width="16" src="../../../img/mvd-product-program.png" title="Product Program"></image></a></th>
+<th><a href="../../views/mechanical-system-design/system-layout.htm"><image width="16" src="../../../img/mvd-system-layout.png" title="System Layout"></image></a></th>
+<th><a href="../../views/mechanical-system-design/product-type-template.htm"><image width="16" src="../../../img/mvd-product-type-template.png" title="Product Type Template"></image></a></th>
+<th><a href="../../views/mechanical-system-design/product-template.htm"><image width="16" src="../../../img/mvd-product-template.png" title="Product Template"></image></a></th>
+<th><a href="../../views/mechanical-system-design/system-operation.htm"><image width="16" src="../../../img/mvd-system-operation.png" title="System Operation"></image></a></th>
+</tr>
+<tr>
+<td>Import</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+</tr>
+<tr>
+<td>Export</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+</tr>
+</table>
+
+<br><br>
+
+<a name="spatial-decomposition"></a>
+<p class="use-head">Spatial Decomposition</p>
+<p>The <a href="../../templates/spatial-decomposition.htm">Spatial Decomposition</a> concept applies to this entity.</p><table class="exchange">
+<tr>
+<th>Exchange</th>
+<th><a href="../../views/mechanical-system-design/space-program.htm"><image width="16" src="../../../img/mvd-space-program.png" title="Space Program"></image></a></th>
+<th><a href="../../views/mechanical-system-design/product-program.htm"><image width="16" src="../../../img/mvd-product-program.png" title="Product Program"></image></a></th>
+<th><a href="../../views/mechanical-system-design/system-layout.htm"><image width="16" src="../../../img/mvd-system-layout.png" title="System Layout"></image></a></th>
+<th><a href="../../views/mechanical-system-design/product-type-template.htm"><image width="16" src="../../../img/mvd-product-type-template.png" title="Product Type Template"></image></a></th>
+<th><a href="../../views/mechanical-system-design/product-template.htm"><image width="16" src="../../../img/mvd-product-template.png" title="Product Template"></image></a></th>
+<th><a href="../../views/mechanical-system-design/system-operation.htm"><image width="16" src="../../../img/mvd-system-operation.png" title="System Operation"></image></a></th>
+</tr>
+<tr>
+<td>Import</td>
+<td>R</td>
+<td>R</td>
+<td>R</td>
+<td></td>
+<td></td>
+<td>R</td>
+</tr>
+<tr>
+<td>Export</td>
+<td>R</td>
+<td>R</td>
+<td>R</td>
+<td></td>
+<td></td>
+<td>R</td>
+</tr>
+</table>
+
+<br><br>
+
+<a name="conversion-units"></a>
+<p class="use-head">Conversion Units</p>
+<p>The <a href="../../templates/conversion-units.htm">Conversion Units</a> concept applies to this entity as shown in Table 1.<table>
+<tr><td>
+<table class="gridtable">
+<tr><th><b>UnitType</b></th><th><b>Name</b></th><th><b>ConversionType</b></th><th><b>ConversionFactor</b></th><th><b>BaseUnitPrefix</b></th><th><b>BaseUnitName</b></th><th><b>ConversionOffset</b></th></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table>
+</td></tr>
+<tr><td><p class="table">Table 1 &mdash; IfcProject Conversion Units</p></td></tr></table>
+
+<p>If units are omitted, SI base units are implicit.</p>
+<table class="exchange">
+<tr>
+<th>Exchange</th>
+<th><a href="../../views/mechanical-system-design/space-program.htm"><image width="16" src="../../../img/mvd-space-program.png" title="Space Program"></image></a></th>
+<th><a href="../../views/mechanical-system-design/product-program.htm"><image width="16" src="../../../img/mvd-product-program.png" title="Product Program"></image></a></th>
+<th><a href="../../views/mechanical-system-design/system-layout.htm"><image width="16" src="../../../img/mvd-system-layout.png" title="System Layout"></image></a></th>
+<th><a href="../../views/mechanical-system-design/product-type-template.htm"><image width="16" src="../../../img/mvd-product-type-template.png" title="Product Type Template"></image></a></th>
+<th><a href="../../views/mechanical-system-design/product-template.htm"><image width="16" src="../../../img/mvd-product-template.png" title="Product Template"></image></a></th>
+<th><a href="../../views/mechanical-system-design/system-operation.htm"><image width="16" src="../../../img/mvd-system-operation.png" title="System Operation"></image></a></th>
+</tr>
+<tr>
+<td>Import</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+</tr>
+<tr>
+<td>Export</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+</tr>
+</table>
+
+<br><br>
+
+<a name="project-context"></a>
+<p class="use-head">Project Context</p>
+<p>The <a href="../../templates/project-context.htm">Project Context</a> concept applies to this entity as shown in Table 2.<table>
+<tr><td>
+<table class="gridtable">
+<tr><th><b>ContextIdentifier</b></th><th><b>ContextType</b></th><th><b>Description</b></th></tr>
+<tr><td>Plan</td><td>2D</td><td>Context for 2D representations such as FootPrint and Annotation.</td></tr>
+<tr><td>Model</td><td>3D</td><td>Context for 3D representations such as Axis, Body and Clearance.</td></tr>
+</table>
+</td></tr>
+<tr><td><p class="table">Table 2 &mdash; IfcProject Project Context</p></td></tr></table>
+
+<table class="exchange">
+<tr>
+<th>Exchange</th>
+<th><a href="../../views/mechanical-system-design/space-program.htm"><image width="16" src="../../../img/mvd-space-program.png" title="Space Program"></image></a></th>
+<th><a href="../../views/mechanical-system-design/product-program.htm"><image width="16" src="../../../img/mvd-product-program.png" title="Product Program"></image></a></th>
+<th><a href="../../views/mechanical-system-design/system-layout.htm"><image width="16" src="../../../img/mvd-system-layout.png" title="System Layout"></image></a></th>
+<th><a href="../../views/mechanical-system-design/product-type-template.htm"><image width="16" src="../../../img/mvd-product-type-template.png" title="Product Type Template"></image></a></th>
+<th><a href="../../views/mechanical-system-design/product-template.htm"><image width="16" src="../../../img/mvd-product-template.png" title="Product Template"></image></a></th>
+<th><a href="../../views/mechanical-system-design/system-operation.htm"><image width="16" src="../../../img/mvd-system-operation.png" title="System Operation"></image></a></th>
+</tr>
+<tr>
+<td>Import</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Export</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+
+<br><br>
+
+<a name="project-declaration"></a>
+<p class="use-head">Project Declaration</p>
+<p>The <a href="../../templates/project-declaration.htm">Project Declaration</a> concept applies to this entity as shown in Table 3.<table>
+<tr><td>
+<table class="gridtable">
+<tr><th><b>Type</b></th></tr>
+<tr><td><a href="../../ifcproductextension/lexical/ifcelementtype.htm">IfcElementType</a></td></tr>
+</table>
+</td></tr>
+<tr><td><p class="table">Table 3 &mdash; IfcProject Project Declaration</p></td></tr></table>
+
+<table class="exchange">
+<tr>
+<th>Exchange</th>
+<th><a href="../../views/mechanical-system-design/space-program.htm"><image width="16" src="../../../img/mvd-space-program.png" title="Space Program"></image></a></th>
+<th><a href="../../views/mechanical-system-design/product-program.htm"><image width="16" src="../../../img/mvd-product-program.png" title="Product Program"></image></a></th>
+<th><a href="../../views/mechanical-system-design/system-layout.htm"><image width="16" src="../../../img/mvd-system-layout.png" title="System Layout"></image></a></th>
+<th><a href="../../views/mechanical-system-design/product-type-template.htm"><image width="16" src="../../../img/mvd-product-type-template.png" title="Product Type Template"></image></a></th>
+<th><a href="../../views/mechanical-system-design/product-template.htm"><image width="16" src="../../../img/mvd-product-template.png" title="Product Template"></image></a></th>
+<th><a href="../../views/mechanical-system-design/system-operation.htm"><image width="16" src="../../../img/mvd-system-operation.png" title="System Operation"></image></a></th>
+</tr>
+<tr>
+<td>Import</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>R</td>
+<td>R</td>
+<td>R</td>
+</tr>
+<tr>
+<td>Export</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>R</td>
+<td>R</td>
+<td>R</td>
+</tr>
+</table>
+
+<br><br>
+
+<a name="project-units"></a>
+<p class="use-head">Project Units</p>
+<p>The <a href="../../templates/project-units.htm">Project Units</a> concept applies to this entity.</p><table class="exchange">
+<tr>
+<th>Exchange</th>
+<th><a href="../../views/mechanical-system-design/space-program.htm"><image width="16" src="../../../img/mvd-space-program.png" title="Space Program"></image></a></th>
+<th><a href="../../views/mechanical-system-design/product-program.htm"><image width="16" src="../../../img/mvd-product-program.png" title="Product Program"></image></a></th>
+<th><a href="../../views/mechanical-system-design/system-layout.htm"><image width="16" src="../../../img/mvd-system-layout.png" title="System Layout"></image></a></th>
+<th><a href="../../views/mechanical-system-design/product-type-template.htm"><image width="16" src="../../../img/mvd-product-type-template.png" title="Product Type Template"></image></a></th>
+<th><a href="../../views/mechanical-system-design/product-template.htm"><image width="16" src="../../../img/mvd-product-template.png" title="Product Template"></image></a></th>
+<th><a href="../../views/mechanical-system-design/system-operation.htm"><image width="16" src="../../../img/mvd-system-operation.png" title="System Operation"></image></a></th>
+</tr>
+<tr>
+<td>Import</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+</tr>
+<tr>
+<td>Export</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+</tr>
+</table>
+
+<br><br>
+
+<a name="si-units"></a>
+<p class="use-head">SI Units</p>
+<p>The <a href="../../templates/si-units.htm">SI Units</a> concept applies to this entity.</p><table class="exchange">
+<tr>
+<th>Exchange</th>
+<th><a href="../../views/mechanical-system-design/space-program.htm"><image width="16" src="../../../img/mvd-space-program.png" title="Space Program"></image></a></th>
+<th><a href="../../views/mechanical-system-design/product-program.htm"><image width="16" src="../../../img/mvd-product-program.png" title="Product Program"></image></a></th>
+<th><a href="../../views/mechanical-system-design/system-layout.htm"><image width="16" src="../../../img/mvd-system-layout.png" title="System Layout"></image></a></th>
+<th><a href="../../views/mechanical-system-design/product-type-template.htm"><image width="16" src="../../../img/mvd-product-type-template.png" title="Product Type Template"></image></a></th>
+<th><a href="../../views/mechanical-system-design/product-template.htm"><image width="16" src="../../../img/mvd-product-template.png" title="Product Template"></image></a></th>
+<th><a href="../../views/mechanical-system-design/system-operation.htm"><image width="16" src="../../../img/mvd-system-operation.png" title="System Operation"></image></a></th>
+</tr>
+<tr>
+<td>Import</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+</tr>
+<tr>
+<td>Export</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+</tr>
+</table>
+
+<br><br>
+
+<a name="aggregation"></a>
+<p class="use-head">Aggregation</p>
+<p>The <a href="../../templates/aggregation.htm">Aggregation</a> concept applies to this entity.</p><table class="exchange">
+<tr>
+<th>Exchange</th>
+<th><a href="../../views/mechanical-system-design/space-program.htm"><image width="16" src="../../../img/mvd-space-program.png" title="Space Program"></image></a></th>
+<th><a href="../../views/mechanical-system-design/product-program.htm"><image width="16" src="../../../img/mvd-product-program.png" title="Product Program"></image></a></th>
+<th><a href="../../views/mechanical-system-design/system-layout.htm"><image width="16" src="../../../img/mvd-system-layout.png" title="System Layout"></image></a></th>
+<th><a href="../../views/mechanical-system-design/product-type-template.htm"><image width="16" src="../../../img/mvd-product-type-template.png" title="Product Type Template"></image></a></th>
+<th><a href="../../views/mechanical-system-design/product-template.htm"><image width="16" src="../../../img/mvd-product-template.png" title="Product Template"></image></a></th>
+<th><a href="../../views/mechanical-system-design/system-operation.htm"><image width="16" src="../../../img/mvd-system-operation.png" title="System Operation"></image></a></th>
+</tr>
+<tr>
+<td>Import</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td></td>
+<td></td>
+<td>-</td>
+</tr>
+<tr>
+<td>Export</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td></td>
+<td></td>
+<td>-</td>
+</tr>
+</table>
+
+<br><br>
+
+<hr>
+<p class="spec-head">XSD Specification:</p><span class="xsd">&nbsp;&lt;xs:element name=&quot;IfcProject&quot; type=&quot;ifc:<a href="ifcproject.htm">IfcProject</a>&quot; substitutionGroup=&quot;ifc:<a href="ifccontext.htm">IfcContext</a>&quot; nillable=&quot;true&quot;/&gt;<br>
+&nbsp;&lt;xs:complexType name=&quot;IfcProject&quot;&gt;<br>
+&nbsp;&nbsp;&lt;xs:complexContent&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;xs:extension base=&quot;ifc:<a href="ifccontext.htm">IfcContext</a>&quot;/&gt;<br>
+&nbsp;&nbsp;&lt;/xs:complexContent&gt;<br>
+&nbsp;&lt;/xs:complexType&gt;<br>
+</span><p class="spec-head">EXPRESS Specification:</p>
+<span class="express">
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td>
+<span class="keyword">ENTITY</span> IfcProject
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="1%">
+  </td><td>
+<span class="keyword">SUBTYPE OF</span> (<a href="ifccontext.htm">IfcContext</a>)<b>;</b>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="1%">
+  </td><td>
+<span class="keyword">WHERE</span>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="2%">
+  </td><td>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+  <tr valign="top"><td width="20%">HasName</td><td width="1%"> : </td><td>EXISTS(SELF\IfcRoot.Name);</td></tr>  <tr valign="top"><td width="20%">CorrectContext</td><td width="1%"> : </td><td>NOT(EXISTS(SELF\IfcContext.RepresentationContexts)) OR
+(SIZEOF(QUERY(Temp &lt;* SELF\IfcContext.RepresentationContexts |
+ 'IFCREPRESENTATIONRESOURCE.IFCGEOMETRICREPRESENTATIONSUBCONTEXT' IN TYPEOF(Temp)
+  )) = 0);</td></tr>  <tr valign="top"><td width="20%">NoDecomposition</td><td width="1%"> : </td><td>SIZEOF(SELF\IfcObjectDefinition.Decomposes) = 0;</td></tr>  <tr valign="top"><td width="20%">HasOwnerHistory</td><td width="1%"> : </td><td>EXISTS(SELF\IfcRoot.OwnerHistory);</td></tr></table>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td>
+<span class="keyword">END_ENTITY;</span>
+  </td>
+ </tr>
+</table>
+</span>
+<p class="spec-head">Formal Propositions:</p>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+<tr valign="top"><td width="21%"><span class="attr-name">HasName</span></td><td width="1%"> : </td><td>
+The <i>Name</i> attribute has to be provided for <span class="self-ref">IfcProject</span>. It is the short name for the project.
+</td></tr>
+<tr valign="top"><td width="21%"><span class="attr-name">CorrectContext</span></td><td width="1%"> : </td><td>
+If a <i>RepresentationContexts</i> relation is provided then there shall be no instance of <i>IfcGeometricRepresentationSubContext</i> directly included in the set of <i>RepresentationContexts</i>.
+</td></tr>
+<tr valign="top"><td width="21%"><span class="attr-name">NoDecomposition</span></td><td width="1%"> : </td><td>
+The <span class="self-ref">IfcProject</span> represents the root of the any decomposition tree. It shall therefore not be used to decompose any other object definition.
+</td></tr>
+<tr valign="top"><td width="21%"><span class="attr-name">HasOwnerHistory</span></td><td width="1%"> : </td><td>
+The <i>OwnerHistory</i> attribute has to be provided for <span class="self-ref">IfcProject</span>. It provides the minimum of owner information for the project data set and the last change action, that applied to the whole data set.
+<blockquote class="note">NOTE&nbsp; Each individual data item, that derives from <a href="ifcroot.htm">IfcRoot</a> may have an individual <i>OwnerHistory</i>. It then overrides the common ownership and chance action information provided at the single  <span class="self-ref">IfcProject</span> instance in an IFC data set.</blockquote>
+  <blockquote class="change-ifc2x4">IFC4 CHANGE  New where rule.</blockquote>
+</td></tr>
+</table>
+
+
+<p class="spec-head">Inheritance Graph:</p>
+<span class="express">
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td>
+<span class="keyword">ENTITY</span> IfcProject
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="1%">
+  </td><td>
+<span class="keyword">ENTITY</span> <a href="ifcroot.htm">IfcRoot</a>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="2%">
+  </td><td>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+<tr valign="top"><td width="20%">GlobalId</td><td width="1%"> : </td><td><a href="../../ifcutilityresource/lexical/ifcgloballyuniqueid.htm">IfcGloballyUniqueId</a>;</td></tr>
+<tr valign="top"><td width="20%">OwnerHistory</td><td width="1%"> : </td><td><span class="keyword">OPTIONAL</span> <a href="../../ifcutilityresource/lexical/ifcownerhistory.htm">IfcOwnerHistory</a>;</td></tr>
+<tr valign="top"><td width="20%">Name</td><td width="1%"> : </td><td><span class="keyword">OPTIONAL</span> <a href="../../ifcmeasureresource/lexical/ifclabel.htm">IfcLabel</a>;</td></tr>
+<tr valign="top"><td width="20%">Description</td><td width="1%"> : </td><td><span class="keyword">OPTIONAL</span> <a href="../../ifcmeasureresource/lexical/ifctext.htm">IfcText</a>;</td></tr>
+</table>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="1%">
+  </td><td>
+<span class="keyword">ENTITY</span> <a href="ifcobjectdefinition.htm">IfcObjectDefinition</a>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="1%">
+  </td><td>
+<span class="keyword">INVERSE</span>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="2%">
+  </td><td>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+<tr valign="top"><td width="20%">HasAssignments</td><td width="1%"> : </td><td><span class="keyword">SET</span> <span class="keyword">OF</span> <a href="ifcrelassigns.htm">IfcRelAssigns</a> <span class="keyword">FOR</span> RelatedObjects;</td></tr>
+<tr valign="top"><td width="20%">HasContext</td><td width="1%"> : </td><td><span class="keyword">SET</span> [0:1] OF <a href="ifcreldeclares.htm">IfcRelDeclares</a> <span class="keyword">FOR</span> RelatedDefinitions;</td></tr>
+<tr valign="top"><td width="20%">IsDecomposedBy</td><td width="1%"> : </td><td><span class="keyword">SET</span> <span class="keyword">OF</span> <a href="ifcrelaggregates.htm">IfcRelAggregates</a> <span class="keyword">FOR</span> RelatingObject;</td></tr>
+<tr valign="top"><td width="20%">Decomposes</td><td width="1%"> : </td><td><span class="keyword">SET</span> [0:1] OF <a href="ifcrelaggregates.htm">IfcRelAggregates</a> <span class="keyword">FOR</span> RelatedObjects;</td></tr>
+<tr valign="top"><td width="20%">HasAssociations</td><td width="1%"> : </td><td><span class="keyword">SET</span> <span class="keyword">OF</span> <a href="ifcrelassociates.htm">IfcRelAssociates</a> <span class="keyword">FOR</span> RelatedObjects;</td></tr>
+</table>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="1%">
+  </td><td>
+<span class="keyword">ENTITY</span> <a href="ifccontext.htm">IfcContext</a>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="2%">
+  </td><td>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+<tr valign="top"><td width="20%">ObjectType</td><td width="1%"> : </td><td><span class="keyword">OPTIONAL</span> <span class="self-ref">IfcStrippedOptional</span>;</td></tr>
+<tr valign="top"><td width="20%">LongName</td><td width="1%"> : </td><td><span class="keyword">OPTIONAL</span> <span class="self-ref">IfcStrippedOptional</span>;</td></tr>
+<tr valign="top"><td width="20%">Phase</td><td width="1%"> : </td><td><span class="keyword">OPTIONAL</span> <span class="self-ref">IfcStrippedOptional</span>;</td></tr>
+<tr valign="top"><td width="20%">RepresentationContexts</td><td width="1%"> : </td><td><span class="keyword">OPTIONAL</span> <span class="keyword">SET</span> [1:?] <span class="keyword">OF</span> <a href="../../ifcrepresentationresource/lexical/ifcrepresentationcontext.htm">IfcRepresentationContext</a>;</td></tr>
+<tr valign="top"><td width="20%">UnitsInContext</td><td width="1%"> : </td><td><span class="keyword">OPTIONAL</span> <a href="../../ifcmeasureresource/lexical/ifcunitassignment.htm">IfcUnitAssignment</a>;</td></tr>
+</table>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="1%">
+  </td><td>
+<span class="keyword">INVERSE</span>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="2%">
+  </td><td>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+<tr valign="top"><td width="20%">Declares</td><td width="1%"> : </td><td><span class="keyword">SET</span> <span class="keyword">OF</span> <a href="ifcreldeclares.htm">IfcRelDeclares</a> <span class="keyword">FOR</span> RelatingContext;</td></tr>
+</table>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="1%">
+  </td><td>
+<span class="keyword">ENTITY</span> <a href="ifcproject.htm">IfcProject</a>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td>
+<span class="keyword">END_ENTITY;</span>
+  </td>
+ </tr>
+</table>
+</span>
+<p><a href="../../../link/ifcproject.htm" target="_top"><img src="../../../img/permlink.png" style="border: 0px" title="Link to this page" alt="Link to this page">&nbsp; Link to this page</a></p>
+<p></p>
+  </body>
+</html>

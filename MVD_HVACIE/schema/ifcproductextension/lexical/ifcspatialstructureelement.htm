@@ -1,0 +1,387 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="../../../ifc-styles.css">
+
+    <title>IfcSpatialStructureElement</title>
+
+  </head>
+
+  <body>
+
+
+<script language="JavaScript1.1" type="text/javascript">
+<!--
+    parent.index.location.replace("../../toc-5.htm#5.2.3.10");
+//-->
+</script>
+
+<h4 class="std">5.2.3.10 IfcSpatialStructureElement</h4>
+<table>
+<tr><td><image src="../../../img/locale-fr.png"></image></td><td><b>Elément de la structure spatiale</b></td></tr>
+<tr><td><image src="../../../img/locale-de.png"></image></td><td><b>Räumliches Strukturelement</b></td></tr>
+</table>
+ 
+<p>A spatial structure element
+(<span class="self-ref">IfcSpatialStructureElement</span>) is the generalization of all
+spatial elements that might be used to define a spatial
+structure. That spatial structure is often used to provide a
+project structure to organize a building project.</p>
+<p>A spatial project structure might define as many levels of
+decomposition as necessary for the building project. Elements
+within the spatial project structure are:</p>
+<ul>
+<li>site as <i>IfcSite</i></li>
+<li>building as <i>IfcBuilding</i></li>
+<li>storey as <i>IfcBuildingStorey</i></li>
+<li>space as <a href="ifcspace.htm">IfcSpace</a></li>
+</ul>
+<p>or aggregations or parts thereof. The composition type
+declares an element to be either an element itself, or an
+aggregation (complex) or a decomposition (part). The
+interpretation of these types is given at each subtype of
+<span class="self-ref">IfcSpatialStructureElement</span>.</p>
+<p>The <a href="../../ifckernel/lexical/ifcrelaggregates.htm">IfcRelAggregates</a> is defined as an 1-to-many
+relationship and used to establish the relationship between
+exactly two levels within the spatial project structure. Finally
+the highest level of the spatial structure is assigned to
+<a href="../../ifckernel/lexical/ifcproject.htm">IfcProject</a> using the <a href="../../ifckernel/lexical/ifcrelaggregates.htm">IfcRelAggregates</a>.</p>
+<p class="spec-head">Informal Propositions:</p>
+<ol>
+<li>The spatial project structure, established by the
+<a href="../../ifckernel/lexical/ifcrelaggregates.htm">IfcRelAggregates</a>, shall be acyclic.</li>
+<li>A site should not be (directly or indirectly) associated to a
+building, storey or space.</li>
+<li>A building should not be (directly or indirectly) associated
+to a storey or space.</li>
+<li>A storey should not be (directly or indirectly) associated to
+a space.</li>
+</ol>
+<blockquote class="history">HISTORY&nbsp; New entity in IFC2x.</blockquote>
+
+<p class="use-head">Relationship Use Definition</p>
+<p>The subtypes of <span class="self-ref">IfcSpatialStructureElement</span> relate to
+other elements and systems by establishing the following
+relationships:</p>
+<ul>
+<li><b>Containment of elements</b> :
+<i>IfcRelContainedInSpatialStructure</i> by inverse attribute
+<i>ContainsElements</i>, used to assign any element, like
+building elements, MEP elements, etc. to the spatial structure
+element in which they are primarily contained.
+<ul>
+<li style="list-style-type=none"><small>NOTE&nbsp; This relationship is
+mandatory for elements in several view definitions and
+implementer agreements.</small></li>
+</ul>
+</li>
+<li><b>Reference of elements</b> :
+<i>IfcRelReferencedInSpatialStructure</i> by inverse attribute
+<i>ReferencesElements</i>, used to reference any element, like
+building elements, MEP elements, etc. in spatial structure
+elements, other then the one, where it is contained.</li>
+<li><b>Reference of systems</b> : <i>IfcRelServicesBuildings</i>
+by inverse attribute <i>ServicedBySystems</i>, used to reference
+a sytem, like a building service or electrical distribution
+system, a zonal system, or a structural analysis system, that is
+assigned to this spatial structure element.
+<ul>
+<li style="list-style-type=none"><small>NOTE&nbsp; Elements within the
+referenced system may be directly contained (or referenced) by
+other spatial structure elements.</small></li>
+</ul>
+</li>
+</ul>
+<p>The subtypes of <span class="self-ref">IfcSpatialStructureElement</span> relate to
+each other by using the <a href="../../ifckernel/lexical/ifcrelaggregates.htm">IfcRelAggregates</a> relationship to
+build the project spatial structure.</p>
+
+<p>Figure 24 shows the use of <a href="../../ifckernel/lexical/ifcrelaggregates.htm">IfcRelAggregates</a> to establish a spatial structure including site, building, building section and storey. More information is provided at the level of the subtypes.</p>
+
+<table cellpadding="2" cellspacing="2" summary="spatial structure">
+<tr valign="top"><td align="left" valign="top"><img src="../../../figures/IfcSpatialStructureElement-SpatialStructure.png" alt="fig1" border="0" height="701" width="551"></td></tr>
+<tr><td><p class="figure">Figure 24 &mdash; Spatial structure element composition</p></td></tr>
+</table>
+
+<hr>
+<p class="spec-head">XSD Specification:</p><span class="xsd">&nbsp;&lt;xs:element name=&quot;IfcSpatialStructureElement&quot; type=&quot;ifc:<a href="ifcspatialstructureelement.htm">IfcSpatialStructureElement</a>&quot; abstract=&quot;true&quot; substitutionGroup=&quot;ifc:<a href="ifcspatialelement.htm">IfcSpatialElement</a>&quot; nillable=&quot;true&quot;/&gt;<br>
+&nbsp;&lt;xs:complexType name=&quot;IfcSpatialStructureElement&quot; abstract=&quot;true&quot;&gt;<br>
+&nbsp;&nbsp;&lt;xs:complexContent&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;xs:extension base=&quot;ifc:<a href="ifcspatialelement.htm">IfcSpatialElement</a>&quot;/&gt;<br>
+&nbsp;&nbsp;&lt;/xs:complexContent&gt;<br>
+&nbsp;&lt;/xs:complexType&gt;<br>
+</span><p class="spec-head">EXPRESS Specification:</p>
+<span class="express">
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td>
+<span class="keyword">ENTITY</span> IfcSpatialStructureElement
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="1%">
+  </td><td>
+<span class="keyword">ABSTRACT</span> <span class="keyword">SUPERTYPE OF</span>(<a href="ifcspace.htm">IfcSpace</a>)
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="1%">
+  </td><td>
+<span class="keyword">SUBTYPE OF</span> (<a href="ifcspatialelement.htm">IfcSpatialElement</a>)<b>;</b>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="2%">
+  </td><td>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+<tr valign="top"><td width="20%">CompositionType</td><td width="1%"> : </td><td><span class="keyword">OPTIONAL</span> <span class="self-ref">IfcStrippedOptional</span>;</td></tr>
+</table>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="1%">
+  </td><td>
+<span class="keyword">WHERE</span>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="2%">
+  </td><td>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+  <tr valign="top"><td width="20%">WR41</td><td width="1%"> : </td><td>(HIINDEX(SELF\IfcObjectDefinition.Decomposes) = 1) 
+AND
+('IFCKERNEL.IFCRELAGGREGATES' IN TYPEOF(SELF\IfcObjectDefinition.Decomposes[1])) 
+AND
+(('IFCKERNEL.IFCPROJECT' IN TYPEOF (SELF\IfcObjectDefinition.Decomposes[1].RelatingObject)) OR
+ ('IFCPRODUCTEXTENSION.IFCSPATIALSTRUCTUREELEMENT' IN TYPEOF (SELF\IfcObjectDefinition.Decomposes[1].RelatingObject))
+);</td></tr></table>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td>
+<span class="keyword">END_ENTITY;</span>
+  </td>
+ </tr>
+</table>
+</span>
+<p class="spec-head">Attribute Definitions:</p>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+</table>
+<p class="spec-head">Formal Propositions:</p>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+<tr valign="top"><td width="21%"><span class="attr-name">WR41</span></td><td width="1%"> : </td><td>All spatial structure elements shall be associated (using the IfcRelAggregates relationship) with another spatial structure element, or with IfcProject.</td></tr>
+</table>
+
+
+<p class="spec-head">Inheritance Graph:</p>
+<span class="express">
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td>
+<span class="keyword">ENTITY</span> IfcSpatialStructureElement
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="1%">
+  </td><td>
+<span class="keyword">ENTITY</span> <a href="../../ifckernel/lexical/ifcroot.htm">IfcRoot</a>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="2%">
+  </td><td>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+<tr valign="top"><td width="20%">GlobalId</td><td width="1%"> : </td><td><a href="../../ifcutilityresource/lexical/ifcgloballyuniqueid.htm">IfcGloballyUniqueId</a>;</td></tr>
+<tr valign="top"><td width="20%">OwnerHistory</td><td width="1%"> : </td><td><span class="keyword">OPTIONAL</span> <a href="../../ifcutilityresource/lexical/ifcownerhistory.htm">IfcOwnerHistory</a>;</td></tr>
+<tr valign="top"><td width="20%">Name</td><td width="1%"> : </td><td><span class="keyword">OPTIONAL</span> <a href="../../ifcmeasureresource/lexical/ifclabel.htm">IfcLabel</a>;</td></tr>
+<tr valign="top"><td width="20%">Description</td><td width="1%"> : </td><td><span class="keyword">OPTIONAL</span> <a href="../../ifcmeasureresource/lexical/ifctext.htm">IfcText</a>;</td></tr>
+</table>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="1%">
+  </td><td>
+<span class="keyword">ENTITY</span> <a href="../../ifckernel/lexical/ifcobjectdefinition.htm">IfcObjectDefinition</a>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="1%">
+  </td><td>
+<span class="keyword">INVERSE</span>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="2%">
+  </td><td>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+<tr valign="top"><td width="20%">HasAssignments</td><td width="1%"> : </td><td><span class="keyword">SET</span> <span class="keyword">OF</span> <a href="../../ifckernel/lexical/ifcrelassigns.htm">IfcRelAssigns</a> <span class="keyword">FOR</span> RelatedObjects;</td></tr>
+<tr valign="top"><td width="20%">HasContext</td><td width="1%"> : </td><td><span class="keyword">SET</span> [0:1] OF <a href="../../ifckernel/lexical/ifcreldeclares.htm">IfcRelDeclares</a> <span class="keyword">FOR</span> RelatedDefinitions;</td></tr>
+<tr valign="top"><td width="20%">IsDecomposedBy</td><td width="1%"> : </td><td><span class="keyword">SET</span> <span class="keyword">OF</span> <a href="../../ifckernel/lexical/ifcrelaggregates.htm">IfcRelAggregates</a> <span class="keyword">FOR</span> RelatingObject;</td></tr>
+<tr valign="top"><td width="20%">Decomposes</td><td width="1%"> : </td><td><span class="keyword">SET</span> [0:1] OF <a href="../../ifckernel/lexical/ifcrelaggregates.htm">IfcRelAggregates</a> <span class="keyword">FOR</span> RelatedObjects;</td></tr>
+<tr valign="top"><td width="20%">HasAssociations</td><td width="1%"> : </td><td><span class="keyword">SET</span> <span class="keyword">OF</span> <a href="../../ifckernel/lexical/ifcrelassociates.htm">IfcRelAssociates</a> <span class="keyword">FOR</span> RelatedObjects;</td></tr>
+</table>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="1%">
+  </td><td>
+<span class="keyword">ENTITY</span> <a href="../../ifckernel/lexical/ifcobject.htm">IfcObject</a>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="2%">
+  </td><td>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+<tr valign="top"><td width="20%">ObjectType</td><td width="1%"> : </td><td><span class="keyword">OPTIONAL</span> <span class="self-ref">IfcStrippedOptional</span>;</td></tr>
+</table>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="1%">
+  </td><td>
+<span class="keyword">INVERSE</span>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="2%">
+  </td><td>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+<tr valign="top"><td width="20%">IsTypedBy</td><td width="1%"> : </td><td><span class="keyword">SET</span> [0:1] OF <a href="../../ifckernel/lexical/ifcreldefinesbytype.htm">IfcRelDefinesByType</a> <span class="keyword">FOR</span> RelatedObjects;</td></tr>
+</table>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="1%">
+  </td><td>
+<span class="keyword">ENTITY</span> <a href="../../ifckernel/lexical/ifcproduct.htm">IfcProduct</a>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="2%">
+  </td><td>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+<tr valign="top"><td width="20%">ObjectPlacement</td><td width="1%"> : </td><td><span class="keyword">OPTIONAL</span> <span class="self-ref">IfcStrippedOptional</span>;</td></tr>
+<tr valign="top"><td width="20%">Representation</td><td width="1%"> : </td><td><span class="keyword">OPTIONAL</span> <span class="self-ref">IfcStrippedOptional</span>;</td></tr>
+</table>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="1%">
+  </td><td>
+<span class="keyword">INVERSE</span>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="2%">
+  </td><td>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+</table>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="1%">
+  </td><td>
+<span class="keyword">ENTITY</span> <a href="ifcspatialelement.htm">IfcSpatialElement</a>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="2%">
+  </td><td>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+<tr valign="top"><td width="20%">LongName</td><td width="1%"> : </td><td><span class="keyword">OPTIONAL</span> <span class="self-ref">IfcStrippedOptional</span>;</td></tr>
+</table>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="1%">
+  </td><td>
+<span class="keyword">INVERSE</span>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="2%">
+  </td><td>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+</table>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="1%">
+  </td><td>
+<span class="keyword">ENTITY</span> <a href="ifcspatialstructureelement.htm">IfcSpatialStructureElement</a>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="2%">
+  </td><td>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+<tr valign="top"><td width="20%">CompositionType</td><td width="1%"> : </td><td><span class="keyword">OPTIONAL</span> <span class="self-ref">IfcStrippedOptional</span>;</td></tr>
+</table>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td>
+<span class="keyword">END_ENTITY;</span>
+  </td>
+ </tr>
+</table>
+</span>
+<p><a href="../../../link/ifcspatialstructureelement.htm" target="_top"><img src="../../../img/permlink.png" style="border: 0px" title="Link to this page" alt="Link to this page">&nbsp; Link to this page</a></p>
+<p></p>
+  </body>
+</html>

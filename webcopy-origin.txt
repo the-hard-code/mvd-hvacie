@@ -1,0 +1,2132 @@
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\index.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/ifc-styles.css
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\ifc-styles.css
+Content Type: text/css
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/favicon.ico
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\favicon.ico
+Content Type: image/vnd.microsoft.icon
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/content.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\content.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/credits.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\credits.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/cover.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\cover.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/img/external.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\img\external.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/toc.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\toc.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/foreword.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\foreword.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/introduction.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\introduction.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/chapter-1.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\chapter-1.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/chapter-2.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\chapter-2.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/chapter-3.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\chapter-3.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/chapter-4.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\chapter-4.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/chapter-5.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\chapter-5.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/chapter-6.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\chapter-6.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/chapter-7.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\chapter-7.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/chapter-8.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\chapter-8.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-a.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-a.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-b.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-b.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-c.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-c.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-d.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-d.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-e.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-e.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-f.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-f.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/bibliography.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\bibliography.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/doc_index.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\doc_index.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/img/bsa_mainimage.jpg
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\img\bsa_mainimage.jpg
+Content Type: image/jpeg
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/img/license.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\img\license.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/views/mechanical-system-design/index.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\views\mechanical-system-design\index.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/views/mechanical-system-design/space-program.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\views\mechanical-system-design\space-program.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/views/mechanical-system-design/product-program.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\views\mechanical-system-design\product-program.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/views/mechanical-system-design/system-layout.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\views\mechanical-system-design\system-layout.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/views/mechanical-system-design/product-type-template.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\views\mechanical-system-design\product-type-template.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/views/mechanical-system-design/product-template.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\views\mechanical-system-design\product-template.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/views/mechanical-system-design/system-operation.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\views\mechanical-system-design\system-operation.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/roots.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\roots.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/identity.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\identity.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/revision-control.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\revision-control.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/descriptions.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\descriptions.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/project.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\project.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/project-declaration.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\project-declaration.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/project-units.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\project-units.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/si-units.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\si-units.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/conversion-units.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\conversion-units.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/project-context.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\project-context.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/association.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\association.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/classification.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\classification.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/definition.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\definition.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/object-typing.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\object-typing.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/assignment.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\assignment.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/assigned-group.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\assigned-group.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/composition.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\composition.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/aggregation.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\aggregation.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/spatial-decomposition.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\spatial-decomposition.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/connectivity.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\connectivity.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/element-connectivity.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\element-connectivity.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/port-requirements.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\port-requirements.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/at-least-two-ports-expected.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\at-least-two-ports-expected.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/at-least-one-port.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\at-least-one-port.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/ports-to-be-twinned.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\ports-to-be-twinned.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/product-type.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\product-type.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/predefined-type-expected.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\predefined-type-expected.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifckernel/content.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifckernel\content.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifckernel/lexical/ifcdefinitionselect.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifckernel\lexical\ifcdefinitionselect.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifckernel/lexical/ifccontext.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifckernel\lexical\ifccontext.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifckernel/lexical/ifcgroup.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifckernel\lexical\ifcgroup.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifckernel/lexical/ifcobject.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifckernel\lexical\ifcobject.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifckernel/lexical/ifcobjectdefinition.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifckernel\lexical\ifcobjectdefinition.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifckernel/lexical/ifcproduct.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifckernel\lexical\ifcproduct.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifckernel/lexical/ifcproject.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifckernel\lexical\ifcproject.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifckernel/lexical/ifcrelaggregates.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifckernel\lexical\ifcrelaggregates.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifckernel/lexical/ifcrelassigns.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifckernel\lexical\ifcrelassigns.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifckernel/lexical/ifcrelassignstogroup.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifckernel\lexical\ifcrelassignstogroup.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifckernel/lexical/ifcrelassociates.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifckernel\lexical\ifcrelassociates.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifckernel/lexical/ifcrelassociatesclassification.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifckernel\lexical\ifcrelassociatesclassification.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifckernel/lexical/ifcrelationship.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifckernel\lexical\ifcrelationship.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifckernel/lexical/ifcrelconnects.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifckernel\lexical\ifcrelconnects.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifckernel/lexical/ifcreldeclares.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifckernel\lexical\ifcreldeclares.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifckernel/lexical/ifcreldecomposes.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifckernel\lexical\ifcreldecomposes.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifckernel/lexical/ifcreldefines.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifckernel\lexical\ifcreldefines.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifckernel/lexical/ifcreldefinesbytype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifckernel\lexical\ifcreldefinesbytype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifckernel/lexical/ifcroot.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifckernel\lexical\ifcroot.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifckernel/lexical/ifctypeobject.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifckernel\lexical\ifctypeobject.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifckernel/lexical/ifctypeproduct.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifckernel\lexical\ifctypeproduct.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifckernel/lexical/ifcsingleprojectinstance.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifckernel\lexical\ifcsingleprojectinstance.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcproductextension/content.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcproductextension\content.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcproductextension/lexical/ifcdistributionelement.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcproductextension\lexical\ifcdistributionelement.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcproductextension/lexical/ifcdistributionelementtype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcproductextension\lexical\ifcdistributionelementtype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcproductextension/lexical/ifcelement.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcproductextension\lexical\ifcelement.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcproductextension/lexical/ifcelementtype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcproductextension\lexical\ifcelementtype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcproductextension/lexical/ifcport.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcproductextension\lexical\ifcport.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcproductextension/lexical/ifcrelconnectsports.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcproductextension\lexical\ifcrelconnectsports.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcproductextension/lexical/ifcrelconnectsporttoelement.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcproductextension\lexical\ifcrelconnectsporttoelement.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcproductextension/lexical/ifcspace.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcproductextension\lexical\ifcspace.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcproductextension/lexical/ifcspatialelement.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcproductextension\lexical\ifcspatialelement.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcproductextension/lexical/ifcspatialstructureelement.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcproductextension\lexical\ifcspatialstructureelement.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcproductextension/lexical/ifcsystem.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcproductextension\lexical\ifcsystem.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcproductextension/lexical/ifczone.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcproductextension\lexical\ifczone.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcsharedbldgserviceelements/content.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcsharedbldgserviceelements\content.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcsharedbldgserviceelements/lexical/ifcdistributionflowelement.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcsharedbldgserviceelements\lexical\ifcdistributionflowelement.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcsharedbldgserviceelements/lexical/ifcdistributionflowelementtype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcsharedbldgserviceelements\lexical\ifcdistributionflowelementtype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcsharedbldgserviceelements/lexical/ifcdistributionport.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcsharedbldgserviceelements\lexical\ifcdistributionport.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcsharedbldgserviceelements/lexical/ifcdistributionsystem.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcsharedbldgserviceelements\lexical\ifcdistributionsystem.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcsharedbldgserviceelements/lexical/ifcenergyconversiondevice.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcsharedbldgserviceelements\lexical\ifcenergyconversiondevice.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcsharedbldgserviceelements/lexical/ifcenergyconversiondevicetype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcsharedbldgserviceelements\lexical\ifcenergyconversiondevicetype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcsharedbldgserviceelements/lexical/ifcflowcontroller.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcsharedbldgserviceelements\lexical\ifcflowcontroller.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcsharedbldgserviceelements/lexical/ifcflowcontrollertype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcsharedbldgserviceelements\lexical\ifcflowcontrollertype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcsharedbldgserviceelements/lexical/ifcflowfitting.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcsharedbldgserviceelements\lexical\ifcflowfitting.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcsharedbldgserviceelements/lexical/ifcflowmovingdevice.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcsharedbldgserviceelements\lexical\ifcflowmovingdevice.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcsharedbldgserviceelements/lexical/ifcflowmovingdevicetype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcsharedbldgserviceelements\lexical\ifcflowmovingdevicetype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcsharedbldgserviceelements/lexical/ifcflowsegment.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcsharedbldgserviceelements\lexical\ifcflowsegment.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcsharedbldgserviceelements/lexical/ifcflowterminal.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcsharedbldgserviceelements\lexical\ifcflowterminal.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcsharedbldgserviceelements/lexical/ifcflowterminaltype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcsharedbldgserviceelements\lexical\ifcflowterminaltype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcsharedbldgserviceelements/lexical/ifcflowtreatmentdevice.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcsharedbldgserviceelements\lexical\ifcflowtreatmentdevice.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcsharedbldgserviceelements/lexical/ifcflowtreatmentdevicetype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcsharedbldgserviceelements\lexical\ifcflowtreatmentdevicetype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifchvacdomain/content.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifchvacdomain\content.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifchvacdomain/lexical/ifcairterminalboxtypeenum.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifchvacdomain\lexical\ifcairterminalboxtypeenum.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifchvacdomain/lexical/ifcairterminaltypeenum.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifchvacdomain\lexical\ifcairterminaltypeenum.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifchvacdomain/lexical/ifcairtoairheatrecoverytypeenum.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifchvacdomain\lexical\ifcairtoairheatrecoverytypeenum.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifchvacdomain/lexical/ifcchillertypeenum.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifchvacdomain\lexical\ifcchillertypeenum.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifchvacdomain/lexical/ifccoiltypeenum.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifchvacdomain\lexical\ifccoiltypeenum.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifchvacdomain/lexical/ifcdampertypeenum.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifchvacdomain\lexical\ifcdampertypeenum.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifchvacdomain/lexical/ifcductsilencertypeenum.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifchvacdomain\lexical\ifcductsilencertypeenum.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifchvacdomain/lexical/ifcevaporativecoolertypeenum.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifchvacdomain\lexical\ifcevaporativecoolertypeenum.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifchvacdomain/lexical/ifcevaporatortypeenum.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifchvacdomain\lexical\ifcevaporatortypeenum.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifchvacdomain/lexical/ifcfantypeenum.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifchvacdomain\lexical\ifcfantypeenum.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifchvacdomain/lexical/ifcheatexchangertypeenum.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifchvacdomain\lexical\ifcheatexchangertypeenum.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifchvacdomain/lexical/ifcunitaryequipmenttypeenum.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifchvacdomain\lexical\ifcunitaryequipmenttypeenum.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifchvacdomain/lexical/ifcairterminal.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifchvacdomain\lexical\ifcairterminal.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifchvacdomain/lexical/ifcairterminalbox.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifchvacdomain\lexical\ifcairterminalbox.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifchvacdomain/lexical/ifcairterminalboxtype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifchvacdomain\lexical\ifcairterminalboxtype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifchvacdomain/lexical/ifcairterminaltype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifchvacdomain\lexical\ifcairterminaltype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifchvacdomain/lexical/ifcairtoairheatrecovery.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifchvacdomain\lexical\ifcairtoairheatrecovery.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifchvacdomain/lexical/ifcairtoairheatrecoverytype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifchvacdomain\lexical\ifcairtoairheatrecoverytype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifchvacdomain/lexical/ifcchiller.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifchvacdomain\lexical\ifcchiller.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifchvacdomain/lexical/ifcchillertype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifchvacdomain\lexical\ifcchillertype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifchvacdomain/lexical/ifccoil.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifchvacdomain\lexical\ifccoil.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifchvacdomain/lexical/ifccoiltype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifchvacdomain\lexical\ifccoiltype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifchvacdomain/lexical/ifcdamper.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifchvacdomain\lexical\ifcdamper.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifchvacdomain/lexical/ifcdampertype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifchvacdomain\lexical\ifcdampertype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifchvacdomain/lexical/ifcductfitting.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifchvacdomain\lexical\ifcductfitting.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifchvacdomain/lexical/ifcductsegment.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifchvacdomain\lexical\ifcductsegment.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifchvacdomain/lexical/ifcductsilencer.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifchvacdomain\lexical\ifcductsilencer.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifchvacdomain/lexical/ifcductsilencertype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifchvacdomain\lexical\ifcductsilencertype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifchvacdomain/lexical/ifcevaporativecooler.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifchvacdomain\lexical\ifcevaporativecooler.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifchvacdomain/lexical/ifcevaporativecoolertype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifchvacdomain\lexical\ifcevaporativecoolertype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifchvacdomain/lexical/ifcevaporator.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifchvacdomain\lexical\ifcevaporator.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifchvacdomain/lexical/ifcevaporatortype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifchvacdomain\lexical\ifcevaporatortype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifchvacdomain/lexical/ifcfan.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifchvacdomain\lexical\ifcfan.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifchvacdomain/lexical/ifcfantype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifchvacdomain\lexical\ifcfantype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifchvacdomain/lexical/ifcheatexchanger.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifchvacdomain\lexical\ifcheatexchanger.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifchvacdomain/lexical/ifcheatexchangertype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifchvacdomain\lexical\ifcheatexchangertype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifchvacdomain/lexical/ifchumidifier.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifchvacdomain\lexical\ifchumidifier.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifchvacdomain/lexical/ifcunitaryequipment.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifchvacdomain\lexical\ifcunitaryequipment.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifchvacdomain/lexical/ifcunitaryequipmenttype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifchvacdomain\lexical\ifcunitaryequipmenttype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcactorresource/content.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcactorresource\content.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcactorresource/lexical/ifcorganization.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcactorresource\lexical\ifcorganization.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcactorresource/lexical/ifcperson.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcactorresource\lexical\ifcperson.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcactorresource/lexical/ifcpersonandorganization.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcactorresource\lexical\ifcpersonandorganization.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcdatetimeresource/content.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcdatetimeresource\content.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcdatetimeresource/lexical/ifctimestamp.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcdatetimeresource\lexical\ifctimestamp.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcexternalreferenceresource/content.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcexternalreferenceresource\content.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcexternalreferenceresource/lexical/ifcclassificationreferenceselect.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcexternalreferenceresource\lexical\ifcclassificationreferenceselect.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcexternalreferenceresource/lexical/ifcclassificationselect.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcexternalreferenceresource\lexical\ifcclassificationselect.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcexternalreferenceresource/lexical/ifcclassification.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcexternalreferenceresource\lexical\ifcclassification.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcexternalreferenceresource/lexical/ifcclassificationreference.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcexternalreferenceresource\lexical\ifcclassificationreference.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcexternalreferenceresource/lexical/ifcexternalinformation.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcexternalreferenceresource\lexical\ifcexternalinformation.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcexternalreferenceresource/lexical/ifcexternalreference.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcexternalreferenceresource\lexical\ifcexternalreference.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcgeometryresource/content.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcgeometryresource\content.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcgeometryresource/lexical/ifcdimensioncount.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcgeometryresource\lexical\ifcdimensioncount.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcgeometryresource/lexical/ifcaxis2placement.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcgeometryresource\lexical\ifcaxis2placement.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcgeometryresource/lexical/ifcaxis2placement3d.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcgeometryresource\lexical\ifcaxis2placement3d.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcgeometryresource/lexical/ifccartesianpoint.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcgeometryresource\lexical\ifccartesianpoint.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcgeometryresource/lexical/ifcdirection.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcgeometryresource\lexical\ifcdirection.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcgeometryresource/lexical/ifcgeometricrepresentationitem.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcgeometryresource\lexical\ifcgeometricrepresentationitem.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcgeometryresource/lexical/ifcplacement.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcgeometryresource\lexical\ifcplacement.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcgeometryresource/lexical/ifcpoint.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcgeometryresource\lexical\ifcpoint.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcgeometryresource/lexical/ifcrepresentationitem.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcgeometryresource\lexical\ifcrepresentationitem.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcmeasureresource/content.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcmeasureresource\content.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcmeasureresource/lexical/ifcidentifier.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcmeasureresource\lexical\ifcidentifier.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcmeasureresource/lexical/ifclabel.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcmeasureresource\lexical\ifclabel.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcmeasureresource/lexical/ifclengthmeasure.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcmeasureresource\lexical\ifclengthmeasure.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcmeasureresource/lexical/ifcreal.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcmeasureresource\lexical\ifcreal.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcmeasureresource/lexical/ifctext.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcmeasureresource\lexical\ifctext.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcmeasureresource/lexical/ifcsiprefix.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcmeasureresource\lexical\ifcsiprefix.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcmeasureresource/lexical/ifcsiunitname.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcmeasureresource\lexical\ifcsiunitname.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcmeasureresource/lexical/ifcunitenum.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcmeasureresource\lexical\ifcunitenum.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcmeasureresource/lexical/ifcunit.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcmeasureresource\lexical\ifcunit.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcmeasureresource/lexical/ifcvalue.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcmeasureresource\lexical\ifcvalue.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcmeasureresource/lexical/ifcconversionbasedunit.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcmeasureresource\lexical\ifcconversionbasedunit.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcmeasureresource/lexical/ifcconversionbasedunitwithoffset.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcmeasureresource\lexical\ifcconversionbasedunitwithoffset.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcmeasureresource/lexical/ifcdimensionalexponents.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcmeasureresource\lexical\ifcdimensionalexponents.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcmeasureresource/lexical/ifcmeasurewithunit.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcmeasureresource\lexical\ifcmeasurewithunit.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcmeasureresource/lexical/ifcnamedunit.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcmeasureresource\lexical\ifcnamedunit.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcmeasureresource/lexical/ifcsiunit.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcmeasureresource\lexical\ifcsiunit.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcmeasureresource/lexical/ifcunitassignment.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcmeasureresource\lexical\ifcunitassignment.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcrepresentationresource/content.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcrepresentationresource\content.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcrepresentationresource/lexical/ifcgeometricrepresentationcontext.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcrepresentationresource\lexical\ifcgeometricrepresentationcontext.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcrepresentationresource/lexical/ifcrepresentationcontext.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcrepresentationresource\lexical\ifcrepresentationcontext.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcrepresentationresource/lexical/ifcrepresentationcontextsamewcs.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcrepresentationresource\lexical\ifcrepresentationcontextsamewcs.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcutilityresource/content.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcutilityresource\content.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcutilityresource/lexical/ifcgloballyuniqueid.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcutilityresource\lexical\ifcgloballyuniqueid.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcutilityresource/lexical/ifcchangeactionenum.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcutilityresource\lexical\ifcchangeactionenum.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcutilityresource/lexical/ifcstateenum.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcutilityresource\lexical\ifcstateenum.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcutilityresource/lexical/ifcapplication.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcutilityresource\lexical\ifcapplication.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/ifcutilityresource/lexical/ifcownerhistory.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\ifcutilityresource\lexical\ifcownerhistory.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-a/mechanical-system-design/index.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-a\mechanical-system-design\index.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-b/alphabeticalorder_definedtypes.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-b\alphabeticalorder_definedtypes.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-b/alphabeticalorder_enumtypes.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-b\alphabeticalorder_enumtypes.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-b/alphabeticalorder_selecttypes.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-b\alphabeticalorder_selecttypes.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-b/alphabeticalorder_entities.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-b\alphabeticalorder_entities.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-b/alphabeticalorder_functions.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-b\alphabeticalorder_functions.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-b/alphabeticalorder_rules.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-b\alphabeticalorder_rules.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-b/alphabeticalorder_psets.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-b\alphabeticalorder_psets.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-b/alphabeticalorder_qsets.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-b\alphabeticalorder_qsets.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-b/de/alphabeticalorder_definedtypes.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-b\de\alphabeticalorder_definedtypes.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-b/de/alphabeticalorder_enumtypes.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-b\de\alphabeticalorder_enumtypes.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-b/de/alphabeticalorder_selecttypes.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-b\de\alphabeticalorder_selecttypes.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-b/de/alphabeticalorder_entities.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-b\de\alphabeticalorder_entities.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-b/de/alphabeticalorder_functions.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-b\de\alphabeticalorder_functions.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-b/de/alphabeticalorder_rules.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-b\de\alphabeticalorder_rules.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-b/fr/alphabeticalorder_definedtypes.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-b\fr\alphabeticalorder_definedtypes.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-b/fr/alphabeticalorder_enumtypes.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-b\fr\alphabeticalorder_enumtypes.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-b/fr/alphabeticalorder_selecttypes.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-b\fr\alphabeticalorder_selecttypes.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-b/fr/alphabeticalorder_entities.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-b\fr\alphabeticalorder_entities.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-b/fr/alphabeticalorder_functions.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-b\fr\alphabeticalorder_functions.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-b/fr/alphabeticalorder_rules.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-b\fr\alphabeticalorder_rules.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-b/ja/alphabeticalorder_definedtypes.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-b\ja\alphabeticalorder_definedtypes.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-b/ja/alphabeticalorder_enumtypes.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-b\ja\alphabeticalorder_enumtypes.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-b/ja/alphabeticalorder_selecttypes.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-b\ja\alphabeticalorder_selecttypes.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-b/ja/alphabeticalorder_entities.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-b\ja\alphabeticalorder_entities.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-b/ja/alphabeticalorder_functions.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-b\ja\alphabeticalorder_functions.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-b/ja/alphabeticalorder_rules.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-b\ja\alphabeticalorder_rules.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-b/zh/alphabeticalorder_definedtypes.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-b\zh\alphabeticalorder_definedtypes.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-b/zh/alphabeticalorder_enumtypes.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-b\zh\alphabeticalorder_enumtypes.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-b/zh/alphabeticalorder_selecttypes.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-b\zh\alphabeticalorder_selecttypes.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-b/zh/alphabeticalorder_entities.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-b\zh\alphabeticalorder_entities.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-b/zh/alphabeticalorder_functions.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-b\zh\alphabeticalorder_functions.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-b/zh/alphabeticalorder_rules.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-b\zh\alphabeticalorder_rules.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-c/inheritance_tree_all.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-c\inheritance_tree_all.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-c/inheritance_tree_IfcRoot.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-c\inheritance_tree_IfcRoot.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-c/inheritance_tree_IfcObject.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-c\inheritance_tree_IfcObject.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-c/inheritance_tree_IfcElement.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-c\inheritance_tree_IfcElement.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-d/mechanical-system-design/ifcairterminal.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-d\mechanical-system-design\ifcairterminal.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-d/mechanical-system-design/ifcairterminalbox.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-d\mechanical-system-design\ifcairterminalbox.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-d/mechanical-system-design/ifcairterminalboxtype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-d\mechanical-system-design\ifcairterminalboxtype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-d/mechanical-system-design/ifcairterminaltype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-d\mechanical-system-design\ifcairterminaltype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-d/mechanical-system-design/ifcairtoairheatrecovery.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-d\mechanical-system-design\ifcairtoairheatrecovery.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-d/mechanical-system-design/ifcairtoairheatrecoverytype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-d\mechanical-system-design\ifcairtoairheatrecoverytype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-d/mechanical-system-design/ifcchiller.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-d\mechanical-system-design\ifcchiller.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-d/mechanical-system-design/ifcchillertype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-d\mechanical-system-design\ifcchillertype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-d/mechanical-system-design/ifccoil.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-d\mechanical-system-design\ifccoil.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-d/mechanical-system-design/ifccoiltype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-d\mechanical-system-design\ifccoiltype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-d/mechanical-system-design/ifcdamper.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-d\mechanical-system-design\ifcdamper.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-d/mechanical-system-design/ifcdampertype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-d\mechanical-system-design\ifcdampertype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-d/mechanical-system-design/ifcductfitting.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-d\mechanical-system-design\ifcductfitting.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-d/mechanical-system-design/ifcductsegment.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-d\mechanical-system-design\ifcductsegment.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-d/mechanical-system-design/ifcductsilencer.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-d\mechanical-system-design\ifcductsilencer.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-d/mechanical-system-design/ifcductsilencertype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-d\mechanical-system-design\ifcductsilencertype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-d/mechanical-system-design/ifcevaporativecooler.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-d\mechanical-system-design\ifcevaporativecooler.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-d/mechanical-system-design/ifcevaporativecoolertype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-d\mechanical-system-design\ifcevaporativecoolertype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-d/mechanical-system-design/ifcevaporator.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-d\mechanical-system-design\ifcevaporator.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-d/mechanical-system-design/ifcevaporatortype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-d\mechanical-system-design\ifcevaporatortype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-d/mechanical-system-design/ifcfan.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-d\mechanical-system-design\ifcfan.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-d/mechanical-system-design/ifcfantype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-d\mechanical-system-design\ifcfantype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-d/mechanical-system-design/ifcheatexchanger.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-d\mechanical-system-design\ifcheatexchanger.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-d/mechanical-system-design/ifcheatexchangertype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-d\mechanical-system-design\ifcheatexchangertype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-d/mechanical-system-design/ifchumidifier.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-d\mechanical-system-design\ifchumidifier.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-d/mechanical-system-design/ifcport.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-d\mechanical-system-design\ifcport.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-d/mechanical-system-design/ifcproject.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-d\mechanical-system-design\ifcproject.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-d/mechanical-system-design/ifcspace.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-d\mechanical-system-design\ifcspace.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-d/mechanical-system-design/ifcsystem.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-d\mechanical-system-design\ifcsystem.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-d/mechanical-system-design/ifcunitaryequipment.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-d\mechanical-system-design\ifcunitaryequipment.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-d/mechanical-system-design/ifcunitaryequipmenttype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-d\mechanical-system-design\ifcunitaryequipmenttype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-d/mechanical-system-design/ifczone.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-d\mechanical-system-design\ifczone.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-e/facilities-management.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-e\facilities-management.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-f/ifc2x3/index.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-f\ifc2x3\index.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-f/ifc2x3/changelog.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-f\ifc2x3\changelog.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-f/ifc2x3/properties.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-f\ifc2x3\properties.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-f/ifc2x3/quantities.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-f\ifc2x3\quantities.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/img/buildingSMART_logo.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\img\buildingSMART_logo.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/img/buildingSMART_standards_triangle.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\img\buildingSMART_standards_triangle.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/img/IFC4_layered_architecture.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\img\IFC4_layered_architecture.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-a/default/ifc4.exp.txt
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-a\default\ifc4.exp.txt
+Content Type: text/plain
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-a/default/ifc4.exp.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-a\default\ifc4.exp.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-a/default/ifcXML4.xsd.txt
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-a\default\ifcXML4.xsd.txt
+Content Type: text/plain
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-a/default/ifcXML4.xsd.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-a\default\ifcXML4.xsd.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-a/default/ifc4.ifc.txt
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-a\default\ifc4.ifc.txt
+Content Type: text/plain
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-a/default/ifc4.ifcxml.txt
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-a\default\ifc4.ifcxml.txt
+Content Type: text/plain
+
+Uri: https://creativecommons.org/licenses/by-nd/3.0/
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\licenses\by-nd\3.0\index.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/img/mvd-space-program.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\img\mvd-space-program.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/img/mvd-product-program.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\img\mvd-product-program.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/img/mvd-system-layout.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\img\mvd-system-layout.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/img/mvd-product-type-template.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\img\mvd-product-type-template.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/img/mvd-product-template.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\img\mvd-product-template.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/img/mvd-system-operation.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\img\mvd-system-operation.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/roots.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\roots.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/img/permlink.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\img\permlink.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/identity.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\identity.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/diagrams/identity.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\diagrams\identity.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/revision-control.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\revision-control.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/diagrams/revision-control.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\diagrams\revision-control.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/descriptions.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\descriptions.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/diagrams/descriptions.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\diagrams\descriptions.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/project.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\project.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/project-declaration.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\project-declaration.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/diagrams/project-declaration.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\diagrams\project-declaration.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/project-units.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\project-units.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/diagrams/project-units.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\diagrams\project-units.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/si-units.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\si-units.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/diagrams/si-units.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\diagrams\si-units.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/conversion-units.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\conversion-units.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/diagrams/conversion-units.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\diagrams\conversion-units.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/project-context.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\project-context.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/diagrams/project-context.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\diagrams\project-context.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/association.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\association.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/classification.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\classification.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/diagrams/classification.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\diagrams\classification.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/definition.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\definition.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/object-typing.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\object-typing.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/diagrams/object-typing.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\diagrams\object-typing.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/assignment.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\assignment.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/assigned-group.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\assigned-group.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/diagrams/assigned-group.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\diagrams\assigned-group.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/composition.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\composition.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/aggregation.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\aggregation.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/diagrams/aggregation.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\diagrams\aggregation.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/spatial-decomposition.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\spatial-decomposition.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/diagrams/spatial-decomposition.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\diagrams\spatial-decomposition.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/connectivity.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\connectivity.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/element-connectivity.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\element-connectivity.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/diagrams/element-connectivity.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\diagrams\element-connectivity.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/port-requirements.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\port-requirements.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/diagrams/port-requirements.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\diagrams\port-requirements.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/at-least-two-ports-expected.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\at-least-two-ports-expected.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/diagrams/at-least-two-ports-expected.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\diagrams\at-least-two-ports-expected.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/at-least-one-port.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\at-least-one-port.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/diagrams/at-least-one-port.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\diagrams\at-least-one-port.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ports-to-be-twinned.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ports-to-be-twinned.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/schema/templates/diagrams/ports-to-be-twinned.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\schema\templates\diagrams\ports-to-be-twinned.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/product-type.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\product-type.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/predefined-type-expected.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\predefined-type-expected.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcdefinitionselect.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcdefinitionselect.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifccontext.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifccontext.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/img/locale-fr.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\img\locale-fr.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/img/locale-de.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\img\locale-de.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcgroup.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcgroup.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcobject.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcobject.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcobjectdefinition.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcobjectdefinition.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcproduct.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcproduct.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcproject.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcproject.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/img/diagram.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\img\diagram.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcrelaggregates.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcrelaggregates.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcrelassigns.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcrelassigns.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcrelassignstogroup.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcrelassignstogroup.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcrelassociates.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcrelassociates.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcrelassociatesclassification.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcrelassociatesclassification.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcrelationship.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcrelationship.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcrelconnects.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcrelconnects.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcreldeclares.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcreldeclares.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcreldecomposes.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcreldecomposes.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcreldefines.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcreldefines.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcreldefinesbytype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcreldefinesbytype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/figures/IfcRelDefinesByType_fig-1.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\figures\IfcRelDefinesByType_fig-1.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcroot.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcroot.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifctypeobject.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifctypeobject.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifctypeproduct.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifctypeproduct.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/figures/IfcTypeProduct_RepresentationMap-1.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\figures\IfcTypeProduct_RepresentationMap-1.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/figures/IfcTypeProduct_RepresentationMap-2.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\figures\IfcTypeProduct_RepresentationMap-2.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcsingleprojectinstance.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcsingleprojectinstance.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcdistributionelement.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcdistributionelement.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcdistributionelementtype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcdistributionelementtype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcelement.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcelement.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcelementtype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcelementtype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcport.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcport.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcrelconnectsports.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcrelconnectsports.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcrelconnectsporttoelement.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcrelconnectsporttoelement.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcspace.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcspace.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/figures/IfcSpace-SpatialStructure.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\figures\IfcSpace-SpatialStructure.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/figures/IfcSpace_Heights.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\figures\IfcSpace_Heights.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcspatialelement.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcspatialelement.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcspatialstructureelement.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcspatialstructureelement.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/figures/IfcSpatialStructureElement-SpatialStructure.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\figures\IfcSpatialStructureElement-SpatialStructure.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcsystem.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcsystem.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifczone.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifczone.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/figures/IfcDistributionPort_ConceptSlide2.gif
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\figures\IfcDistributionPort_ConceptSlide2.gif
+Content Type: image/gif
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcdistributionflowelement.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcdistributionflowelement.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcdistributionflowelementtype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcdistributionflowelementtype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcdistributionport.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcdistributionport.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcdistributionsystem.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcdistributionsystem.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcenergyconversiondevice.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcenergyconversiondevice.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcenergyconversiondevicetype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcenergyconversiondevicetype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcflowcontroller.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcflowcontroller.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcflowcontrollertype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcflowcontrollertype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcflowfitting.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcflowfitting.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcflowmovingdevice.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcflowmovingdevice.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcflowmovingdevicetype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcflowmovingdevicetype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcflowsegment.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcflowsegment.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcflowterminal.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcflowterminal.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcflowterminaltype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcflowterminaltype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcflowtreatmentdevice.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcflowtreatmentdevice.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcflowtreatmentdevicetype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcflowtreatmentdevicetype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcairterminalboxtypeenum.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcairterminalboxtypeenum.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcairterminaltypeenum.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcairterminaltypeenum.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcairtoairheatrecoverytypeenum.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcairtoairheatrecoverytypeenum.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcchillertypeenum.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcchillertypeenum.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifccoiltypeenum.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifccoiltypeenum.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcdampertypeenum.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcdampertypeenum.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcductsilencertypeenum.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcductsilencertypeenum.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcevaporativecoolertypeenum.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcevaporativecoolertypeenum.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcevaporatortypeenum.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcevaporatortypeenum.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcfantypeenum.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcfantypeenum.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcheatexchangertypeenum.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcheatexchangertypeenum.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcunitaryequipmenttypeenum.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcunitaryequipmenttypeenum.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcairterminal.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcairterminal.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcairterminalbox.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcairterminalbox.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcairterminalboxtype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcairterminalboxtype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcairterminaltype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcairterminaltype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcairtoairheatrecovery.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcairtoairheatrecovery.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcairtoairheatrecoverytype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcairtoairheatrecoverytype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcchiller.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcchiller.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcchillertype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcchillertype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifccoil.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifccoil.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifccoiltype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifccoiltype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcdamper.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcdamper.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcdampertype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcdampertype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcductfitting.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcductfitting.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcductsegment.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcductsegment.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcductsilencer.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcductsilencer.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcductsilencertype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcductsilencertype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcevaporativecooler.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcevaporativecooler.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcevaporativecoolertype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcevaporativecoolertype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcevaporator.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcevaporator.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcevaporatortype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcevaporatortype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcfan.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcfan.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcfantype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcfantype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcheatexchanger.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcheatexchanger.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcheatexchangertype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcheatexchangertype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifchumidifier.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifchumidifier.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcunitaryequipment.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcunitaryequipment.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcunitaryequipmenttype.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcunitaryequipmenttype.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcorganization.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcorganization.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcperson.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcperson.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcpersonandorganization.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcpersonandorganization.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifctimestamp.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifctimestamp.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcclassificationreferenceselect.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcclassificationreferenceselect.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcclassificationselect.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcclassificationselect.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcclassification.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcclassification.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcclassificationreference.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcclassificationreference.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcexternalinformation.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcexternalinformation.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcexternalreference.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcexternalreference.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcdimensioncount.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcdimensioncount.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcaxis2placement.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcaxis2placement.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcaxis2placement3d.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcaxis2placement3d.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/figures/IfcAxis2Placement3D-Layout1.gif
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\figures\IfcAxis2Placement3D-Layout1.gif
+Content Type: image/gif
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifccartesianpoint.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifccartesianpoint.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcdirection.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcdirection.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcgeometricrepresentationitem.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcgeometricrepresentationitem.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcplacement.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcplacement.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcpoint.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcpoint.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcrepresentationitem.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcrepresentationitem.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/figures/IfcRepresentationItem_Style-1.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\figures\IfcRepresentationItem_Style-1.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/figures/IfcRepresentationItem_Style-2.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\figures\IfcRepresentationItem_Style-2.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcidentifier.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcidentifier.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifclabel.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifclabel.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifclengthmeasure.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifclengthmeasure.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcreal.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcreal.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifctext.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifctext.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcsiprefix.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcsiprefix.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcsiunitname.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcsiunitname.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcunitenum.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcunitenum.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcunit.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcunit.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcvalue.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcvalue.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcconversionbasedunit.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcconversionbasedunit.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcconversionbasedunitwithoffset.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcconversionbasedunitwithoffset.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcdimensionalexponents.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcdimensionalexponents.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcmeasurewithunit.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcmeasurewithunit.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcnamedunit.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcnamedunit.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcsiunit.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcsiunit.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcunitassignment.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcunitassignment.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcgeometricrepresentationcontext.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcgeometricrepresentationcontext.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/figures/IfcGeometricRepresentationContext_TrueNorth.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\figures\IfcGeometricRepresentationContext_TrueNorth.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/figures/IfcGeometricRepresentationContext.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\figures\IfcGeometricRepresentationContext.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcrepresentationcontext.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcrepresentationcontext.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcrepresentationcontextsamewcs.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcrepresentationcontextsamewcs.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcgloballyuniqueid.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcgloballyuniqueid.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcchangeactionenum.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcchangeactionenum.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcstateenum.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcstateenum.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcapplication.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcapplication.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/ifcownerhistory.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\ifcownerhistory.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-a/mechanical-system-design/HVACie.exp.txt
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-a\mechanical-system-design\HVACie.exp.txt
+Content Type: text/plain
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-a/mechanical-system-design/HVACie.exp.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-a\mechanical-system-design\HVACie.exp.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-a/mechanical-system-design/HVACie.xsd.txt
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-a\mechanical-system-design\HVACie.xsd.txt
+Content Type: text/plain
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-a/mechanical-system-design/HVACie.xsd.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-a\mechanical-system-design\HVACie.xsd.htm
+Content Type: text/html
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-a/mechanical-system-design/HVACie.ifc.txt
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-a\mechanical-system-design\HVACie.ifc.txt
+Content Type: text/plain
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-a/mechanical-system-design/HVACie.ifcxml.txt
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-a\mechanical-system-design\HVACie.ifcxml.txt
+Content Type: text/plain
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/annex/annex-a/mechanical-system-design/HVACie.mvdxml.txt
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\annex\annex-a\mechanical-system-design\HVACie.mvdxml.txt
+Content Type: text/plain
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/diagrams/ifcairterminal.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\diagrams\ifcairterminal.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/diagrams/ifcairterminalbox.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\diagrams\ifcairterminalbox.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/diagrams/ifcairterminalboxtype.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\diagrams\ifcairterminalboxtype.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/diagrams/ifcairterminaltype.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\diagrams\ifcairterminaltype.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/diagrams/ifcairtoairheatrecovery.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\diagrams\ifcairtoairheatrecovery.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/diagrams/ifcairtoairheatrecoverytype.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\diagrams\ifcairtoairheatrecoverytype.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/diagrams/ifcchiller.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\diagrams\ifcchiller.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/diagrams/ifcchillertype.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\diagrams\ifcchillertype.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/diagrams/ifccoil.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\diagrams\ifccoil.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/diagrams/ifccoiltype.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\diagrams\ifccoiltype.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/diagrams/ifcdamper.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\diagrams\ifcdamper.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/diagrams/ifcdampertype.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\diagrams\ifcdampertype.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/diagrams/ifcductfitting.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\diagrams\ifcductfitting.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/diagrams/ifcductsegment.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\diagrams\ifcductsegment.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/diagrams/ifcductsilencer.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\diagrams\ifcductsilencer.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/diagrams/ifcductsilencertype.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\diagrams\ifcductsilencertype.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/diagrams/ifcevaporativecooler.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\diagrams\ifcevaporativecooler.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/diagrams/ifcevaporativecoolertype.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\diagrams\ifcevaporativecoolertype.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/diagrams/ifcevaporator.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\diagrams\ifcevaporator.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/diagrams/ifcevaporatortype.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\diagrams\ifcevaporatortype.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/diagrams/ifcfan.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\diagrams\ifcfan.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/diagrams/ifcfantype.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\diagrams\ifcfantype.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/diagrams/ifcheatexchanger.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\diagrams\ifcheatexchanger.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/diagrams/ifcheatexchangertype.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\diagrams\ifcheatexchangertype.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/diagrams/ifchumidifier.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\diagrams\ifchumidifier.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/diagrams/ifcport.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\diagrams\ifcport.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/diagrams/ifcproject.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\diagrams\ifcproject.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/diagrams/ifcspace.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\diagrams\ifcspace.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/diagrams/ifcsystem.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\diagrams\ifcsystem.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/diagrams/ifcunitaryequipment.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\diagrams\ifcunitaryequipment.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/diagrams/ifcunitaryequipmenttype.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\diagrams\ifcunitaryequipmenttype.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/diagrams/ifczone.png
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\diagrams\ifczone.png
+Content Type: image/png
+
+Uri: http://docs.buildingsmartalliance.org/MVD_HVACIE/link/facilities-management.htm
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\MVD_HVACIE\link\facilities-management.htm
+Content Type: text/html
+
+Uri: https://technical.buildingsmart.org/
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\index.htm
+Content Type: text/html
+
+Uri: https://standards.buildingsmart.org/IFC/RELEASE/IFC4/FINAL/XML/ifcXML4.xsd
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\IFC\RELEASE\IFC4\FINAL\XML\ifcXML4.xsd
+Content Type: 
+
+Uri: https://www.nibs.org/?page=bsa_commonbimfiles
+File Name: C:\Users\be\Dropbox\bim\MVD - HVACIE\docs.buildingsmartalliance.org\index-1.htm
+Content Type: text/html
+

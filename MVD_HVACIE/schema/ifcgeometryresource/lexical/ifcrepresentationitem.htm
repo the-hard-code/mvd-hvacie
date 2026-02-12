@@ -1,0 +1,171 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="../../../ifc-styles.css">
+
+    <title>IfcRepresentationItem</title>
+
+  </head>
+
+  <body>
+
+
+<script language="JavaScript1.1" type="text/javascript">
+<!--
+    parent.index.location.replace("../../toc-8.htm#8.4.3.7");
+//-->
+</script>
+
+<h4 class="std">8.4.3.7 IfcRepresentationItem</h4>
+<table>
+<tr><td><image src="../../../img/locale-fr.png"></image></td><td><b>Item de représentation</b></td></tr>
+<tr><td><image src="../../../img/locale-de.png"></image></td><td><b>Repräsentationselement</b></td></tr>
+</table>
+ 
+<p>The <span class="self-ref">IfcRepresentationItem</span> is used within an <i>IfcRepresentation</i> (directly or indirectly through other <span class="self-ref">IfcRepresentationItem</span>'s) to represent an <i>IfcProductRepresentation</i>. Most commonly these <span class="self-ref">IfcRepresentationItem</span>'s are geometric or topological representation items, that can (but not need to) have presentation style infomation assigned.</p>
+
+<blockquote class="extDef">
+NOTE&nbsp; Definition according to ISO/CD 10303-43:1992<br>
+A representation item is an element of product data that participates in one or more representations or
+contributes to the definition of another representation item. A representation item contributes to the definition of another
+representation item when it is referenced by that representation item.</blockquote>
+
+<blockquote class="note">
+NOTE&nbsp; The assignment of a style is only applicable
+to the subtypes <a href="ifcgeometricrepresentationitem.htm">IfcGeometricRepresentationItem</a>, <i>IfcMappedItem</i> and some selected subtypes of <i>IfcTopologicalRepresentationItem</i> (<i>IfcVertexPoint</i>, <i>IfcEdgeCurve</i>, <i>IfcFaceSurface</i>).
+</blockquote>
+
+<p>In case that presentation style information is applied, it can be either applied by an <i>IfcStyledItem</i>, or by an assignment to an <i>IfcPresentationLayerWithStyle</i>. If both are present, and both style assignments include the same subtype of <i>IfcPresentationStyle</i>, then the style assigned by <i>IfcStyledItem</i> takes priority.</p>
+
+<p>Figure 27 shows an instance diagram explaining the use of <i>IfcStyledItem</i> and <i>IfcPresentationLayerWithStyle</i> to apply presentation styles.</p>
+<blockquote class="example">
+EXAMPLE&nbsp; The assignment of style information by a styled item and a presentation layer with style. Since the presentation styles are different, <i>IfcCurveStyle</i> and <i>IfcSurfaceStyle</i>, both are applied to the geometric representation item.
+</blockquote>
+
+<table summary="style assignment">
+<tr><td><img src="../../../figures/IfcRepresentationItem_Style-1.png" alt="styles assigned by layer and styled item"></td>
+</tr><tr><td><p class="figure">Figure 27 &mdash; Representation item style</p></td></tr>
+</table>
+
+<p>Figure 28 shows in instance diagram explaining the override of <i>IfcPresentationLayerWithStyle</i> by <i>IfcStyledItem</i> to apply presentation styles.</p>
+<blockquote class="example">
+EXAMPLE&nbsp; The assignment of style information by a styled item and a presentation layer with style. Since the presentation styles for curve style are aprovided by both, the <i>IfcCurveStyle</i> provided by the <i>IfcStyledItem</i> overrides the <i>IfcCurveStyle</i> provided by the <i>IfcPresentationLayerWithStyle</i>
+</blockquote>
+
+<table summary="style assignment">
+<tr><td><img src="../../../figures/IfcRepresentationItem_Style-2.png" alt="styles assigned by layer and styled item"></td></tr>
+<tr><td><p class="figure">Figure 28 &mdash; Representation item style override</p></td></tr>
+</table>
+
+<blockquote class="note">NOTE&nbsp; Entity adapted from <strong>representation_map</strong> defined in ISO
+10303-43.</blockquote>
+
+<blockquote class="history">
+HISTORY&nbsp; New entity in IFC2x.
+</blockquote>
+<blockquote class="change-ifc2x3">
+IFC2x3 CHANGE&nbsp; The inverse attributes <i>StyledByItem</i> and <i>LayerAssignments</i> have been added. Upward compatibility for file based exchange is guaranteed.
+</blockquote>
+
+<hr>
+<p class="spec-head">XSD Specification:</p><span class="xsd">&nbsp;&lt;xs:element name=&quot;IfcRepresentationItem&quot; type=&quot;ifc:<a href="ifcrepresentationitem.htm">IfcRepresentationItem</a>&quot; abstract=&quot;true&quot; substitutionGroup=&quot;ifc:Entity&quot; nillable=&quot;true&quot;/&gt;<br>
+&nbsp;&lt;xs:complexType name=&quot;IfcRepresentationItem&quot; abstract=&quot;true&quot;&gt;<br>
+&nbsp;&nbsp;&lt;xs:complexContent&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;xs:extension base=&quot;ifc:Entity&quot;/&gt;<br>
+&nbsp;&nbsp;&lt;/xs:complexContent&gt;<br>
+&nbsp;&lt;/xs:complexType&gt;<br>
+</span><p class="spec-head">EXPRESS Specification:</p>
+<span class="express">
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td>
+<span class="keyword">ENTITY</span> IfcRepresentationItem
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="1%">
+  </td><td>
+<span class="keyword">ABSTRACT</span> <span class="keyword">SUPERTYPE OF</span>(<a href="ifcgeometricrepresentationitem.htm">IfcGeometricRepresentationItem</a>)<b>;</b>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="1%">
+  </td><td>
+<span class="keyword">INVERSE</span>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="2%">
+  </td><td>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+</table>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td>
+<span class="keyword">END_ENTITY;</span>
+  </td>
+ </tr>
+</table>
+</span>
+<p class="spec-head">Attribute Definitions:</p>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+</table>
+
+<p class="spec-head">Inheritance Graph:</p>
+<span class="express">
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td>
+<span class="keyword">ENTITY</span> IfcRepresentationItem
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="1%">
+  </td><td>
+<span class="keyword">ENTITY</span> <a href="ifcrepresentationitem.htm">IfcRepresentationItem</a>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="1%">
+  </td><td>
+<span class="keyword">INVERSE</span>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td width="2%">
+  </td><td>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+</table>
+  </td>
+ </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" class="express">
+ <tr valign="top">
+  <td>
+<span class="keyword">END_ENTITY;</span>
+  </td>
+ </tr>
+</table>
+</span>
+<p><a href="../../../link/ifcrepresentationitem.htm" target="_top"><img src="../../../img/permlink.png" style="border: 0px" title="Link to this page" alt="Link to this page">&nbsp; Link to this page</a></p>
+<p></p>
+  </body>
+</html>

@@ -1,0 +1,274 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="../../ifc-styles.css">
+
+    <title>Identity</title>
+
+  </head>
+
+  <body>
+
+
+<script language="JavaScript1.1" type="text/javascript">
+<!--
+    parent.index.location.replace("../toc-4.htm#4.1.1");
+//-->
+</script>
+
+<h3 class="std">4.1.1 Identity</h3>
+<p class="std">
+
+An object needs to be identifiable for accurate processing by both human and automated processes. Identification may be through several attributes such as Identification, Name, or GUID. The GUID is compressed for the purpose of being exchanged within an IFC data set - the compressed GUID is refered to as "IFC-GUID". While the IFC-GUID is normally generated automatically and has to be persistent, the Identification may relate to other informal registers but should be unique within the set of objects of the same type. The Name and Description should allow any object to be identified in the context of the project or facility being modelled.
+
+</p>
+
+      <p class="std">
+
+        Various objects may have additional identifications that may be human-readable and/or may be structured through classification association.
+
+      </p>
+
+<p>
+
+Various file formats may use additional identifications of instances for serialization purposes, however there is no requirement or guarantee for such identifications to remain the same between revisions or across applications. For example, the IFC-SPF file format lists each instance with a 64-bit integer that is unique within the particular file.
+
+</p>
+<p>Figure 1 illustrates an instance diagram.</p>
+<table><tr><td><img alt="Identity" src="diagrams/identity.png" usemap="#f1"><map name="f1"><area shape="rect" coords="8,8,176,68" href="../ifckernel/lexical/ifcroot.htm" alt="IfcRoot"><area shape="rect" coords="208,8,376,20" href="../ifcutilityresource/lexical/ifcgloballyuniqueid.htm" alt="IfcGloballyUniqueId"><area shape="rect" coords="208,32,376,44" href="../ifcmeasureresource/lexical/ifclabel.htm" alt="IfcLabel"><area shape="rect" coords="208,56,376,68" href="../ifcmeasureresource/lexical/ifctext.htm" alt="IfcText"></map></td></tr><tr><td><p class="figure">Figure 1 &mdash; Identity</p></td></tr></table>
+
+<hr>
+<h4>Mechanical System Design</h4>
+<p>This concept is used by entities for exchanges as shown.</p>
+<table class="exchange">
+<tr><td></td><td><a href="../views/mechanical-system-design/space-program.htm"><image width="16" src="../../img/mvd-space-program.png" title="Space Program"></image></a></td>
+<td><a href="../views/mechanical-system-design/product-program.htm"><image width="16" src="../../img/mvd-product-program.png" title="Product Program"></image></a></td>
+<td><a href="../views/mechanical-system-design/system-layout.htm"><image width="16" src="../../img/mvd-system-layout.png" title="System Layout"></image></a></td>
+<td><a href="../views/mechanical-system-design/product-type-template.htm"><image width="16" src="../../img/mvd-product-type-template.png" title="Product Type Template"></image></a></td>
+<td><a href="../views/mechanical-system-design/product-template.htm"><image width="16" src="../../img/mvd-product-template.png" title="Product Template"></image></a></td>
+<td><a href="../views/mechanical-system-design/system-operation.htm"><image width="16" src="../../img/mvd-system-operation.png" title="System Operation"></image></a></td>
+</tr><tr><td><a href="../ifchvacdomain/lexical/ifcairterminal.htm">IfcAirTerminal</a></td><td>-<br>-</td>
+<td>R<br>R</td>
+<td>R<br>R</td>
+<td>-<br>-</td>
+<td>-<br>-</td>
+<td>R<br>R</td>
+</tr>
+<tr><td><a href="../ifchvacdomain/lexical/ifcairterminalbox.htm">IfcAirTerminalBox</a></td><td>-<br>-</td>
+<td>R<br>R</td>
+<td>R<br>R</td>
+<td>-<br>-</td>
+<td>-<br>-</td>
+<td>R<br>R</td>
+</tr>
+<tr><td><a href="../ifchvacdomain/lexical/ifcairterminalboxtype.htm">IfcAirTerminalBoxType</a></td><td>-<br>-</td>
+<td>-<br>-</td>
+<td>-<br>-</td>
+<td>R<br>R</td>
+<td>R<br>R</td>
+<td>R<br>R</td>
+</tr>
+<tr><td><a href="../ifchvacdomain/lexical/ifcairterminaltype.htm">IfcAirTerminalType</a></td><td>-<br>-</td>
+<td>-<br>-</td>
+<td>-<br>-</td>
+<td>R<br>R</td>
+<td>R<br>R</td>
+<td>R<br>R</td>
+</tr>
+<tr><td><a href="../ifchvacdomain/lexical/ifcairtoairheatrecovery.htm">IfcAirToAirHeatRecovery</a></td><td>-<br>-</td>
+<td>R<br>R</td>
+<td>R<br>R</td>
+<td>-<br>-</td>
+<td>-<br>-</td>
+<td>R<br>R</td>
+</tr>
+<tr><td><a href="../ifchvacdomain/lexical/ifcairtoairheatrecoverytype.htm">IfcAirToAirHeatRecoveryType</a></td><td>-<br>-</td>
+<td>-<br>-</td>
+<td>-<br>-</td>
+<td>R<br>R</td>
+<td>R<br>R</td>
+<td>R<br>R</td>
+</tr>
+<tr><td><a href="../ifchvacdomain/lexical/ifcchiller.htm">IfcChiller</a></td><td>-<br>-</td>
+<td>R<br>R</td>
+<td>R<br>R</td>
+<td>-<br>-</td>
+<td>-<br>-</td>
+<td>R<br>R</td>
+</tr>
+<tr><td><a href="../ifchvacdomain/lexical/ifcchillertype.htm">IfcChillerType</a></td><td>-<br>-</td>
+<td>-<br>-</td>
+<td>-<br>-</td>
+<td>R<br>R</td>
+<td>R<br>R</td>
+<td>R<br>R</td>
+</tr>
+<tr><td><a href="../ifchvacdomain/lexical/ifccoil.htm">IfcCoil</a></td><td>-<br>-</td>
+<td>R<br>R</td>
+<td>R<br>R</td>
+<td>-<br>-</td>
+<td>-<br>-</td>
+<td>R<br>R</td>
+</tr>
+<tr><td><a href="../ifchvacdomain/lexical/ifccoiltype.htm">IfcCoilType</a></td><td>-<br>-</td>
+<td>-<br>-</td>
+<td>-<br>-</td>
+<td>R<br>R</td>
+<td>R<br>R</td>
+<td>R<br>R</td>
+</tr>
+<tr><td><a href="../ifchvacdomain/lexical/ifcdamper.htm">IfcDamper</a></td><td>-<br>-</td>
+<td>R<br>R</td>
+<td>R<br>R</td>
+<td>-<br>-</td>
+<td>-<br>-</td>
+<td>R<br>R</td>
+</tr>
+<tr><td><a href="../ifchvacdomain/lexical/ifcdampertype.htm">IfcDamperType</a></td><td>-<br>-</td>
+<td>-<br>-</td>
+<td>-<br>-</td>
+<td>R<br>R</td>
+<td>R<br>R</td>
+<td>R<br>R</td>
+</tr>
+<tr><td><a href="../ifchvacdomain/lexical/ifcductfitting.htm">IfcDuctFitting</a></td><td>-<br>-</td>
+<td>-<br>-</td>
+<td>R<br>R</td>
+<td>-<br>-</td>
+<td>-<br>-</td>
+<td>R<br>R</td>
+</tr>
+<tr><td><a href="../ifchvacdomain/lexical/ifcductsegment.htm">IfcDuctSegment</a></td><td>-<br>-</td>
+<td>-<br>-</td>
+<td>R<br>R</td>
+<td>-<br>-</td>
+<td>-<br>-</td>
+<td>R<br>R</td>
+</tr>
+<tr><td><a href="../ifchvacdomain/lexical/ifcductsilencer.htm">IfcDuctSilencer</a></td><td>-<br>-</td>
+<td>R<br>R</td>
+<td>R<br>R</td>
+<td>-<br>-</td>
+<td>-<br>-</td>
+<td>R<br>R</td>
+</tr>
+<tr><td><a href="../ifchvacdomain/lexical/ifcductsilencertype.htm">IfcDuctSilencerType</a></td><td>-<br>-</td>
+<td>-<br>-</td>
+<td>-<br>-</td>
+<td>R<br>R</td>
+<td>R<br>R</td>
+<td>R<br>R</td>
+</tr>
+<tr><td><a href="../ifchvacdomain/lexical/ifcevaporativecooler.htm">IfcEvaporativeCooler</a></td><td>-<br>-</td>
+<td>R<br>R</td>
+<td>R<br>R</td>
+<td>-<br>-</td>
+<td>-<br>-</td>
+<td>R<br>R</td>
+</tr>
+<tr><td><a href="../ifchvacdomain/lexical/ifcevaporativecoolertype.htm">IfcEvaporativeCoolerType</a></td><td>-<br>-</td>
+<td>-<br>-</td>
+<td>-<br>-</td>
+<td>R<br>R</td>
+<td>R<br>R</td>
+<td>R<br>R</td>
+</tr>
+<tr><td><a href="../ifchvacdomain/lexical/ifcevaporator.htm">IfcEvaporator</a></td><td>-<br>-</td>
+<td>R<br>R</td>
+<td>R<br>R</td>
+<td>-<br>-</td>
+<td>-<br>-</td>
+<td>R<br>R</td>
+</tr>
+<tr><td><a href="../ifchvacdomain/lexical/ifcevaporatortype.htm">IfcEvaporatorType</a></td><td>-<br>-</td>
+<td>-<br>-</td>
+<td>-<br>-</td>
+<td>R<br>R</td>
+<td>R<br>R</td>
+<td>R<br>R</td>
+</tr>
+<tr><td><a href="../ifchvacdomain/lexical/ifcfan.htm">IfcFan</a></td><td>-<br>-</td>
+<td>R<br>R</td>
+<td>R<br>R</td>
+<td>-<br>-</td>
+<td>-<br>-</td>
+<td>R<br>R</td>
+</tr>
+<tr><td><a href="../ifchvacdomain/lexical/ifcfantype.htm">IfcFanType</a></td><td>-<br>-</td>
+<td>-<br>-</td>
+<td>-<br>-</td>
+<td>R<br>R</td>
+<td>R<br>R</td>
+<td>R<br>R</td>
+</tr>
+<tr><td><a href="../ifchvacdomain/lexical/ifcheatexchanger.htm">IfcHeatExchanger</a></td><td>-<br>-</td>
+<td>R<br>R</td>
+<td>R<br>R</td>
+<td>-<br>-</td>
+<td>-<br>-</td>
+<td>R<br>R</td>
+</tr>
+<tr><td><a href="../ifchvacdomain/lexical/ifcheatexchangertype.htm">IfcHeatExchangerType</a></td><td>-<br>-</td>
+<td>-<br>-</td>
+<td>-<br>-</td>
+<td>R<br>R</td>
+<td>R<br>R</td>
+<td>R<br>R</td>
+</tr>
+<tr><td><a href="../ifchvacdomain/lexical/ifchumidifier.htm">IfcHumidifier</a></td><td>-<br>-</td>
+<td>R<br>R</td>
+<td>R<br>R</td>
+<td>-<br>-</td>
+<td>-<br>-</td>
+<td>R<br>R</td>
+</tr>
+<tr><td><a href="../ifckernel/lexical/ifcproject.htm">IfcProject</a></td><td>R<br>R</td>
+<td>R<br>R</td>
+<td>R<br>R</td>
+<td>R<br>R</td>
+<td>R<br>R</td>
+<td>R<br>R</td>
+</tr>
+<tr><td><a href="../ifcproductextension/lexical/ifcspace.htm">IfcSpace</a></td><td>R<br>R</td>
+<td>R<br>R</td>
+<td>R<br>R</td>
+<td>-<br>-</td>
+<td>-<br>-</td>
+<td>R<br>R</td>
+</tr>
+<tr><td><a href="../ifcproductextension/lexical/ifcsystem.htm">IfcSystem</a></td><td>-<br>-</td>
+<td>-<br>-</td>
+<td>R<br>R</td>
+<td>-<br>-</td>
+<td>-<br>-</td>
+<td>R<br>R</td>
+</tr>
+<tr><td><a href="../ifchvacdomain/lexical/ifcunitaryequipment.htm">IfcUnitaryEquipment</a></td><td>-<br>-</td>
+<td>R<br>R</td>
+<td>R<br>R</td>
+<td>-<br>-</td>
+<td>-<br>-</td>
+<td>R<br>R</td>
+</tr>
+<tr><td><a href="../ifchvacdomain/lexical/ifcunitaryequipmenttype.htm">IfcUnitaryEquipmentType</a></td><td>-<br>-</td>
+<td>-<br>-</td>
+<td>-<br>-</td>
+<td>R<br>R</td>
+<td>R<br>R</td>
+<td>R<br>R</td>
+</tr>
+<tr><td><a href="../ifcproductextension/lexical/ifczone.htm">IfcZone</a></td><td>R<br>R</td>
+<td>-<br>-</td>
+<td>R<br>R</td>
+<td>-<br>-</td>
+<td>-<br>-</td>
+<td>R<br>R</td>
+</tr>
+</table>
+<p><a href="../../link/identity.htm" target="_top"><img src="../../img/permlink.png" style="border: 0px" title="Link to this page" alt="Link to this page">&nbsp; Link to this page</a></p>
+<p></p>
+  </body>
+</html>
